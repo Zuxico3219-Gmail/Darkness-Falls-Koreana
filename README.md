@@ -12,9 +12,10 @@
 3. 압축 파일을 열어서 Mods 폴더를 7 Daysto Die 설치 폴더에 압축 해제
 4. Mods 폴더로 이동
 5. 0-DarknessFallsCore_Koreana, 3-DF-BdubsVehicles_Koreana라는 폴더가 나오면 게임 실행. (실행 중이었으면 종료 후 재실행)  
-</details>
 
 ---
+
+</details>
 
 <details><summary>(열기) 7DTD A20.0~A20.3 / 다크니스폴 V4 설치 방법 (열기)</summary>
 
@@ -26,6 +27,9 @@
 3. 압축 파일을 열어서 Mods 폴더를 7 Daysto Die 설치 폴더에 압축 해제
 4. Mods 폴더로 이동
 5. 0-DarknessFallsCore_Koreana, 3-DF-BdubsVehicles_Koreana라는 폴더가 나오면 게임 실행. (실행 중이었으면 종료 후 재실행)  
+
+---
+
 </details>
 
 
