@@ -9,6 +9,7 @@
 5. 0-DarknessFallsCore_Koreana, 3-DF-BdubsVehicles_Koreana라는 폴더가 나오면 게임 실행. (실행 중이었으면 종료 후 재실행)
 
 [1. Header1](#1-Header1)
+
 [2. Header2](#11-Header2)
 
 <details>
