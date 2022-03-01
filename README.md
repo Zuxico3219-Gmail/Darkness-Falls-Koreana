@@ -17,8 +17,7 @@
 
 [2. Header2](#11-Header2)
 
-<details>
-<summary><h1>1. Header1</h1></summary> 
+<details><summary><h1>1. Header1</h1></summary> 
 
   * 1
   * 2
