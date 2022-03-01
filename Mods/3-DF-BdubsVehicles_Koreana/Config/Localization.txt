@@ -1,0 +1,391 @@
+Key,Source,Context,Changes,English,Koreana
+TraderMechanic_b,blocks,Entity,New,The Mechanic,그 기계공
+
+vehicleBoxTruckbody,items,Part,EnChanged,Box Truck Body,박스 트럭 몸체
+vehicleBoxTruckbodyDesc,items,Part,EnChanged,Parts needed to craft the Box Truck.,박스 트럭 제작에 필요한 부품.
+vehicleBoxTruckchassis,items,Part,EnChanged,Box Truck Chassis,박스 트럭 섀시
+vehicleBoxTruckchassisDesc,items,Part,EnChanged,Parts needed to craft the Box Truck.,박스 트럭 제작에 필요한 부품.
+vehicleBoxTruckPlain,vehicles,vehicle,new,Box Truck,박스 트럭
+vehicleBoxTruckPlainplaceable,vehicles,item,EnChanged,Box Truck,박스 트럭
+vehicleBoxTruckPlainplaceableDesc,vehicles,item,EnChanged,An old Box Truck.,낡은 박스 트럭.
+vehicleBoxTruckHostess,vehicles,vehicle,new,Hostess Box Truck,호스티스 박스 트럭
+vehicleBoxTruckHostessplaceable,vehicles,item,EnChanged,Hostess Box Truck,호스티스 박스 트럭
+vehicleBoxTruckHostessplaceableDesc,vehicles,item,EnChanged,Tallahassee's favorite!,탤러해시의 명물!
+
+vehicleGNXchassis,items,Part,EnChanged,GNX Chassis,GNX 섀시
+vehicleGNXchassisDesc,items,Part,EnChanged,Parts needed to craft the GNX. Grease Monkey level 4 required.,GNX 제작에 필요한 부품. 기계공 4레벨 필요.
+vehicleGNXaccessories,items,Part,EnChanged,GNX Accessories,GNX 부속품
+vehicleGNXaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the GNX.,GNX 제작에 필요한 부품.
+vehicleGNXBlack,vehicles,vehicle,new,GNX,GNX
+vehicleGNXBlackplaceable,vehicles,item,EnChanged,GNX Black,검은 GNX
+vehicleGNXBlackplaceableDesc,vehicles,item,EnChanged,Cruise the wasteland in style!,황무지를 멋지게 유람하세요!
+vehicleGNXRed,vehicles,vehicle,new,GNX,GNX
+vehicleGNXRedplaceable,vehicles,item,EnChanged,GNX Red,빨간 GNX
+vehicleGNXRedplaceableDesc,vehicles,item,EnChanged,Cruise the wasteland in style!,황무지를 멋지게 유람하세요!
+
+vehicleGolfCart,vehicles,vehicle,new,Golf Cart,골프 카트
+vehicleGolfCartchassis,items,Part,EnChanged,Golf Cart Chassis,골프 카트 섀시
+vehicleGolfCartchassisDesc,items,Part,EnChanged,Parts needed to craft the Golf Cart. Grease Monkey level 2 required.,골프 카트 제작에 필요한 부품. 기계공 2레벨 필요.
+vehicleGolfCartaccessories,items,Part,EnChanged,Golf Cart Accessories,골프 카트 부속품
+vehicleGolfCartaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Golf Cart. Grease Monkey level 2 required.,골프 카트 제작에 필요한 부품. 기계공 2레벨 필요.
+vehicleGolfCartplaceable,vehicles,item,EnChanged,Golf Cart,골프 카트
+vehicleGolfCartplaceableDesc,vehicles,item,EnChanged,It might not be much but it's better than walking!,충분하진 않을 수 있지만 걷는거보단 나을거에요!
+meleeGolfClub,items,Melee,KgNone,Golf Club,골프 클럽
+meleeGolfClubDesc,items,Melee,KgNone,No golf balls? There's always plenty of zombies to practice that swing on!,골프공이 없습니까? 사방에 널린 좀비로 스윙을 연습하세요!
+
+vehicleWillyJeep,vehicles,vehicle,new,Willy Jeep,윌리 지프
+vehicleWillyJeepplaceable,vehicles,item,EnChanged,Willy Jeep,윌리 지프
+vehicleWillyJeepplaceableDesc,vehicles,item,EnChanged,If it survived WW2 surely it can handle this!,2차 세계대전에서 살아남았으면 이 세상에서도 가능할겁니다!
+vehicleWillyJeepTopless,vehicles,vehicle,new,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessplaceable,vehicles,item,EnChanged,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessplaceableDesc,vehicles,item,EnChanged,Now with even more wind-in-hair action!,이제 조금 더 머리칼 휘날릴 수 있습니다!
+
+vehicleWillyJeepBlack,vehicles,vehicle,new,Willy Jeep,윌리 지프
+vehicleWillyJeepBlackplaceable,vehicles,item,EnChanged,Willy Jeep,윌리 지프
+vehicleWillyJeepBlackplaceableDesc,vehicles,item,EnChanged,If it survived WW2 surely it can handle this!,2차 세계대전에서 살아남았으면 이 세상에서도 가능할겁니다!
+vehicleWillyJeepToplessBlack,vehicles,vehicle,new,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessBlackplaceable,vehicles,item,EnChanged,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessBlackplaceableDesc,vehicles,item,EnChanged,Now with even more wind-in-hair action!,이제 조금 더 머리칼 휘날릴 수 있습니다!
+
+vehicleWillyJeepBlue,vehicles,vehicle,new,Willy Jeep,윌리 지프
+vehicleWillyJeepBlueplaceable,vehicles,item,EnChanged,Willy Jeep,윌리 지프
+vehicleWillyJeepBlueplaceableDesc,vehicles,item,EnChanged,If it survived WW2 surely it can handle this!,2차 세계대전에서 살아남았으면 이 세상에서도 가능할겁니다!
+vehicleWillyJeepToplessBlue,vehicles,vehicle,new,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessBlueplaceable,vehicles,item,EnChanged,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessBlueplaceableDesc,vehicles,item,EnChanged,Now with even more wind-in-hair action!,이제 조금 더 머리칼 휘날릴 수 있습니다!
+
+vehicleWillyJeepGreen,vehicles,vehicle,new,Willy Jeep,윌리 지프
+vehicleWillyJeepGreenplaceable,vehicles,item,EnChanged,Willy Jeep,윌리 지프
+vehicleWillyJeepGreenplaceableDesc,vehicles,item,EnChanged,If it survived WW2 surely it can handle this!,2차 세계대전에서 살아남았으면 이 세상에서도 가능할겁니다!
+vehicleWillyJeepToplessGreen,vehicles,vehicle,new,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessGreenplaceable,vehicles,item,EnChanged,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessGreenplaceableDesc,vehicles,item,EnChanged,Now with even more wind-in-hair action!,이제 조금 더 머리칼 휘날릴 수 있습니다!
+
+vehicleWillyJeepOrange,vehicles,vehicle,new,Willy Jeep,윌리 지프
+vehicleWillyJeepOrangeplaceable,vehicles,item,EnChanged,Willy Jeep,윌리 지프
+vehicleWillyJeepOrangeplaceableDesc,vehicles,item,EnChanged,If it survived WW2 surely it can handle this!,2차 세계대전에서 살아남았으면 이 세상에서도 가능할겁니다!
+vehicleWillyJeepToplessOrange,vehicles,vehicle,new,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessOrangeplaceable,vehicles,item,EnChanged,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessOrangeplaceableDesc,vehicles,item,EnChanged,Now with even more wind-in-hair action!,이제 조금 더 머리칼 휘날릴 수 있습니다!
+
+vehicleWillyJeepPurple,vehicles,vehicle,new,Willy Jeep,윌리 지프
+vehicleWillyJeepPurpleplaceable,vehicles,item,EnChanged,Willy Jeep,윌리 지프
+vehicleWillyJeepPurpleplaceableDesc,vehicles,item,EnChanged,If it survived WW2 surely it can handle this!,2차 세계대전에서 살아남았으면 이 세상에서도 가능할겁니다!
+vehicleWillyJeepToplessPurple,vehicles,vehicle,new,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessPurpleplaceable,vehicles,item,EnChanged,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessPurpleplaceableDesc,vehicles,item,EnChanged,Now with even more wind-in-hair action!,이제 조금 더 머리칼 휘날릴 수 있습니다!
+
+vehicleWillyJeepRed,vehicles,vehicle,new,Willy Jeep,윌리 지프
+vehicleWillyJeepRedplaceable,vehicles,item,EnChanged,Willy Jeep,윌리 지프
+vehicleWillyJeepRedplaceableDesc,vehicles,item,EnChanged,If it survived WW2 surely it can handle this!,2차 세계대전에서 살아남았으면 이 세상에서도 가능할겁니다!
+vehicleWillyJeepToplessRed,vehicles,vehicle,new,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessRedplaceable,vehicles,item,EnChanged,Willy Jeep (Topless),윌리 지프 (오픈형)
+vehicleWillyJeepToplessRedplaceableDesc,vehicles,item,EnChanged,Now with even more wind-in-hair action!,이제 조금 더 머리칼 휘날릴 수 있습니다!
+
+vehicleMRAP,vehicles,vehicle,new,MRAP,MRAP
+vehicleMRAP2,vehicles,vehicle,new,MRAP,MRAP
+vehicleMRAPplaceable,vehicles,item,EnChanged,MRAP,MRAP
+vehicleMRAP2placeableDesc,vehicles,item,EnChanged,A MRAP military vehicle. What else could you want?,Mine Resistant Ambush Protected.\nMRAP 군사 차량. 더 필요한게 있어 ?
+vehicleMRAP2placeable,vehicles,item,EnChanged,MRAP,MRAP
+vehicleMRAPplaceableDesc,vehicles,item,EnChanged,A MRAP military vehicle. What else could you want?,Mine Resistant Ambush Protected.\nMRAP 군사 차량. 더 필요한게 있어 ?
+vehicleMRAPaccessories,items,Part,EnChanged,MRAP Accessories,MRAP 부속품
+vehicleMRAPaccessoriesDesc,items,Part,EnChanged,Accessories needed to craft the MRAP.,MRAP 제작에 필요한 부품
+vehicleMRAPparts,items,Part,EnChanged,MRAP Parts,MRAP 부품
+vehicleMRAPpartsDesc,items,Part,EnChanged,Parts needed to craft the MRAP.,MRAP 제작에 필요한 부품
+
+vehicleMarauder,vehicles,vehicle,new,Marauder,머라우더
+vehicleMarauderplaceable,vehicles,item,EnChanged,Marauder,머라우더
+vehicleMarauderplaceableDesc,vehicles,item,EnChanged,Those zombies will be jealous of this ride!,저 좀비떼가 이 차를 부러워할거야!
+vehicleMarauderblack,vehicles,vehicle,new,Marauder,머라우더
+vehicleMarauderblackplaceable,vehicles,item,EnChanged,Marauder,머라우더
+vehicleMarauderblackplaceableDesc,vehicles,item,EnChanged,Those zombies will be jealous of this ride!,저 좀비떼가 이 차를 부러워할거야!
+vehicleMarauderchassis,items,Part,EnChanged,Marauder Chassis,머라우더 섀시
+vehicleMarauderchassisDesc,items,Part,EnChanged,Parts needed to craft the Marauder. Grease Monkey level 5 required.,머라우더 제작에 필요한 부품. 기계공 5레벨 필요.
+vehicleMarauderaccessories,items,Part,EnChanged,Marauder Accessories,머라우더 부속품
+vehicleMarauderaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Marauder.,머라우더 제작에 필요한 부품.
+
+vehicleUAZ452chassis,items,Part,EnChanged,UAZ 452 Chassis,UAZ 452 섀시
+vehicleUAZ452chassisDesc,items,Part,EnChanged,Parts needed to craft the UAZ 452. Grease Monkey level 4 required.,UAZ 452 제작에 필요한 부품. 기계공 4레벨 필요.
+vehicleUAZ452,vehicles,vehicle,new,UAZ 452,UAZ 452
+vehicleUAZ452placeable,vehicles,item,EnChanged,UAZ 452,UAZ 452
+vehicleUAZ452placeableDesc,vehicles,item,EnChanged,Blend right in with the apocalypse!,멸망한 세상을 갈아버리자!
+
+vehicleNovachassis,items,Part,EnChanged,Nova Chassis,노바 섀시
+vehicleNovachassisDesc,items,Part,EnChanged,Parts needed to craft the Nova. Grease Monkey level 4 required.,노바 제작에 필요한 부품. 기계공 4레벨 필요.
+vehicleNovaaccessories,items,Part,EnChanged,Nova Accessories,노바 부속품
+vehicleNovaaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Nova.,노바 제작에 필요한 부품.
+vehicleNova,vehicles,vehicle,new,Nova,노바
+vehicleNovaplaceable,vehicles,item,EnChanged,Nova,노바
+vehicleNovaplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleNovared,vehicles,vehicle,new,Nova Red,빨간 노바
+vehicleNovaredplaceable,vehicles,item,EnChanged,Nova Red,빨간 노바
+vehicleNovaredplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleNovablack,vehicles,vehicle,new,Nova Black,검은 노바
+vehicleNovablackplaceable,vehicles,item,EnChanged,Nova Black,검은 노바
+vehicleNovablackplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+
+vehicleWorkTruckchassis,items,Part,EnChanged,Work Truck Chassis,작업 트럭 섀시
+vehicleWorkTruckchassisDesc,items,Part,EnChanged,Parts needed to craft the Work Truck. Grease Monkey level 4 required.,작업 트럭제작에 필요한 부품. 기계공 4레벨 필요.
+vehicleWorkTruckaccessories,items,Part,EnChanged,Work Truck Accessories,작업 트럭 부속품
+vehicleWorkTruckaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Work Truck.,작업 트럭 제작에 필요한 부품.
+vehicleWorkTruck,vehicles,vehicle,new,Work Truck,작업 트럭
+vehicleWorkTruckplaceable,vehicles,item,EnChanged,Work Truck,작업 트럭
+vehicleWorkTruckplaceableDesc,vehicles,item,EnChanged,Looks like it's been through more than just an apocalypse...,생긴걸 봐선 그냥 종말만 겪은건 아닌거같다...
+
+vehicleBRDM2chassis,items,Part,EnChanged,BRDM-2 Chassis,BRDM-2 섀시
+vehicleBRDM2chassisDesc,items,Part,EnChanged,Parts needed to craft the BRDM-2. Grease Monkey level 5 required.,BRDM-2 제작에 필요한 부품. 기계공 5레벨 필요.
+vehicleBRDM2accessories,items,Part,EnChanged,BRDM-2 Accessories,BRDM-2 부속품
+vehicleBRDM2accessoriesDesc,items,Part,EnChanged,Parts needed to craft the BRDM-2.,BRDM-2 제작에 필요한 부품.
+vehicleBRDM2,vehicles,vehicle,new,BRDM-2,BRDM-2
+vehicleBRDM2placeable,vehicles,item,EnChanged,BRDM-2,BRDM-2
+vehicleBRDM2placeableDesc,vehicles,item,EnChanged,A surprisingly intact military vehicle.,놀라울정도로 멀쩡한 군용 차량.
+vehicleBRDM2desert,vehicles,vehicle,new,BRDM-2 Desert,사막용 BRDM-2
+vehicleBRDM2desertplaceable,vehicles,item,EnChanged,BRDM-2 Desert,사막용 BRDM-2
+vehicleBRDM2desertplaceableDesc,vehicles,item,EnChanged,A surprisingly intact military vehicle.,놀라울정도로 멀쩡한 군용 차량.
+
+vehiclePickupchassis,items,Part,EnChanged,Pickup Chassis,픽업 트럭 섀시
+vehiclePickupchassisDesc,items,Part,EnChanged,Parts needed to craft the Pickup. Grease Monkey level 4 required.,픽업 트럭 제작에 필요한 부품. 기계공 4레벨 필요.
+vehiclePickupaccessories,items,Part,EnChanged,Pickup Accessories,픽업 트럭 부속품
+vehiclePickupaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Pickup.,픽업 트럭 제작에 필요한 부품.
+vehiclePickup,vehicles,vehicle,new,Pickup,픽업 트럭
+vehiclePickupplaceable,vehicles,item,EnChanged,Pickup,픽업 트럭
+vehiclePickupplaceableDesc,vehicles,item,EnChanged,Make those zeds jealous with this stylish truck!,저 좀비놈들이 이 멋진 트럭을 질투하게 만들어보자고!
+
+vehicleMD500chassis,items,Part,EnChanged,MD-500 Chassis,MD-500 섀시
+vehicleMD500chassisDesc,items,Part,EnChanged,Parts needed to craft the MD-500. Grease Monkey level 5 required.,MD-500 제작에 필요한 부품. 기계공 5레벨 필요.
+vehicleMD500accessories,items,Part,EnChanged,MD-500 Accessories,MD-500 부속품
+vehicleMD500accessoriesDesc,items,Part,EnChanged,Parts needed to craft the MD-500.,MD-500 제작에 필요한 부품.
+vehicleMD500,vehicles,vehicle,new,MD-500,MD-500
+vehicleMD500placeable,vehicles,item,EnChanged,MD-500,MD-500
+vehicleMD500placeableDesc,vehicles,item,EnChanged,They can't kill you if they can't hit you!,안 닿죠? 못 때리죠? 죽을 일 없죠?!
+
+vehicleDusterchassis,items,Part,EnChanged,Duster Chassis,더스터 섀시
+vehicleDusterchassisDesc,items,Part,EnChanged,Parts needed to craft the Duster. Grease Monkey level 5 required.,더스터 제작에 필요한 부품. 기계공 5레벨 필요.
+vehicleDusteraccessories,items,Part,EnChanged,Duster Accessories,더스터 부속품
+vehicleDusteraccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Duster.,더스터 제작에 필요한 부품.
+vehicleDuster,vehicles,vehicle,new,Duster,더스터
+vehicleDusterplaceable,vehicles,item,EnChanged,Duster,더스터
+vehicleDusterplaceableDesc,vehicles,item,EnChanged,It looks like it should fly...,날아갈 수 있을 것처럼 생겼습니다...
+
+vehicleStallionchassis,items,Part,EnChanged,Stallion Chassis,스탤리온 섀시
+vehicleStallionchassisDesc,items,Part,EnChanged,Parts needed to craft the Stallion. Grease Monkey level 4 required.,스탤리온 제작에 필요한 부품. 기계공 4레벨 필요.
+vehicleStallionaccessories,items,Part,EnChanged,Stallion Accessories,스탤리온 부속품
+vehicleStallionaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Stallion.,스탤리온 제작에 필요한 부품.
+vehicleStalliongreen,vehicles,vehicle,new,Stallion,스탤리온
+vehicleStalliongreenplaceable,vehicles,item,EnChanged,Stallion Green,초록 스탤리온
+vehicleStalliongreenplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleStallionred,vehicles,vehicle,new,Stallion,스탤리온
+vehicleStallionredplaceable,vehicles,item,EnChanged,Stallion Red,빨간 스탤리온
+vehicleStallionredplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleStallionblue,vehicles,vehicle,new,Stallion,스탤리온
+vehicleStallionblueplaceable,vehicles,item,EnChanged,Stallion Blue,파란 스탤리온
+vehicleStallionblueplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleStallionwhite,vehicles,vehicle,new,Stallion,스탤리온
+vehicleStallionwhiteplaceable,vehicles,item,EnChanged,Stallion White,하얀 스탤리온
+vehicleStallionwhiteplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+
+vehicleDirtBike,vehicles,vehicle,new,Dirt Bike,더트 바이크
+vehicleDirtBikeplaceable,vehicles,item,EnChanged,Dirt Bike,더트 바이크
+vehicleDirtBikeplaceableDesc,vehicles,item,EnChanged,A dirt bike. And no neighbors to complain about it. Sweet!,더트 바이크입니다. 뭐라고 할 이웃도 없죠. 끝내줍니다!
+vehicleDirtBikeChassis,items,Part,EnChanged,Dirt Bike Chassis,더트 바이크 섀시
+vehicleDirtBikeChassisDesc,items,Part,EnChanged,The beginning of something...awesome!,무언가의 시작...놀라워!
+vehicleDirtBikeParts,items,Part,EnChanged,Dirt Bike Parts,더트 바이크 부품
+vehicleDirtBikePartsDesc,items,Part,EnChanged,You might need these.,이게 필요할 거에요.
+
+vehicleChargerchassis,items,Part,EnChanged,Charger Chassis,차저 섀시
+vehicleChargerchassisDesc,items,Part,EnChanged,Parts needed to craft the Charger. Grease Monkey level 4 required.,차저 제작에 필요한 부품. 기계공 4레벨 필요.
+vehicleChargeraccessories,items,Part,EnChanged,Charger Accessories,차저 부속품
+vehicleChargeraccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Charger.,차저 제작에 필요한 부품.
+vehicleChargerorange,vehicles,vehicle,new,Charger,차저
+vehicleChargerorangeplaceable,vehicles,item,EnChanged,Charger,차저
+vehicleChargerorangeplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleChargerorange2,vehicles,vehicle,new,Charger,차저
+vehicleChargerorange2placeable,vehicles,item,EnChanged,Charger,차저
+vehicleChargerorange2placeableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleChargerblack,vehicles,vehicle,new,Charger,차저
+vehicleChargerblackplaceable,vehicles,item,EnChanged,Charger,차저
+vehicleChargerblackplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleChargerblack2,vehicles,vehicle,new,Charger,차저
+vehicleChargerblack2placeable,vehicles,item,EnChanged,Charger,차저
+vehicleChargerblack2placeableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleChargeryellow,vehicles,vehicle,new,Charger,차저
+vehicleChargeryellowplaceable,vehicles,item,EnChanged,Charger,차저
+vehicleChargeryellowplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleChargeryellow2,vehicles,vehicle,new,Charger,차저
+vehicleChargeryellow2placeable,vehicles,item,EnChanged,Charger,차저
+vehicleChargeryellow2placeableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleChargergreen,vehicles,vehicle,new,Charger,차저
+vehicleChargergreenplaceable,vehicles,item,EnChanged,Charger,차저
+vehicleChargergreenplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleChargergreen2,vehicles,vehicle,new,Charger,차저
+vehicleChargergreen2placeable,vehicles,item,EnChanged,Charger,차저
+vehicleChargergreen2placeableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleChargerteal,vehicles,vehicle,new,Charger,차저
+vehicleChargertealplaceable,vehicles,item,EnChanged,Charger,차저
+vehicleChargertealplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleChargerteal2,vehicles,vehicle,new,Charger,차저
+vehicleChargerteal2placeable,vehicles,item,EnChanged,Charger,차저
+vehicleChargerteal2placeableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleChargerrust,vehicles,vehicle,new,Charger,차저
+vehicleChargerrustplaceable,vehicles,item,EnChanged,Charger,차저
+vehicleChargerrustplaceableDesc,vehicles,item,EnChanged,Classic...,클래식...
+vehicleChargerrust2,vehicles,vehicle,new,Charger,차저
+vehicleChargerrust2placeable,vehicles,item,EnChanged,Charger,차저
+vehicleChargerrust2placeableDesc,vehicles,item,EnChanged,Classic...,클래식...
+
+vehicleJunker,vehicles,vehicle,new,Junker,정커
+vehicleJunkerplaceable,vehicles,item,EnChanged,Junker,정커
+vehicleJunkerplaceableDesc,vehicles,item,EnChanged,An old custom bike.,낡은 커스텀 바이크
+vehicleJunker2,vehicles,vehicle,new,Junker,정커
+vehicleJunker2placeable,vehicles,item,EnChanged,Junker Purple,보라 정커
+vehicleJunker2placeableDesc,vehicles,item,EnChanged,An old custom bike.,낡은 커스텀 바이크
+vehicleJunkerChassis,items,Part,EnChanged,Junker Chassis,정커 섀시
+vehicleJunkerChassisDesc,items,Part,EnChanged,The beginning of something...awesome!,무언가의 시작...놀라워!
+vehicleJunkerbars,items,Part,EnChanged,Junker Handlebars,정커 핸들바
+vehicleJunkerbarsDesc,items,Part,EnChanged,You might need these.,이게 필요할 거에요.
+
+vehicleCruiser,vehicles,vehicle,new,Cruiser,크루저
+vehicleCruiserplaceable,vehicles,item,EnChanged,Cruiser,크루저
+vehicleCruiserplaceableDesc,vehicles,item,EnChanged,A custom Cruiser. Sweet!,커스텀 크루저입니다. 끝내줍니다!
+vehicleCruiser2,vehicles,vehicle,new,Cruiser,크루저
+vehicleCruiser2placeable,vehicles,item,EnChanged,Cruiser Faded,크루저 Faded
+vehicleCruiser2placeableDesc,vehicles,item,EnChanged,A custom Cruiser. Sweet!,커스텀 크루저입니다. 끝내줍니다!
+vehicleCruiserChassis,items,Part,EnChanged,Cruiser Chassis,크루저 섀시
+vehicleCruiserChassisDesc,items,Part,EnChanged,The beginning of something...awesome!,무언가의 시작...놀라워!
+vehicleCruiserbars,items,Part,EnChanged,Cruiser Handlebars,크루저 핸들바
+vehicleCruiserbarsDesc,items,Part,EnChanged,You might need these.,이게 필요할 거에요.
+
+vehicleRat,vehicles,vehicle,new,Rat,랫
+vehicleRatplaceable,vehicles,item,EnChanged,Rat,랫
+vehicleRatplaceableDesc,vehicles,item,EnChanged,A custom Rat bike.,커스텀 랫 바이크
+vehicleRat2,vehicles,vehicle,new,Rat,랫
+vehicleRat2placeable,vehicles,item,EnChanged,Rat Red,빨간 랫
+vehicleRat2placeableDesc,vehicles,item,EnChanged,A custom Rat bike.,커스텀 랫 바이크
+vehicleRatChassis,items,Part,EnChanged,Rat Chassis,랫 섀시
+vehicleRatChassisDesc,items,Part,EnChanged,The beginning of something...awesome!,무언가의 시작...놀라워!
+vehicleRatbars,items,Part,EnChanged,Rat Handlebars,랫 핸들바
+vehicleRatbarsDesc,items,Part,EnChanged,You might need these.,이게 필요할 거에요.
+
+vehicleSHERPchassis,items,Part,EnChanged,SHERP Chassis,SHERP 섀시
+vehicleSHERPchassisDesc,items,Part,EnChanged,Parts needed to craft the SHERP. Grease Monkey level 4 required.,SHERP 제작에 필요한 부품. 기계공 4레벨 필요.
+vehicleSHERPaccessories,items,Part,EnChanged,SHERP Accessories,SHERP 부속품
+vehicleSHERPaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the SHERP.,SHERP 제작에 필요한 부품.
+vehicleSHERP,vehicles,vehicle,new,SHERP,SHERP
+vehicleSHERPplaceable,vehicles,item,EnChanged,SHERP,SHERP
+vehicleSHERPplaceableDesc,vehicles,item,EnChanged,A custom offroad vehicle.,커스텀 오프로드 차량
+
+vehicleUH60chassis,items,Part,EnChanged,UH-60 Chassis,UH-60 섀시
+vehicleUH60chassisDesc,items,Part,EnChanged,Parts needed to craft the UH-60. Grease Monkey level 5 required.,UH-60 제작에 필요한 부품. 기계공 5레벨 필요.
+vehicleUH60accessories,items,Part,EnChanged,UH-60 Accessories,UH-60 부속품
+vehicleUH60accessoriesDesc,items,Part,EnChanged,Parts needed to craft the UH-60.,UH-60 제작에 필요한 부품.
+vehicleUH60,vehicles,vehicle,new,UH-60,UH-60
+vehicleUH60placeable,vehicles,item,EnChanged,UH-60,UH-60
+vehicleUH60placeableDesc,vehicles,item,EnChanged,They can't kill you if they can't hit you!,안 닿죠? 못 때리죠? 죽을 일 없죠?
+
+vehicleHotRodchassis,items,Part,EnChanged,Hot Rod Chassis,핫 로드 섀시
+vehicleHotRodchassisDesc,items,Part,EnChanged,Parts needed to craft the Hot Rod. Grease Monkey level 4 required.,핫 로드 제작에 필요한 부품. 기계공 4레벨 필요.
+vehicleHotRodaccessories,items,Part,EnChanged,Hot Rod Accessories,핫 로드 부속품
+vehicleHotRodaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Hot Rod.,핫 로드 제작에 필요한 부품.
+vehicleHotRod1,vehicles,vehicle,new,Hot Rod,핫 로드
+vehicleHotRod2,vehicles,vehicle,new,Hot Rod,핫 로드
+vehicleHotRod3,vehicles,vehicle,new,Hot Rod,핫 로드
+vehicleHotRod4,vehicles,vehicle,new,Hot Rod,핫 로드
+vehicleHotRod5,vehicles,vehicle,new,Hot Rod,핫 로드
+vehicleHotRod6,vehicles,vehicle,new,Hot Rod,핫 로드
+vehicleHotRod1placeable,vehicles,item,EnChanged,Hot Rod,핫 로드
+vehicleHotRod1placeableDesc,vehicles,item,EnChanged,A custom hot rod.,커스텀 핫 로드.
+vehicleHotRod2placeable,vehicles,item,EnChanged,Hot Rod,핫 로드
+vehicleHotRod2placeableDesc,vehicles,item,EnChanged,A custom hot rod.,커스텀 핫 로드.
+vehicleHotRod3placeable,vehicles,item,EnChanged,Hot Rod,핫 로드
+vehicleHotRod3placeableDesc,vehicles,item,EnChanged,A custom hot rod.,커스텀 핫 로드.
+vehicleHotRod4placeable,vehicles,item,EnChanged,Hot Rod,핫 로드
+vehicleHotRod4placeableDesc,vehicles,item,EnChanged,A custom hot rod.,커스텀 핫 로드.
+vehicleHotRod5placeable,vehicles,item,EnChanged,Hot Rod,핫 로드
+vehicleHotRod5placeableDesc,vehicles,item,EnChanged,A custom hot rod.,커스텀 핫 로드.
+vehicleHotRod6placeable,vehicles,item,EnChanged,Hot Rod,핫 로드
+vehicleHotRod6placeableDesc,vehicles,item,EnChanged,A custom hot rod.,커스텀 핫 로드.
+
+vehicleHumveechassis,items,Part,EnChanged,Humvee Chassis,험비 섀시
+vehicleHumveechassisDesc,items,Part,EnChanged,Parts needed to craft the Humvee. Grease Monkey level 4 required.,험비 제작에 필요한 부품. 기계공 4레벨 필요.
+vehicleHumveebody,items,Part,EnChanged,Humvee Body,험비 몸체
+vehicleHumveebodyDesc,items,Part,EnChanged,Parts needed to craft the Humvee.,험비 제작에 필요한 부품.
+vehicleHumvee,vehicles,vehicle,new,Humvee,험비
+vehicleHumveeplaceable,vehicles,item,EnChanged,Humvee,험비
+vehicleHumveeplaceableDesc,vehicles,item,EnChanged,Military surplus at its finest!,Military surplus at its finest!
+vehicleHumveeTopless,vehicles,vehicle,new,Humvee,험비
+vehicleHumveeToplessplaceable,vehicles,item,EnChanged,Humvee (Topless),험비 (오픈형)
+vehicleHumveeToplessplaceableDesc,vehicles,item,EnChanged,Military surplus at its finest!,Military surplus at its finest!
+
+vehicleBuggychassis,items,Part,EnChanged,Buggy Chassis,버기 섀시
+vehicleBuggychassisDesc,items,Part,EnChanged,Parts needed to craft the Buggy. Grease Monkey level 4 required.,버기 제작에 필요한 부품. 기계공 4레벨 필요.
+vehicleBuggyaccessories,items,Part,EnChanged,Buggy Accessories,버기 부속품
+vehicleBuggyaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Buggy.,버기 제작에 필요한 부품.
+vehicleBuggy,vehicles,vehicle,new,Buggy,버기
+vehicleBuggyplaceable,vehicles,item,EnChanged,Buggy,버기
+vehicleBuggyplaceableDesc,vehicles,item,EnChanged,An old offroad buggy.,낡은 오프로드 버기.
+
+vehicleOldSemichassis,items,Part,EnChanged,Old Semi Chassis,낡은 세미 섀시
+vehicleOldSemichassisDesc,items,Part,EnChanged,Parts needed to craft the Old Semi. Grease Monkey level 4 required.,낡은 세미 제작에 필요한 부품. 기계공 4레벨 필요.
+vehicleOldSemibody,items,Part,EnChanged,Old Semi Body,낡은 세미 몸체
+vehicleOldSemibodyDesc,items,Part,EnChanged,Parts needed to craft the Old Semi.,낡은 세미 제작에 필요한 부품.
+vehicleOldSemi,vehicles,vehicle,new,Old Semi,낡은 세미
+vehicleOldSemiplaceable,vehicles,item,EnChanged,Old Semi,낡은 세미
+vehicleOldSemiplaceableDesc,vehicles,item,EnChanged,"You better watch your step, Arlene!","발 조심해, 아일렌!"
+
+vehicleLMTVchassis,items,Part,EnChanged,LMTV Chassis,LMTV 섀시
+vehicleLMTVchassisDesc,items,Part,EnChanged,Parts needed to craft the LMTV. Grease Monkey level 5 required.,LMTV 제작에 필요한 부품. 기계공 5레벨 필요.
+vehicleLMTVbody,items,Part,EnChanged,LMTV Body,LMTV 몸체
+vehicleLMTVbodyDesc,items,Part,EnChanged,Parts needed to craft the LMTV.,LMTV 제작에 필요한 부품.
+vehicleLMTV,vehicles,vehicle,new,LMTV,LMTV
+vehicleLMTVplaceable,vehicles,item,EnChanged,LMTV,LMTV
+vehicleLMTVplaceableDesc,vehicles,item,EnChanged,Military transport vehicle. Holds 6 people.,군용 수송 차량. 6인승입니다..
+
+vehicleBoxTruckchassisSchematic,items,Part,EnChanged,Box Truck Chassis Schematic,박스 트럭 섀시 도면
+vehicleBoxTruckbodySchematic,items,Part,EnChanged,Box Truck Body Schematic,박스 트럭 몸체 도면
+vehicleBRDM2chassisSchematic,items,Part,EnChanged,BRDM-2 Chassis Schematic,BRDM-2 섀시 도면
+vehicleBRDM2accessoriesSchematic,items,Part,EnChanged,BRDM-2 Accessories Schematic,BRDM-2 부속품 도면
+vehicleBuggychassisSchematic,items,Part,EnChanged,Buggy Chassis Schematic,버기 섀시 도면
+vehicleBuggyaccessoriesSchematic,items,Part,EnChanged,Buggy Accessories Schematic,버기 부속품 도면
+vehicleChargerchassisSchematic,items,Part,EnChanged,Charger Chassis Schematic,차저 섀시 도면
+vehicleChargeraccessoriesSchematic,items,Part,EnChanged,Charger Accessories Schematic,차저 부속품 도면
+vehicleCruiserChassisSchematic,items,Part,EnChanged,Cruiser Chassis Schematic,크루저 섀시 도면
+vehicleCruiserbarsSchematic,items,Part,EnChanged,Cruiser Handlebars Schematic,크루저 핸들바 도면
+vehicleDirtBikeChassisSchematic,items,Part,EnChanged,Dirt Bike Chassis Schematic,더트 바이크 섀시 도면
+vehicleDirtBikePartsSchematic,items,Part,EnChanged,Dirt Bike Parts Schematic,더트 바이크 부품 도면
+vehicleDusterchassisSchematic,items,Part,EnChanged,Duster Chassis Schematic,더스터 섀시 도면
+vehicleDusteraccessoriesSchematic,items,Part,EnChanged,Duster Accessories Schematic,더스터 부속품 도면
+vehicleGNXchassisSchematic,items,Part,EnChanged,GNX Chassis Schematic,GNX 섀시 도면
+vehicleGNXaccessoriesSchematic,items,Part,EnChanged,GNX Accessories Schematic,GNX 부속품 도면
+vehicleGolfCartchassisSchematic,items,Part,EnChanged,Golf Cart Chassis Schematic,골프 카트 섀시 도면
+vehicleGolfCartaccessoriesSchematic,items,Part,EnChanged,Golf Cart Accessories Schematic,골프 카트 부속품 도면
+vehicleHotRodchassisSchematic,items,Part,EnChanged,Hot Rod Chassis Schematic,핫 로드 섀시 도면
+vehicleHotRodaccessoriesSchematic,items,Part,EnChanged,Hot Rod Accessories Schematic,핫 로드 부속품 도면
+vehicleHumveechassisSchematic,items,Part,EnChanged,Humvee Chassis Schematic,험비 섀시 도면
+vehicleHumveebodySchematic,items,Part,EnChanged,Humvee Body Schematic,험비 몸체 도면
+vehicleJunkerChassisSchematic,items,Part,EnChanged,Junker Chassis Schematic,정커 섀시 도면
+vehicleJunkerbarsSchematic,items,Part,EnChanged,Junker Handlebars Schematic,정커 핸들바 도면
+vehicleLMTVchassisSchematic,items,Part,EnChanged,LMTV Chassis Schematic,LMTV 섀시 도면
+vehicleLMTVbodySchematic,items,Part,EnChanged,LMTV Body Schematic,LMTV 몸체 도면
+vehicleMarauderchassisSchematic,items,Part,EnChanged,Marauder Chassis Schematic,머라우더 섀시 도면
+vehicleMarauderaccessoriesSchematic,items,Part,EnChanged,Marauder Accessories Schematic,머라우더 부속품 도면
+vehicleMD500chassisSchematic,items,Part,EnChanged,MD-500 Chassis Schematic,MD-500 섀시 도면
+vehicleMD500accessoriesSchematic,items,Part,EnChanged,MD-500 Accessories Schematic,MD-500 부속품 도면
+vehicleMRAPpartsSchematic,items,Part,EnChanged,MRAP Parts Schematic,MRAP 부품 도면
+vehicleMRAPaccessoriesSchematic,items,Part,EnChanged,MRAP Accessories Schematic,MRAP 부속품 도면
+vehicleNovachassisSchematic,items,Part,EnChanged,Nova Chassis Schematic,노바 섀시 도면
+vehicleNovaaccessoriesSchematic,items,Part,EnChanged,Nova Accessories Schematic,노바 부속품 도면
+vehicleOldSemichassisSchematic,items,Part,EnChanged,Old Semi Chassis Schematic,낡은 세미 섀시 도면
+vehicleOldSemibodySchematic,items,Part,EnChanged,Old Semi Body Schematic,낡은 세미 몸체 도면
+vehiclePickupchassisSchematic,items,Part,EnChanged,Pickup Chassis Schematic,픽업 트럭 섀시 도면
+vehiclePickupaccessoriesSchematic,items,Part,EnChanged,Pickup Accessories Schematic,픽업 트럭 부속품 도면
+vehicleRatChassisSchematic,items,Part,EnChanged,Rat Chassis Schematic,랫 섀시 도면
+vehicleRatbarsSchematic,items,Part,EnChanged,Rat Handlebars Schematic,랫 핸들바 도면
+vehicleSHERPchassisSchematic,items,Part,EnChanged,SHERP Chassis Schematic,SHERP 섀시 도면
+vehicleSHERPaccessoriesSchematic,items,Part,EnChanged,SHERP Accessories Schematic,SHERP 부속품 도면
+vehicleStallionchassisSchematic,items,Part,EnChanged,Stallion Chassis Schematic,스탤리온 섀시 도면
+vehicleStallionaccessoriesSchematic,items,Part,EnChanged,Stallion Accessories Schematic,스탤리온 부속품 도면
+vehicleUAZ452chassisSchematic,items,Part,EnChanged,UAZ 452 Chassis Schematic,UAZ 452 섀시 도면
+vehicleUH60chassisSchematic,items,Part,EnChanged,UH-60 Chassis Schematic,UH-60 섀시 도면
+vehicleUH60accessoriesSchematic,items,Part,EnChanged,UH-60 Accessories Schematic,UH-60 부속품 도면
+vehicleWorkTruckchassisSchematic,items,Part,EnChanged,Work Truck Chassis Schematic,작업 트럭 섀시 도면
+vehicleWorkTruckaccessoriesSchematic,items,Part,EnChanged,Work Truck Accessories Schematic,작업 트럭 부속품 도면
