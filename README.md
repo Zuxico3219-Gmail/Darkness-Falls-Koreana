@@ -33,7 +33,8 @@
   * 16
   * 17
   
-## 1.1 Header2
+ <details>
+ <summary><h2>1.1 Header2</h2></summary>
 
    * 1
   * 2
@@ -52,5 +53,7 @@
   * 15
   * 16
   * 17
+ 
+  <details>
  
 </details>
