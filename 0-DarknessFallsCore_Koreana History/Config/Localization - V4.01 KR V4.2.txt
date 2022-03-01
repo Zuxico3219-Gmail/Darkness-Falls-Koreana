@@ -1195,7 +1195,7 @@ perkIronCraftingRank1Desc,"[DECEA3]요구사항:[-] 화덕 먼저 1, 도구 제�
 perkSteelCraftingName,강철 제작
 perkSteelCraftingDesc,도구 제작의 정점입니다.
 perkSteelCraftingRank1Title,강철 제작
-perkSteelCraftingRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 2, 무기 제작 2, 도구 제작 3, 플레이어 레벨 50, 직업: 노동자 불가\n강철 도끼,강철 곡괭이,강철삽,단조강,도가니,강철 화살촉,스테인리스 강철 형태 레시피 해제"
+perkSteelCraftingRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 2, 무기 제작 2, 도구 제작 3, 플레이어 레벨 30, 직업: 노동자 불가\n강철 도끼,강철 곡괭이,강철삽,단조강,도가니,강철 화살촉,스테인리스 강철 형태 레시피 해제"
 perkTitaniumCraftingName,티타늄 제작
 perkTitaniumCraftingDesc,이보다 더 좋을순 없습니다! 단조 티타늄과 기초적인 티타늄 무기와 도구를 만듭니다
 perkTitaniumCraftingRank1Title,티타늄 제작
