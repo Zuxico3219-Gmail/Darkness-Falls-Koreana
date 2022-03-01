@@ -1,36 +1,18 @@
 # 7 Days to Die 다크니스 폴 한글화 모드
 
-# 설치 방법
+# 다크니스폴 한글화 모드 설치 방법
 
-<details><summary>(열기) 7DTD A20.0~A20.3 / 다크니스폴 V4.01 설치 방법 (열기)</summary>
-
-<br/>
-
-1. GitHub 우측 Release로 가서 원하는 버전의 zip 파일을 받으세요
-    * 다운로드 링크: [DarknessFalls_Koreana.zip](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.01-koreana-4.2/DarknessFalls_Koreana.zip)
+1. 7DTD A20.0~A20.3 / DF V4.01 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.01-koreana-4.2/DarknessFalls_Koreana.zip)을 다운로드합니다.
 2. 7 Days to Die 설치 폴더로 이동
-3. 압축 파일을 열어서 Mods 폴더를 7 Daysto Die 설치 폴더에 압축 해제
-4. Mods 폴더로 이동
-5. 0-DarknessFallsCore_Koreana, 3-DF-BdubsVehicles_Koreana라는 폴더가 나오면 게임 실행. (실행 중이었으면 종료 후 재실행)  
+   * 스팀 우클릭 - 내 게임 - 7 Days to Die 우클릭 - 관리 - 로컬 파일 보기
+4. 다운로드한 파일 압축 해제
+5. Mods 폴더로 이동 
+6. 0-DarknessFallsCore_Koreana, 3-DF-BdubsVehicles_Koreana라는 폴더가 나오면 모드 설치 완료
+7. 게임 실행. 실행 중이었으면 종료 후 재실행.
 
 ---
 
-</details>
-
-<details><summary>(열기) 7DTD A20.0~A20.3 / 다크니스폴 V4 설치 방법 (열기)</summary>
-
-<br/>
-
-1. GitHub 우측 Release로 가서 최신 버전의 zip 파일을 받으세요
-    * 다운로드 링크: [DarknessFalls_Koreana.zip](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7d2d-darknessfalls/DarknessFalls_Koreana.zip)
-2. 7 Days to Die 설치 폴더로 이동
-3. 압축 파일을 열어서 Mods 폴더를 7 Daysto Die 설치 폴더에 압축 해제
-4. Mods 폴더로 이동
-5. 0-DarknessFallsCore_Koreana, 3-DF-BdubsVehicles_Koreana라는 폴더가 나오면 게임 실행. (실행 중이었으면 종료 후 재실행)  
-
-</details>
-
----
+# 다크니스폴 한글화 모드 버전 별 다운로드
 
 <details><summary>(열기) 다크니스폴 버전 별 다운로드 링크 (열기)</summary>
 
@@ -42,7 +24,6 @@
 ---
 
 </details>
-
 
 
 
