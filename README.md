@@ -7,7 +7,7 @@
 <br/>
 
 1. GitHub 우측 Release로 가서 최신 버전의 zip 파일을 받으세요
-     * 다운로드 링크: 
+    * 다운로드 링크: 
 2. 7 Days to Die 설치 폴더로 이동
 3. 압축 파일을 열어서 Mods 폴더를 7 Daysto Die 설치 폴더에 압축 해제
 4. Mods 폴더로 이동
