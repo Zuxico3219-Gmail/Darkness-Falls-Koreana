@@ -18,6 +18,8 @@
 
 <br/>
 
+---
+
 1. GitHub 우측 Release로 가서 최신 버전의 zip 파일을 받으세요
     * 다운로드 링크: [DarknessFalls_Koreana.zip](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7d2d-darknessfalls/DarknessFalls_Koreana.zip)
 2. 7 Days to Die 설치 폴더로 이동
