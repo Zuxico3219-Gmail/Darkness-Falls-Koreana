@@ -3,7 +3,9 @@
 ## 설치 방법
 
 <details><summary>(열기) 7DTD A20.0~A20.3 / 다크니스폴 V4.01 설치 방법 (열기)</summary>
-  
+
+
+
 1. GitHub 우측 Release로 가서 최신 버전의 zip 파일을 받으세요
      * 다운로드 링크: 
 2. 7 Days to Die 설치 폴더로 이동
