@@ -40,15 +40,112 @@
 
 
 
-# 업데이트 내역
+# Update History
 
-<details><summary>A20.0~A20.2 / DF V4 / Koreana v4.1</summary>
+<details><summary>A20.0~A20.3 / DF V4.01 / Koreana v4.2</summary>
 
 <br/>
 
-# A20.0~A20.3 / DF V4.01 / Koreana V4.2
+## A20.0~A20.3 / DF V4.01 / Koreana V4.2
 
-* 내역1
+## DF V4.01 공식 변경점
+
+1. 이제 염색약 JaWoodlePurple을 탈 것에도 사용 가능합니다.
+2. 이제 차량 좌석 확장 개조를 만들 수 없습니다.
+3. 배터리 재활용 개조의 레시피 해제 조건 설명이 미래공학 제작으로 되어있던 것을 과학 제작으로 실제와 맞게 수정되었습니다.
+4. 달걀을 쥔 채로 우클릭을 할 때 병아리가 나오는 기능이 삭제되었습니다.
+5. 강철 제작의 플레이어 레벨 요구치가 50에서 30으로 변경되었습니다.
+6. 터프한 전기공의 이름이 제대로 출력되지 않던 오류가 수정되었습니다.
+7. 상인 조엘이 가르쳐주는 스킬 레버 액션 라이플이 사수용 라이플로 잘못 출력되던 것이 수정되었습니다.
+8. 이제 직업: 농부의 마지막 직업퀘스트 완료 시 철제 정원 괭이 레시피가 해제됩니다.
+    * 철제 정원 괭이는 고철 괭이보다 더 좋은 괭이입니다.
+    * 철제 정원 괭이로 수확 시 수확량이 증가합니다.
+9. 이제 더트 바이크(Dirt Bike)가 오토바이와 같은 속도로 달립니다. (하향)
+    * 더트 바이크 속도 하향으로 제작 재료가 단조강에서 단조철로 변경됩니다.
+    * 더트 바이크의 저장소 크기가 9x1에서 9x2로 커집니다. 
+0. 박스 트럭(Box Truck),호스티스 박스 트럭(Hostess Box Truck)의 저장소 크기가 10x9에서 12x10으로 커집니다.
+1. 이제 오렌지 차를 만들 때 캠프파이어에서 4개, 오븐에서 2개의 오렌지가 필요합니다. (기존: 1개)
+2. 이제 파이프 폭탄 (탄약)을 금속 작업대에서 만들 수 없습니다. 여전히 작업대에서는 만들 수 있습니다.
+3. 이제 아크 건을 만들 수 있습니다.
+4. 이제 슈퍼옥수수를 파밍 중에 얻을 수 있습니다.
+5. 직업: 사냥꾼의 동물 추적자로 다이어울프,늑대를 추적할 수 없던 오류가 수정되었습니다.
+6. 닭장을 설치 후, 수확 후에만 수리할 수 있던 문제가 수정되었습니다. 이제 언제든 부서지지 않았다면 수리 할 수 있습니다.
+7. 이제 POI에서 빈 책장이 나타날 확률이 줄어들었습니다.
+
+## 한글 모드 V4.2 오류 수정사항
+
+1. 레이저 배터리 개조를 레이조 배터리 개조로 잘못 표기한 부분 수정
+2. 폭파 전문가 5레벨의 설명 화염방사기 뒷 부분이 잘린 부분 수정
+
+---
+
+## Koreana V4.2 Changes
+
+* modMeleeLaserBattery,레이조 배터리 개조
+    * 오타 수정
+    * 레이조 -> 레이저
+* perkDemolitionsExpertName,폭파 전문가
+    * 설명 뒷부분 잘리던 문제 수정: 따옴표 누락
+    * perkDemolitionsExpertRank5LongDesc,폭파 전문가입니다\n블록 데미지 +50%. 데미지 +50%. 무기조작 +50%\n재장전속도 +35%. 적 기절 확률 100%\n적을 파괴할 확률 +45%. 불구 확률 +66%\n적이 더 오래 기절합니다\n화염 방사기,빙결 수류탄 레시피 해제
+
+## DF V4.01 Changes
+
+### DF V4.01 BUG
+
+* requirement name="ProgressionLevel" progression_name=",perkCraftWeapons
+    * 콤마가 있음.
+
+### item_modefiers.xml
+
+* JaWoodlePurple
+    * 탈 것 염색 가능하게 변경
+* modVehicleExpandedSeat,차량 좌석 확장 개조
+    * 제작 불가로 변경
+* modGunRechargableBattery,배터리 재활용 개조
+    * 레시피 해제 조건 설명이 미래공학 제작으로 되어있던 것을 과학 제작으로 실제와 맞게 수정되었습니다.
+
+### items.xml
+
+* foodEgg,달걀
+    * 우클릭 시 병아리 나오는 것, 삭제
+
+### progression.xml
+
+* perkSteelCraftingName,강철 제작
+    * perkSteelCraftingRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 2, 무기 제작 2, 도구 제작 3, 플레이어 레벨 50, 직업: 노동자 불가\n강철 도끼,강철 곡괭이,강철삽,단조강,도가니,강철 화살촉,스테인리스 강철 형태 레시피 해제"
+    * 플레이어 레벨 50 -> 플레이어 레벨 30
+
+* legendaryZombieUtilityWorker,터프한 전기공
+    * legendaryZombieUtilityWorker -> zombieUtilityWorkerLegendary
+* response_-113720762,사수용 라이플 (200 듀크)
+    * 사수용 라이플 -> 레버 액션 라이플
+    * 실제로는 레버 액션 라이플을 가르쳐 줌.
+* attclassfarmer,직업: 농부
+    * attClassFarmerRank2Desc,"마지막 직업퀘스트 완료 시 획득\n샷건, 괭이 제작등급 +10"
+    * 철제 정원 괭이 레시피 해제 추가
+
+* vehicleDirtBike
+    * 속도 22,22 -> 9,14로 변경
+    * 저장소 9,1 -> 9,2로 변경
+* 재료 resourceForgedSteel -> resourceForgedIron
+    * vehicleDirtBikeChassis
+    * vehicleDirtBikeParts
+* 저장소 10,9 -> 12,10으로 변경
+    * vehicleBoxTruckPlain
+    * vehicleBoxTruckHostess
+
+* DForangeTea
+    * DFOrange 재료 개수 변경
+    * 캠프파이어에서 1개 -> 4개
+    * 오븐에서 1개 -> 2개
+
+* thrownAmmoPipeBomb
+    * 금속작업대에서 만드는 레시피 삭제
+
+* gunSpecialArcGun
+    * 아크 건 제작 못하던 버그 수정
+
+* 이제 슈퍼옥수수를 파밍 중에 얻을 수 있습니다.
 
 ---
 
