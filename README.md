@@ -54,6 +54,6 @@
   * 16
   * 17
  
-  <details>
+  </details>
  
 </details>
