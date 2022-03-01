@@ -6,8 +6,8 @@
 
 <br/>
 
-1. GitHub 우측 Release로 가서 최신 버전의 zip 파일을 받으세요
-    * 다운로드 링크: 
+1. GitHub 우측 Release로 가서 원하는 버전의 zip 파일을 받으세요
+    * 다운로드 링크: [DarknessFalls_Koreana.zip](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.01-koreana-4.2/DarknessFalls_Koreana.zip)
 2. 7 Days to Die 설치 폴더로 이동
 3. 압축 파일을 열어서 Mods 폴더를 7 Daysto Die 설치 폴더에 압축 해제
 4. Mods 폴더로 이동
@@ -32,7 +32,16 @@
 
 ---
 
+<details><summary>(열기) 다크니스폴 버전 별 다운로드 링크 (열기)</summary>
 
+<br/>
+
+* [DF V4.01](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7d2d-darknessfalls/DarknessFalls_Koreana.zip)
+* [DF V4](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.01-koreana-4.2/DarknessFalls_Koreana.zip)
+
+---
+
+</details>
 
 
 
