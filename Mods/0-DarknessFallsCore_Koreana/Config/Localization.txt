@@ -200,13 +200,13 @@ perkASConstructionDesc,건축도구의 블록 데미지 +1% ~ 100%
 perkASMiningDesc,채굴도구의 블록 데미지/채집량 +1% ~ 100%\n숙련도 1에서 100까지 성장합니다
 perkASMiningDesc2,채굴도구의 블록 데미지/채집량 +1% ~ 100%\n숙련도 1에서 100까지 성장합니다\n무너지는 블록으로 받는 데미지 -50%
 perkASMiningDesc3,채굴도구의 블록 데미지/채집량 +1% ~ 100%\n숙련도 1에서 100까지 성장합니다\n무너지는 블록으로 받는 데미지 -50%\n희귀한 광석을 채굴할 확률이 약간 더해집니다.\n20% 확률로 광석을 한 번에 깹니다
-perkASArchery1Desc,연사속도 +5%\n활 데미지 +5%
-perkASArchery2Desc,연사속도 +10%\n활 데미지 +10%. 화살이 대상의 방어력의 10% 무시
-perkASArchery3Desc,"연사속도 +15%\n활 데미지 +15%. 화살이 대상의 방어력의 20% 무시\n다리 명중 시, 상대가 느려집니다"
-perkASArchery4Desc,"연사속도 +20%\n활 데미지 +20%. 화살이 대상의 방어력의 30% 무시\n다리 명중 시, 상대가 느려집니다\n기습 공격 시 20%확률로 넘어집니다"
-perkASArchery5Desc,"연사속도 +25%\n활 데미지 +25%. 화살이 대상의 방어력의 40% 무시\n다리 명중 시, 상대가 느려집니다\n기습 공격 시 20%확률로 넘어집니다"
-perkASWeapons1Desc,자동화기 데미지 +5%\n 재장전속도 +5%
-perkASWeapons2Desc,자동화기 데미지 +10%\n재장전속도 +10%
+perkASArchery1Desc,"연사속도 +5%. 활 데미지 +5%"
+perkASArchery2Desc,"연사속도 +10%. 데미지 +10%\n화살이 대상의 방어력의 10% 무시"
+perkASArchery3Desc,"연사속도 +15%. 활 데미지 +15%\n화살이 대상의 방어력의 20% 무시\n다리 명중 시, 상대가 느려집니다"
+perkASArchery4Desc,"연사속도 +20%. 활 데미지 +20%\n화살이 대상의 방어력의 30% 무시\n다리 명중 시, 상대가 느려집니다\n기습 공격 시 20%확률로 넘어집니다"
+perkASArchery5Desc,"연사속도 +25%. 활 데미지 +25%\n화살이 대상의 방어력의 40% 무시\n다리 명중 시, 상대가 느려집니다\n기습 공격 시 20%확률로 넘어집니다"
+perkASWeapons1Desc,자동화기 데미지 +5%. 재장전속도 +5%
+perkASWeapons2Desc,자동화기 데미지 +10%. 재장전속도 +10%
 perkASWeapons3Desc,자동화기 데미지 +15%. 재장전속도 +15%\n자동화기를 들고 있을 때 달리기 속도 +20%
 perkASWeapons4Desc,자동화기 데미지 +20%. 재장전속도 +20%\n자동화기를 들고 있을 때 달리기 속도 +20%\n4% 확률로 적을 넘어트립니다
 perkASWeapons5Desc,자동화기 데미지 +25%. 재장전속도 +25%\n자동화기를 들고 있을 때 달리기 속도 +20%\n4% 확률로 적을 넘어트립니다\n빗나가기 전까지 연속 명중마다 데미지 +1% 중첩
@@ -232,10 +232,9 @@ perkASBluntDesc,"타격무기를 사용하면 숙련도가 증가합니다\n한�
 perkASBladedName,날붙이 무기 숙련도
 perkASBladedDesc,"날붙이 무기를 사용하면 숙련도가 증가합니다.\n날붙이 무기: 칼, 도끼, 창\n\n현재 XP/필요 XP: {cvar($AS_Bladed_XP:0)}/{cvar($AS_Bladed_LvlNextTotal:0)}"
 perkASPistolsName,권총 숙련도
-perkASPistolsDesc,"권총을 사용하면 숙련도가 증가합니다\n데미지가 증가합니다.\n권총: 피스톨, 44구경 매그넘, SMG5, 데저트벌쳐, 검은 하늘\n\n현재 XP/필요 XP: {cvar($AS_Pistols_XP:0)}/{cvar($AS_Pistols_LvlNextTotal:0)}"
+perkASPistolsDesc,"권총을 사용하면 숙련도가 증가합니다\n데미지가 증가합니다.\n권총: 피스톨, .44 매그넘, SMG5, 데저트벌쳐, 검은 하늘\n\n현재 XP/필요 XP: {cvar($AS_Pistols_XP:0)}/{cvar($AS_Pistols_LvlNextTotal:0)}"
 perkASShotgunsName,샷건 숙련도
 perkASShotgunsDesc,샷건을 사용하면 숙련도가 증가합니다\n데미지가 증가합니다.\n\n현재 XP/필요 XP: {cvar($AS_Shotguns_XP:0)}/{cvar($AS_Shotguns_LvlNextTotal:0)}
-ㅋㅌzx
 perkASRiflesName,라이플 숙련도
 perkASRiflesDesc,라이플을 사용하면 숙련도가 증가합니다\n데미지가 증가합니다\n\n현재 XP/필요 XP: {cvar($AS_Rifles_XP:0)}/{cvar($AS_Rifles_LvlNextTotal:0)}
 reqattTechnology,최첨단 기술
@@ -433,11 +432,11 @@ perkMiner69rRank4LongDesc,채굴도구의 블록 데미지 +80%\n채굴도구의
 perkMiner69rRank5LongDesc,채굴도구의 블록 데미지 +100%\n채굴도구의 스태미너 소모량 -50%\n채굴도구의 채집량 +100%
 perkTheOutlawName,무법자
 perkTheOutlawDesc,예전 방식으로 분쟁을 해결하세요. 결국 종말입니다
-perkTheOutlawRank1Desc,권총의 데미지 +10%. 연사속도 +15%\n재장전속도 +10%. 헤드샷 데미지 +10%\n머리 파괴 확률 +15%. 팔다리 파괴 확률 +5%
-perkTheOutlawRank2Desc,권총의 데미지 +20%. 연사속도 +20%\n재장전속도 +15%. 헤드샷 데미지 +10%\n머리 파괴 확률 +15%. 팔다리 파괴 확률 +10%
-perkTheOutlawRank3Desc,권총의 데미지 +30%. 연사속도 +25%\n재장전속도 +20%. 헤드샷 데미지 +20%\n머리 파괴 확률 +30%. 팔다리 파괴 확률 +20%
-perkTheOutlawRank4Desc,권총의 데미지 +40%. 연사속도 +30%\n재장전속도 +25%. 헤드샷 데미지 +20%\n머리 파괴 확률 +30%. 팔다리 파괴 확률 +30%
-perkTheOutlawRank5Desc,권총의 데미지 +50%. 연사속도 +35%\n재장전속도 +30%. 헤드샷 데미지 +30%\n머리 파괴 확률 +45%. 팔다리 파괴 확률 +45%
+perkTheOutlawRank1Desc,권총의 데미지 +10%. 연사속도 +15%\n재장전속도 +10%. 정확도 +10%\n반동 -10%. 무기조작 +10%\n헤드샷 데미지 +10%. 머리 파괴 확률 +15%\n팔다리 파괴 확률 +5%
+perkTheOutlawRank2Desc,권총의 데미지 +20%. 연사속도 +20%\n재장전속도 +15%. 정확도 +15%\n반동 -15%. 무기조작 +15%\n헤드샷 데미지 +10%. 머리 파괴 확률 +15%\n팔다리 파괴 확률 +10%
+perkTheOutlawRank3Desc,권총의 데미지 +30%. 연사속도 +25%\n재장전속도 +20%. 정확도 +20%\n반동 -20%. 무기조작 +20%\n헤드샷 데미지 +20%. 머리 파괴 확률 +30%\n팔다리 파괴 확률 +20%
+perkTheOutlawRank4Desc,권총의 데미지 +40%. 연사속도 +30%\n재장전속도 +25%. 정확도 +25%\n반동 -25%. 무기조작 +25%\n헤드샷 데미지 +20%. 머리 파괴 확률 +30%\n팔다리 파괴 확률 +30%
+perkTheOutlawRank5Desc,권총의 데미지 +50%. 연사속도 +35%\n재장전속도 +30%. 정확도 +30%\n반동 -30%. 무기조작 +30%\n헤드샷 데미지 +30%. 머리 파괴 확률 +45%\n팔다리 파괴 확률 +45%
 perkTheOutlawRank1ShortDesc,무법자 1
 perkTheOutlawRank2ShortDesc,무법자 2
 perkTheOutlawRank3ShortDesc,무법자 3
@@ -445,11 +444,11 @@ perkTheOutlawRank4ShortDesc,무법자 4
 perkTheOutlawRank5ShortDesc,무법자 5
 perkBoomStickName,붐스틱
 perkBoomStickDesc,내 요술봉이... 터진다!
-perkBoomStickRank1Desc,샷건의 데미지 +10%. 연사속도 +15%. 재장전속도 +10%\n헤드샷 데미지 +10%. 머리 파괴 확률 +15%\n팔다리 파괴 확률 +5%
-perkBoomStickRank2Desc,샷건의 데미지 +20%. 연사속도 +20%. 재장전속도 +15%\n헤드샷 데미지 +10%. 머리 파괴 확률 +15%\n팔다리 파괴 확률 +10%
-perkBoomStickRank3Desc,샷건의 데미지 +30%. 연사속도 +25%. 재장전속도 +20%\n헤드샷 데미지 +20%. 머리 파괴 확률 +30%\n팔다리 파괴 확률 +20%
-perkBoomStickRank4Desc,샷건의 데미지 +40%. 연사속도 +30%. 재장전속도 +25%\n헤드샷 데미지 +20%. 머리 파괴 확률 +30%\n팔다리 파괴 확률 +30%
-perkBoomStickRank5Desc,샷건의 데미지 +50%. 연사속도 +35%. 재장전속도 +30%\n헤드샷 데미지 +30%. 머리 파괴 확률 +45%\n팔다리 파괴 확률 +45%
+perkBoomStickRank1Desc,샷건의 데미지 +10%. 연사속도 +15%\n재장전속도 +10%. 정확도 +10%\n반동 -10%. 무기조작 +10%\n헤드샷 데미지 +10%. 머리 파괴 확률 +15%\n팔다리 파괴 확률 +5%
+perkBoomStickRank2Desc,샷건의 데미지 +20%. 연사속도 +20%\n재장전속도 +15%. 정확도 +15%\n반동 -15%. 무기조작 +15%\n헤드샷 데미지 +10%. 머리 파괴 확률 +15%\n팔다리 파괴 확률 +10%
+perkBoomStickRank3Desc,샷건의 데미지 +30%. 연사속도 +25%\n재장전속도 +20%. 정확도 +20%\n반동 -20%. 무기조작 +20%\n헤드샷 데미지 +20%. 머리 파괴 확률 +30%\n팔다리 파괴 확률 +20%
+perkBoomStickRank4Desc,샷건의 데미지 +40%. 연사속도 +30%\n재장전속도 +25%. 정확도 +25%\n반동 -25%. 무기조작 +25%\n헤드샷 데미지 +20%. 머리 파괴 확률 +30%\n팔다리 파괴 확률 +30%
+perkBoomStickRank5Desc,샷건의 데미지 +50%. 연사속도 +35%\n재장전속도 +30%. 정확도 +30%\n반동 -30%. 무기조작 +30%\n헤드샷 데미지 +30%. 머리 파괴 확률 +45%\n팔다리 파괴 확률 +45%
 perkBoomStickRank1ShortDesc,붐스틱 1
 perkBoomStickRank2ShortDesc,붐스틱 2
 perkBoomStickRank3ShortDesc,붐스틱 3
@@ -457,11 +456,11 @@ perkBoomStickRank4ShortDesc,붐스틱 4
 perkBoomStickRank5ShortDesc,붐스틱 5
 perkBetterLeadThanDeadName,죽느냐 쏘느냐
 perkBetterLeadThanDeadDesc,갈기면 되는데 명중률이 왜 필요해요?
-perkBetterLeadThanDeadRank1Desc,자동화기의 데미지 +10%. 연사속도 +15%\n재장전속도 +10%. 헤드샷 데미지 +5%\n머리 파괴 확률 +5%. 팔다리 파괴 확률 +5%
-perkBetterLeadThanDeadRank2Desc,자동화기의 데미지 +20%. 연사속도 +20%\n재장전속도 +15%. 헤드샷 데미지 +5%\n머리 파괴 확률 +5%. 팔다리 파괴 확률 +10%
-perkBetterLeadThanDeadRank3Desc,자동화기의 데미지 +30%. 연사속도 +25%\n재장전속도 +20%. 헤드샷 데미지 +10%\n머리 파괴 확률 +10%. 팔다리 파괴 확률 +20%
-perkBetterLeadThanDeadRank4Desc,자동화기의 데미지 +40%. 연사속도 +30%\n재장전속도 +25%. 헤드샷 데미지 +10%\n머리 파괴 확률 +10%. 팔다리 파괴 확률 +30%
-perkBetterLeadThanDeadRank5Desc,자동화기의 데미지 +50%. 연사속도 +35%\n재장전속도 +30%. 헤드샷 데미지 +15%\n머리 파괴 확률 +15%. 팔다리 파괴 확률 +45%
+perkBetterLeadThanDeadRank1Desc,자동화기의 데미지 +10%. 연사속도 +15%\n재장전속도 +10%. 정확도 +10%\n반동 -10%. 무기조작 +10%\n헤드샷 데미지 +10%. 머리 파괴 확률 +15%\n팔다리 파괴 확률 +5%
+perkBetterLeadThanDeadRank2Desc,자동화기의 데미지 +20%. 연사속도 +20%\n재장전속도 +15%. 정확도 +15%\n반동 -15%. 무기조작 +15%\n헤드샷 데미지 +10%. 머리 파괴 확률 +15%\n팔다리 파괴 확률 +10%
+perkBetterLeadThanDeadRank3Desc,자동화기의 데미지 +30%. 연사속도 +25%\n재장전속도 +20%. 정확도 +20%\n반동 -20%. 무기조작 +20%\n헤드샷 데미지 +20%. 머리 파괴 확률 +30%\n팔다리 파괴 확률 +20%
+perkBetterLeadThanDeadRank4Desc,자동화기의 데미지 +40%. 연사속도 +30%\n재장전속도 +25%. 정확도 +25%\n반동 -25%. 무기조작 +25%\n헤드샷 데미지 +20%. 머리 파괴 확률 +30%\n팔다리 파괴 확률 +30%
+perkBetterLeadThanDeadRank5Desc,자동화기의 데미지 +50%. 연사속도 +35%\n재장전속도 +30%. 정확도 +30%\n반동 -30%. 무기조작 +30%\n헤드샷 데미지 +30%. 머리 파괴 확률 +45%\n팔다리 파괴 확률 +45%
 perkBetterLeadThanDeadRank1ShortDesc,죽느냐 쏘느냐 1
 perkBetterLeadThanDeadRank2ShortDesc,죽느냐 쏘느냐 2
 perkBetterLeadThanDeadRank3ShortDesc,죽느냐 쏘느냐 3
@@ -469,11 +468,11 @@ perkBetterLeadThanDeadRank4ShortDesc,죽느냐 쏘느냐 4
 perkBetterLeadThanDeadRank5ShortDesc,죽느냐 쏘느냐 5
 perkRobinHoodName,로빈 후드
 perkRobinHoodDesc,숲의 제왕입니다\n당신보다 느린 적은 스치지도 못합니다\n활과 석궁을 더 잘 조작합니다
-perkRobinHoodRank1Desc,활의 연사속도 +25%. 활과 석궁의 데미지 +10%\n재장전속도 +10%. 헤드샷 데미지 +10%\n머리 파괴확률 +15%. 팔다리 파괴확률 +5%\n사거리 +10%. 투사체속도 +10%
-perkRobinHoodRank2Desc,활의 연사속도 +25%. 활과 석궁의 데미지 +20%\n재장전속도 +15%. 헤드샷 데미지 +10%\n머리 파괴확률 +15%. 팔다리 파괴확률 +10%\n사거리 +10%. 투사체속도 +10%
-perkRobinHoodRank3Desc,활의 연사속도 +50%. 활과 석궁의 데미지 +30%\n재장전속도 +20%. 헤드샷 데미지 +20%\n머리 파괴확률 +30%. 팔다리 파괴확률 +20%\n사거리 +20%. 투사체속도 +20%\n50% 확률로 적 기절
-perkRobinHoodRank4Desc,활의 연사속도 +50%. 활과 석궁의 데미지 +40%\n재장전속도 +25%. 헤드샷 데미지 +20%\n머리 파괴확률 +30%. 팔다리 파괴확률 +30%\n사거리 +20%. 투사체속도 +20%\n65% 확률로 적 기절
-perkRobinHoodRank5Desc,활의 연사속도 +75%. 활과 석궁의 데미지 +50%\n재장전속도 +30%. 헤드샷 데미지 +30%\n머리 파괴확률 +45%. 팔다리 파괴확률 +45%\n사거리 +30%. 투사체속도 +30%\n80% 확률로 적 기절. 50% 확률로 적 불구
+perkRobinHoodRank1Desc,활과 석궁의 연사속도 +25%. 데미지 +10%\n재장전속도 +10%. 정확도 +10%\n무기조작 +10%. 헤드샷 데미지 +10%\n머리 파괴확률 +15%. 팔다리 파괴확률 +5%\n최대 사거리 +10%. 투사체속도 +10%
+perkRobinHoodRank2Desc,활과 석궁의 연사속도 +25%. 데미지 +20%\n재장전속도 +15%. 정확도 +15%\n무기조작 +15%. 헤드샷 데미지 +10%\n머리 파괴확률 +15%. 팔다리 파괴확률 +10%\n최대 사거리 +10%. 투사체속도 +10%
+perkRobinHoodRank3Desc,활과 석궁의 연사속도 +50%. 데미지 +30%\n재장전속도 +20%. 정확도 +20%\n무기조작 +20%. 헤드샷 데미지 +20%\n머리 파괴확률 +30%. 팔다리 파괴확률 +20%\n최대 사거리 +20%. 투사체속도 +20%\n50% 확률로 적 기절
+perkRobinHoodRank4Desc,활과 석궁의 연사속도 +50%. 데미지 +40%\n재장전속도 +25%. 정확도 +25%\n무기조작 +25%. 헤드샷 데미지 +20%\n머리 파괴확률 +30%. 팔다리 파괴확률 +30%\n최대 사거리 +20%. 투사체속도 +20%\n65% 확률로 적 기절
+perkRobinHoodRank5Desc,활과 석궁의 연사속도 +75%. 데미지 +50%\n재장전속도 +30%. 정확도 +30%\n무기조작 +30%. 헤드샷 데미지 +30%\n머리 파괴확률 +45%. 팔다리 파괴확률 +45%\n최대 사거리 +30%. 투사체속도 +30%\n80% 확률로 적 기절. 50% 확률로 적 불구
 perkRobinHoodRank1ShortDesc,로빈 후드 1
 perkRobinHoodRank2ShortDesc,로빈 후드 2
 perkRobinHoodRank3ShortDesc,로빈 후드 3
@@ -481,11 +480,11 @@ perkRobinHoodRank4ShortDesc,로빈 후드 4
 perkRobinHoodRank5ShortDesc,로빈 후드 5
 perkThisIsMyRifleName,내 라이플 맛 좀 봐라!
 perkThisIsMyRifleDesc,내 라이플 맛 좀 봐라! 다른 라이플과 다른게 없어보이지만 쓰면 쓸수록 더 좋아진다고!\n매 등급마다 연사속도와 재장전속도가 빨라집니다. 라이플을 더 잘 조작합니다
-perkThisIsMyRifleRank1Desc,라이플의 데미지 +10%. 연사속도 +10%\n재장전속도 +10%. 헤드샷 데미지 +10%\n머리 파괴확률 +15%. 팔다리 파괴확률 +5%\n사거리 +10%
-perkThisIsMyRifleRank2Desc,라이플의 데미지 +10%. 연사속도 +20%\n재장전속도 +15%. 헤드샷 데미지 +10%\n머리 파괴확률 +15%. 팔다리 파괴확률 +10%\n사거리 +10%
-perkThisIsMyRifleRank3Desc,"라이플의 데미지 +10%. 연사속도 +30%\n재장전속도 +20%. 헤드샷 데미지 +20%\n머리 파괴확률 +30%. 팔다리 파괴확률 +20%\n사거리 +20%\n연속 처치: 연속적으로 적을 처치할 시 10%, 20%, 최대 30%까지 데미지 보너스가 증가합니다"
-perkThisIsMyRifleRank4Desc,"라이플의 데미지 +10%. 연사속도 +40%\n재장전속도 +25%. 헤드샷 데미지 +20%\n머리 파괴확률 +30%. 팔다리 파괴확률 +30%\n사거리 +20%\n연속 처치: 연속적으로 적을 처치할 시 20%, 30%, 최대 40%까지 데미지 보너스가 증가합니다"
-perkThisIsMyRifleRank5Desc,"라이플의 데미지 +10%. 연사속도 +50%\n재장전속도 +30%. 헤드샷 데미지 +30%\n머리 파괴확률 +45%. 팔다리 파괴확률 +45%\n사거리 +30%\n연속 처치: 연속적으로 적을 처치할 시 30%, 40%, 최대 50%까지 데미지 보너스가 증가합니다"
+perkThisIsMyRifleRank1Desc,"라이플의 데미지 +10%. 연사속도 +15%\n재장전속도 +10%. 정확도 +10%\n반동 -10%. 무기조작 +10%\n헤드샷 데미지 +10%\n머리 파괴확률 +15%. 팔다리 파괴확률 +5% \n최대 사거리 +10%. 유효 사거리 +10%"
+perkThisIsMyRifleRank2Desc,"라이플의 데미지 +20%. 연사속도 +20%\n재장전속도 +15%. 정확도 +15%\n반동 -15%. 무기조작 +15%\n헤드샷 데미지 +10%\n머리 파괴확률 +15%. 팔다리 파괴확률 +10%\n최대 사거리 +10%. 유효 사거리 +10%"
+perkThisIsMyRifleRank3Desc,"라이플의 데미지 +30%. 연사속도 +25%\n재장전속도 +20%. 정확도 +20%\n반동 -20%. 무기조작 +20%\n헤드샷 데미지 +20%\n머리 파괴확률 +30%. 팔다리 파괴확률 +20%\n최대 사거리 +20%. 유효 사거리 +20%\n연속 처치: 연속적으로 적을 처치할 시 10%, 20%, 최대 30%까지 데미지 보너스가 증가합니다"
+perkThisIsMyRifleRank4Desc,"라이플의 데미지 +40%. 연사속도 +30%\n재장전속도 +25%. 정확도 +25%\n반동 -25%. 무기조작 +25%\n헤드샷 데미지 +20%\n머리 파괴확률 +30%. 팔다리 파괴확률 +30%\n최대 사거리 +20%. 유효 사거리 +20%\n연속 처치: 연속적으로 적을 처치할 시 20%, 30%, 최대 40%까지 데미지 보너스가 증가합니다"
+perkThisIsMyRifleRank5Desc,"라이플의 데미지 +50%. 연사속도 +35%\n재장전속도 +30%. 정확도 +30%\n반동 -30%. 무기조작 +30%\n헤드샷 데미지 +30%\n머리 파괴확률 +45%. 팔다리 파괴확률 +45%\n최대 사거리 +30%. 유효 사거리 +30%\n연속 처치: 연속적으로 적을 처치할 시 30%, 40%, 최대 50%까지 데미지 보너스가 증가합니다"
 perkDeadEyeDesc,라이플로 예리한 조준을 하는 데 특화되어 완벽히 박히는 탄환으로 목표를 제거합니다. 한 방으로 한 명씩
 perkDeadEyeName,저격의 명수
 perkDeadEyeRank1Desc,무차별 사격
@@ -501,19 +500,19 @@ perkCraftArmorRank3Desc,방어구 제작등급 +30. 제작시간 -3%\n31등급 �
 perkCraftArmorRank4Desc,방어구 제작등급 +40. 제작시간 -4%\n41등급 이하의 방어구 수리 시 등급하락 없음
 perkCraftArmorRank5Desc,방어구 제작등급 +50. 제작시간 -5%\n51등급 이하의 방어구 수리 시 등급하락 없음
 perkCraftGunsName,총기 제작
-perkCraftGunsDesc,"더 좋은 총을 원하나요?\n대상 아이템: 권총, 매그넘, 자동소총, 라이플, 기관단총, 로켓탄 발사기, 코일 화기, 화염방사기"
+perkCraftGunsDesc,"더 좋은 총을 원하나요?\n대상 아이템: 권총, 매그넘, 자동소총, 라이플, 샷건, SMG-5, 로켓탄 발사기, 코일 화기, 화염방사기"
 perkCraftGunsRank1Desc,총기 제작등급 +10. 제작시간 -1%\n11등급 이하의 총기 수리 시 등급하락 없음
 perkCraftGunsRank2Desc,총기 제작등급 +20. 제작시간 -2%\n21등급 이하의 총기 수리 시 등급하락 없음
 perkCraftGunsRank3Desc,총기 제작등급 +30. 제작시간 -3%\n31등급 이하의 총기 수리 시 등급하락 없음
 perkCraftGunsRank4Desc,총기 제작등급 +40. 제작시간 -4%\n41등급 이하의 총기 수리 시 등급하락 없음
 perkCraftGunsRank5Desc,총기 제작등급 +50. 제작시간 -5%\n51등급 이하의 총기 수리 시 등급하락 없음
 perkCraftScienceName,과학 제작
-perkCraftScienceDesc,더 좋은 장치를 원하나요?\n개조 부품 레시피 해제\n(자동차 관련 물품 제작등급 +10 ~ +50)
-perkCraftScienceRank1Desc,1등급 개조 부품 레시피 해제. 제작시간 -1%. 배턴의 데미지 +10%. 블록 데미지 +20%
-perkCraftScienceRank2Desc,제작시간 -2%. 배턴의 데미지 +20%. 블록 데미지 +40%
-perkCraftScienceRank3Desc,2등급 개조 부품 레시피 해제. 제작시간 -3%. 배턴의 데미지 +30%. 블록 데미지 +60%
-perkCraftScienceRank4Desc,제작시간 -4%. 배턴의 데미지 +40%. 블록 데미지 +80%
-perkCraftScienceRank5Desc,3등급 개조 부품 레시피 해제. 제작시간 -5%. 배턴의 데미지 +50%. 블록 데미지 +100%
+perkCraftScienceDesc,더 좋은 장치를 원하나요?\n개조 부품 레시피 해제
+perkCraftScienceRank1Desc,"제작시간 -1%. 배턴의 데미지 +10%. 블록 데미지 +20%\n1등급 무기 개조 레시피 해제: 소염기 개조,무기 손전등 개조,2배 스코프 개조,아쇠 그룹: 반자동 개조,2각대 개조,전방 손잡이 개조,샷건 덕빌 개조,샷건 총구 개조,탄창 확장 개조,총신 절단 샷건 개조,사냥꾼 개조,톱날 개조,무거운 헤드 개조,구조적 죔쇠 개조,무덤 굴착 개조,목재 절삭기 개조,모터 도구 소형 탱크 개조,튜브 확장 개조\n1등급 방어구 개조 레시피 해제: 냉각 메시 개조,단열 안감 개조,피팅 개선 개조,외투 주머니 개조,헬멧 조명 개조" 
+perkCraftScienceRank2Desc,"제작시간 -2%. 배턴의 데미지 +20%. 블록 데미지 +40%"
+perkCraftScienceRank3Desc,"제작시간 -3%. 배턴의 데미지 +30%. 블록 데미지 +60%\n2등급 무기 개조 레시피 해제: 화염 자루 개조,소음기 개조,총열 확장 개조,레이저 조준기 개조,4배 스코프 개조,반사조준경 개조,방아쇠 그룹: 파열 개조,수축식 개머리판 개조,불구 개조,강화 칼날 개조,강화 손잡이 개조,가시철사 개조,화살 받침 개조,벙커 버스터 개조,탄피 회수 개조,니켈 카드뮴 배터리 개조,가연성 기름 개조,액체 질소 개조,모터 도구 대형 탱크 개조,다이아몬드 칼날 끝 개조,소방관의 도끼 개조,스턴 배턴 리펄서 개조\n2등급 방어구 개조 레시피 해제: 갑옷 플레이트 추가 개조,커스텀 피팅 개조,외투 2배 주머니 개조,소음 방지 연결 장치 개조,낙법 개조,정수기 개조,기초 전술 조끼,고급 단열 안감 개조,고급 냉각 메시 개조,가시 갑옷 개조,야간 투시경 개조"
+perkCraftScienceRank4Desc,"제작시간 -4%. 배턴의 데미지 +40%. 블록 데미지 +80%"
+perkCraftScienceRank5Desc,"제작시간 -5%. 배턴의 데미지 +50%. 블록 데미지 +100%\n3등급 무기 개조 레시피 해제: 8배 스코프 개조,방아쇠 그룹: 완전 자동 모드,용수철 막대 개조,중합체 끈 개조,인체 공학 손잡이 개조,금속 스파이크 개조,금속 체인 개조,강철제 브레이커 개조,탄띠 개조,방사능 제거 개조,신성한 금속 개조,열기를 느끼다,갑옷 분쇄 탄약 개조,고출력 전기톱 모터 개조,배터리 재활용 개조,로보틱 슬레지 개조: 강타\n3등급 방어구 개조 레시피 해제: 밴디드 갑옷 플레이트 추가 개조,외투 3배 주머니 개조,고급 소음 방지 연결 장치 개조,전술 조끼"
 perkCraftToolsName,도구 제작
 perkCraftToolsDesc,"더 좋은 도구를 원하나요 ? 당신을 위한 특성입니다\n네일건,돌망치,장도리,소방도끼,삽,곡괭이,전기톱,나사송곳,괭이,렌치,래칫,임팩트드라이버 제작등급 증가"
 perkCraftToolsRank1Desc,도구 제작등급 +10. 제작시간 -1%\n11등급 이하의 도구 수리 시 등급하락 없음
@@ -522,7 +521,7 @@ perkCraftToolsRank3Desc,도구 제작등급 +30. 제작시간 -1%\n31등급 이�
 perkCraftToolsRank4Desc,도구 제작등급 +40. 제작시간 -1%\n41등급 이하의 도구 수리 시 등급하락 없음
 perkCraftToolsRank5Desc,도구 제작등급 +50. 제작시간 -1%\n51등급 이하의 도구 수리 시 등급하락 없음
 perkCraftWeaponsName,무기 제작
-perkCraftWeaponsDesc,"더 좋은 무기를 원하나요 ? 당신을 위한 특성입니다.\n활, 석궁, 곤봉, 슬레지해머, 칼, 창, 전투도끼, 배턴, 너클 제작등급 증가"
+perkCraftWeaponsDesc,"더 좋은 무기를 원하나요 ? 당신을 위한 특성입니다.\n활, 석궁, 곤봉, 슬레지해머, 칼, 창, 전투도끼, 배턴, 너클, 빠루 제작등급 증가"
 perkCraftWeaponsRank1Desc,무기 제작등급 +10. 제작시간 -1%\n11등급 이하의 무기 수리 시 등급하락 없음
 perkCraftWeaponsRank2Desc,무기 제작등급 +20. 제작시간 -2%\n21등급 이하의 무기 수리 시 등급하락 없음
 perkCraftWeaponsRank3Desc,무기 제작등급 +30. 제작시간 -3%\n31등급 이하의 무기 수리 시 등급하락 없음
@@ -537,15 +536,15 @@ perkQuickerCraftingRank10Desc,제작시간 -100%
 perkLockPickingDesc,자물쇠를 빨리 따는 방법과 자물쇠 따개를 덜 부러뜨리는 방법을 배웁니다
 perkLockPickingName,자물쇠 따기
 perkLockPickingRank1Desc,아마추어
-perkLockPickingRank1LongDesc,이제 막 이짓거리를 배우기 시작했습니다\n자물쇠 따개 레시피 해제\n자물쇠따는 시간 -10%. 자물쇠 따개 부러뜨릴 확률 -15%
+perkLockPickingRank1LongDesc,이제 막 이짓거리를 배우기 시작했습니다\n자물쇠 따개 레시피 해제\n자물쇠따는 시간 -15%. 자물쇠 따개 부러뜨릴 확률 -15%
 perkLockPickingRank2Desc,빈집털이범
-perkLockPickingRank2LongDesc,이름을 알리기 시작했습니다\n자물쇠 따개 레시피 해제\n자물쇠따는 시간 -20%. 자물쇠 따개 부러뜨릴 확률 -30%
+perkLockPickingRank2LongDesc,이름을 알리기 시작했습니다\n자물쇠 따개 레시피 해제\n자물쇠따는 시간 -30%. 자물쇠 따개 부러뜨릴 확률 -30%
 perkLockPickingRank3Desc,자물쇠 장수
-perkLockPickingRank3LongDesc,점점 능숙해지고 있습니다\n자물쇠 따개 레시피 해제\n자물쇠따는 시간 -30%. 자물쇠 따개 부러뜨릴 확률 -45%
+perkLockPickingRank3LongDesc,점점 능숙해지고 있습니다\n자물쇠 따개 레시피 해제\n자물쇠따는 시간 -50%. 자물쇠 따개 부러뜨릴 확률 -55%
 perkLockPickingRank4Desc,자물쇠 장인
-perkLockPickingRank4LongDesc,아직 애먹이는 자물쇠가 남아있습니다\n자물쇠 따개 레시피 해제\n자물쇠따는 시간 -40%. 자물쇠 따개 부러뜨릴 확률 -60%
+perkLockPickingRank4LongDesc,아직 애먹이는 자물쇠가 남아있습니다\n자물쇠 따개 레시피 해제\n자물쇠따는 시간 -70%. 자물쇠 따개 부러뜨릴 확률 -70%
 perkLockPickingRank5Desc,금고털이
-perkLockPickingRank5LongDesc,아무리 안전한 금고도 힘 쓰기도 전에 열립니다!\n자물쇠 따개 레시피 해제\n자물쇠따는 시간 -50%. 자물쇠 따개 부러뜨릴 확률 -75%\n자물쇠 따개 뭉치 레시피 해제
+perkLockPickingRank5LongDesc,아무리 안전한 금고도 힘 쓰기도 전에 열립니다!\n자물쇠 따개 레시피 해제\n자물쇠따는 시간 -90%. 자물쇠 따개 부러뜨릴 확률 -90%\n자물쇠 따개 뭉치(50) 레시피 해제
 perkTheSurvivorName,생존자
 perkBetterBarterDesc,지역 상인 설득에 특화되어 더 좋은 거래를 할 수 있고 정말 좋은 물건들이 쌓여있는 상인의 비밀 은닉처를 열 수 있습니다
 perkBetterBarterName,멋진 교환자
@@ -562,7 +561,7 @@ perkBetterBarterRank5LongDesc,판매금액 +50%. 구매금액 -25%\n상인의 �
 perkConcreteMixingName,콘크리트 혼합
 perkConcreteMixingRankTitle,콘크리트 혼합
 perkConcreteMixingDesc,건물을 건설하기 위해 콘크리트 다루는 법을 배우세요
-perkConcreteMixingRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 2, 채굴도구 숙련도 20, 직업: 노동자 불가, 플레이어 레벨 20\n시멘트 믹서, 시멘트, 콘크리트 혼합물 레시피 해제"
+perkConcreteMixingRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 2, 채굴도구 숙련도 20, 직업: 노동자 불가, 플레이어 레벨 20\n시멘트 믹서, 시멘트, 콘크리트 혼합물, 콘크리트 형태 레시피 해제"
 perkDoItYourselfName,DIY
 perkDoItYourselfDesc,나만의 부품을 제작하는 방법을 배웁니다
 perkDoItYourselfRank1Title,DIY 1
@@ -574,7 +573,7 @@ perkElectricBasicsName,전기 기초이론
 perkElectricBasicsDesc,전기 아이템을 제작하는 기초이론을 배웁니다
 perkElectricBasicsRank1Title,전기 기초이론 1
 perkElectricBasicsRank2Title,전기 기초이론 2
-perkElectricBasicsRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 1\n와이어 도구, 전기 와이어 계전기, 스위치, 기본 전구, 형광등, 전기 타이머 계전기, 산업용 조명, 산업용 전구 레시피 해제"
+perkElectricBasicsRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 1\n와이어 도구, 전기 와이어 계전기, 스위치, 기본 전구, 형광등, 전기 타이머 계전기, 플레이어 조명 레시피 해제"
 perkElectricBasicsRank2Desc,"[DECEA3]요구사항:[-] 과학 제작 2\n스포트라이트, 스피커, 트리거 발판 1x1, 트리거 발판 1x5, 모션 센서, 제네레이터 뱅크, 와이어 함정 구역 레시피 해제"
 perkElectricTrapsMeleeName,전동식 근거리 트랩
 perkElectricTrapsMeleeDesc,자신만의 전동식 근거리 트랩을 제작하는 방법을 배웁니다
@@ -587,7 +586,7 @@ perkElectricTrapsRangedDesc,자신만의 전동식 원거리 트랩을 제작하
 perkElectricTrapsRangedRank1Title,전동식 원거리 트랩 1
 perkElectricTrapsRangedRank2Title,전동식 원거리 트랩 2
 perkElectricTrapsRangedRank3Title,전동식 원거리 트랩 3
-perkElectricTrapsRangedRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 3\n강철 다트 (탄약), 다트 트랩 레시피 해제\n3.6v 강철 다트 (탄약): 미구현"
+perkElectricTrapsRangedRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 3\n다트 트랩 레시피 해제"
 perkElectricTrapsRangedRank2Desc,"[DECEA3]요구사항:[-] 과학 제작 4\nSMG 자동 터렛, SMG 자동 터렛 (강철), 산탄총 자동 터렛 레시피 해제"
 perkElectricTrapsRangedRank3Desc,"[DECEA3]요구사항:[-] 과학 제작 5\nSMG 자동 터렛 Mk2, SMG 자동 터렛 Mk2 (강철), 산탄총 자동 터렛 Mk2 레시피 해제"
 perkWorkbenchName,작업대
@@ -602,10 +601,10 @@ perkAmmoCraftingRank1Title,주간 총알잡지 1
 perkAmmoCraftingRank2Title,주간 총알잡지 2
 perkAmmoCraftingRank3Title,주간 총알잡지 3
 perkAmmoCraftingRank4Title,주간 총알잡지 4
-perkAmmoCraftingRank1Desc,"[DECEA3]요구사항:[-] 총기 제작 1\n9mm 탄약,샷건 탄약 (탄약) 레시피 해제"
-perkAmmoCraftingRank2Desc,"[DECEA3]요구사항:[-] 총기 제작 2\n7.62mm 탄약, 44구경 매그넘 탄약,샷건 AP 슬러그 (탄약) 레시피 해제"
-perkAmmoCraftingRank3Desc,"[DECEA3]요구사항:[-] 총기 제작 3\n9mm, 7.62mm, 44구경 매그넘의 강철 탄약, AP탄약 레시피 해제\n샷건 돌파 슬러그 (탄약) 레시피 해제"
-perkAmmoCraftingRank4Desc,"[DECEA3]요구사항:[-] 총기 제작 4\n9mm, 7.62mm, 44구경 매그넘의 HP 탄환 레시피 해제"
+perkAmmoCraftingRank1Desc,"[DECEA3]요구사항:[-] 총기 제작 1\n9mm 탄약,샷건 탄약 (탄약),9mm 탄약 상자 (100) 레시피 해제"
+perkAmmoCraftingRank2Desc,"[DECEA3]요구사항:[-] 총기 제작 2\n7.62mm 탄약, .44 매그넘 탄약,샷건 AP 슬러그 (탄약), .44 매그넘 탄약 상자 (100),7.62mm 탄약 상자 (100) 레시피 해제"
+perkAmmoCraftingRank3Desc,"[DECEA3]요구사항:[-] 총기 제작 3\nAP 7.62mm 탄약,AP .44 매그넘 탄약,AP 9mm 탄약,샷건 돌파 슬러그 (탄약),AP 9mm 탄약 상자 (100),AP .44 매그넘 탄약 상자 (100),AP 7.62mm 탄약 상자 (100),.44 매그넘 강철 탄약,7.62mm 강철 탄약,9mm 강철 탄약,AP 탄환 촉 레시피 해제"
+perkAmmoCraftingRank4Desc,"[DECEA3]요구사항:[-] 총기 제작 4\n하이파워 9mm 탄약,하이파워 7.62mm 탄약,하이파워 .44 매그넘 탄약,HP 9mm 탄약 상자 (100),HP .44 매그넘 탄약 상자 (100),HP 7.62mm 탄약 상자 (100),HP 탄환 촉 레시피 해제"
 perkChemStationName,화학 작업기
 perkChemStationRankTitle,화학 작업기
 perkChemStationDesc,화학 작업기를 만들 수 있습니다
@@ -613,17 +612,17 @@ perkChemStationRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 2, 무기 제�
 attclasscivilian,직업: 청소부
 attClassCivilianName,직업: 청소부
 attClassCivilianDesc,이 속성은 직업퀘스트 진행과 고유한 특성을 보여줍니다
-attClassCivilianRank1Desc,"첫 번째 직업퀘스트 완료 시 획득\n권총,너클의 제작등급 +10"
+attClassCivilianRank1Desc,"첫 번째 직업퀘스트 완료 시 획득\n권총,매그넘,너클의 제작등급 +10"
 attclassfarmer,직업: 농부
 attClassFarmerName,직업: 농부
 attClassFarmerDesc,직업퀘스트 진행과 고유한 특성을 볼 수 있습니다
 attClassFarmerRank1Desc,첫 번째 직업퀘스트 완료 시 획득
-attClassFarmerRank2Desc,"마지막 직업퀘스트 완료 시 획득\n샷건, 괭이 제작등급 +10"
+attClassFarmerRank2Desc,"마지막 직업퀘스트 완료 시 획득\n철제 정원 괭이 레시피 해제\n샷건, 괭이 제작등급 +10"
 attclasshunter,직업: 사냥꾼
 attClassHunterName,직업: 사냥꾼
 attClassHunterDesc,이 속성은 직업퀘스트 진행과 고유한 특성을 보여줍니다
 attClassHunterRank1Desc,첫 번째 직업퀘스트 완료 시 획득
-attClassHunterRank2Desc,"마지막 직업퀘스트 완료 시 획득\n라이플과 활, 석궁의 제작등급 +10.\n앉아있을 때 동물 추적자 능력 획득"
+attClassHunterRank2Desc,"마지막 직업퀘스트 완료 시 획득\n활과 석궁,라이플,코일 저격 라이플의 제작등급 +10.\n앉아있을 때 동물 추적자 능력 획득"
 attclasslaborer,직업: 노동자
 attClassLaborerName,직업: 노동자
 attClassLaborerDesc,이 속성은 직업퀘스트 진행과 고유한 특성을 보여줍니다
@@ -633,7 +632,7 @@ attclassmechanic,직업: 기계공
 attClassMechanicName,직업: 기계공
 attClassMechanicDesc,이 속성은 직업퀘스트 진행과 고유한 특성을 보여줍니다
 attClassMechanicRank1Desc,첫 번째 직업퀘스트 완료 시 획득
-attClassMechanicRank2Desc,"마지막 직업퀘스트 완료 시 획득\n곤봉, 해머, SMG-5, 로보틱 터렛, 분해도구 제작등급 +10"
+attClassMechanicRank2Desc,"마지막 직업퀘스트 완료 시 획득\n곤봉, 슬레지해머, SMG-5, 로보틱 터렛, 분해도구 제작등급 +10"
 attclassscientist,직업: 과학자
 attClassScientistName,직업: 과학자
 attClassScientistDesc,이 속성은 직업퀘스트 진행과 고유한 특성을 보여줍니다
@@ -643,12 +642,12 @@ attclasssecurity,직업: 보안요원
 attClassSecurityName,직업: 보안요원
 attClassSecurityDesc,이 속성은 직업퀘스트 진행과 고유한 특성을 보여줍니다
 attClassSecurityRank1Desc,첫 번째 직업퀘스트 완료 시 획득
-attClassSecurityRank2Desc,"마지막 직업퀘스트 완료 시 획득\n자동화기,군용 갑옷,티타늄 갑옷의 제작등급 +10"
+attClassSecurityRank2Desc,"마지막 직업퀘스트 완료 시 획득\n자동화기,코일 자동소총,군용 방어구,티타늄 방어구의 제작등급 +10"
 attclasssurvivalist,직업: 생존주의자
 attClassSurvivalistName,직업: 생존주의자
 attClassSurvivalistDesc,이 속성은 직업퀘스트 진행과 고유한 특성을 보여줍니다
 attClassSurvivalistRank1Desc,첫 번째 직업퀘스트 완료 시 획득
-attClassSurvivalistRank2Desc,"마지막 직업퀘스트 완료 시 획득\n천, 가죽, 철제, 철, 강철 갑옷과 M4A1 돌격소총의 제작등급 +10\n손목 시계 개조 레시피 해제"
+attClassSurvivalistRank2Desc,"마지막 직업퀘스트 완료 시 획득\n패딩, 가죽, 고철, 철제, 강철 갑옷과 M4A1 돌격소총의 제작등급 +10\n손목 시계 개조 레시피 해제"
 perkWasteTreasuresDesc,폭탄이 떨어지고 죽음이 만연해진 이후로 쓰레기 더미에서 쓸만한 것을 찾아내는 방법에 대한 시리즈입니다
 perkWasteTreasuresName,황무지 보물
 perkWasteTreasuresNameRank1Desc,죽은 자의 보물
@@ -692,29 +691,29 @@ perkMasterScientistName,과학 전문가
 perkMasterScientistDesc,진정한 전문가를 위한 고급 과학 이론입니다
 perkMasterSecurityName,보안 전문가
 perkMasterSecurityDesc,진정한 전문가를 위한 고급 보안 기술입니다
-perkMasterSecurityRank1Desc,"AK-47 돌격소총, AR-15 돌격소총, M60 기관총,\n티타늄 강화 곤봉,코일 돌격소총, 군용 방어구, 티타늄 방어구의 제작등급 +10\nM60 기관총, 티타늄 강화 곤봉, 티타늄 방어구, 군용 방어구, 고급 전술 조끼 개조, 고급 탄피 회수기 개조 레시피 해제"
+perkMasterSecurityRank1Desc,"자동소총, 코일 돌격소총, 티타늄 강화 곤봉, 군용 방어구, 티타늄 방어구의 제작등급 +10\nM60 기관총, 자동소총 부품, 자동소총 총열, 자동소총 개머리판, 자동소총 몸통, 티타늄 강화 곤봉, 티타늄 방어구, 군용 방어구, 고급 전술 조끼 개조, 고급 탄피 회수기 개조 레시피 해제"
 perkMasterSurvivalistName,생존 전문가
 perkMasterSurvivalistDesc,진정한 전문가를 위한 고급 생존 기술입니다
-perkMasterSurvivalistRank1Desc,"M4A1 돌격소총,패딩 방어구,가죽 방어구,고철 방어구,\n철제 방어구,강철 방어구의 제작등급 +10\n티타늄 마체테,말린 고기,신호 조명탄,서바이벌 횃불,대형 배낭,메가 크러시,M4A1 자동소총,바이오 연료,석유통,화약의 레시피 해제"
-perkMasterScavengerRank1Desc,"44구경 데저트 벌쳐,티타늄 너클의 레시피 해제\n듀크,탄환,놋쇠,납,쓰레기,음식,의약품,보석 발견량 +10%\n전리품 가방 획득률 +10%\n권총, 너클의 제작등급 +10"
-perkMasterFarmerRank1Desc,"식물 육성 램프와 유전자 변형 작물로 지하에서 농사를 지을 수 있고, 능력치와 특성을 증진시키는 할아버지의 비밀 레시피를 배웁니다\n식물 육성 램프와 유전자 변형 작물 그리고 블랙스트랩 커피 외 수많은 요리 레시피 해제\n자동 샷건 레시피 해제. 샷건과 고철 괭이의 제작등급 +10"
-perkMasterHunterRank1Desc,"티타늄 마체테,티타늄 전투도끼,티타늄 석궁,티타늄 석궁 볼트 (탄약),티타늄 화살촉,고급 탄창 증가 개조,길리 수트 방어구,저격 라이플,저격 라이플 몸통 레시피 해제\n라이플, 활, 석궁의 제작등급 +10\n앉아있으면 얻는 동물 추적자 능력의 범위가 넓어지고 지속 시간이 길어집니다"
+perkMasterSurvivalistRank1Desc,"M4A1 돌격소총,패딩 방어구,가죽 방어구,고철 방어구,\n철제 방어구,강철 방어구의 제작등급 +10\n티타늄 마체테,말린 고기,신호 조명탄,서바이벌 횃불,대형 배낭,메가 크러시,M4A1 자동소총,자동소총 부품,자동소총 총열,자동소총 개머리판,자동소총 몸통,바이오 연료,석유통,화약 더미 (1000)의 레시피 해제"
+perkMasterScavengerRank1Desc,"44구경 데저트 벌쳐,데저트 이글 몸통,티타늄 너클의 레시피 해제\n듀크,탄환,놋쇠,납,쓰레기,음식,의약품,보석 발견량 +10%\n전리품 가방 획득률 +10%. 퀘스트 보상 듀크 +50%\n퀘스트 보상 경험치 +25%\n권총, 코일 권총, 매그넘, 너클의 제작등급 +10"
+perkMasterFarmerRank1Desc,"식물 육성 램프와 유전자 변형 작물로 지하에서 농사를 지을 수 있고, 능력치와 특성을 증진시키는 할아버지의 비밀 레시피를 배웁니다\n블랙스트랩 커피,할아버지의 끝내주는 소스,할아버지의 밀주,할아버지의 학습 영약,검보 스튜,셰퍼드 파이,스파게티,참치 그레이비 토스트,로스트 디너,야채 볼로네즈,고기 볼로네즈 레시피 해제\n식물 육성 램프,알로에베라 (씨앗),블루베리 (씨앗),국화 (씨앗),슈퍼 옥수수 (씨앗),옥수수 (씨앗),목화 (씨앗),미역취 (씨앗),감자 (씨앗),유카 (씨앗),스노우베리 (씨앗),홉 (씨앗),커피 (씨앗),호박 (씨앗),밀 (씨앗),당근 (씨앗),토마토 (씨앗) 레시피 해제\n자동 샷건,자동 샷건 몸통, 레시피 해제. 샷건, 코일 샷건, 괭이의 제작등급 +10"
+perkMasterHunterRank1Desc,"티타늄 마체테,티타늄 전투도끼,티타늄 석궁,티타늄 석궁 볼트 (탄약),티타늄 화살촉,고급 탄창 증가 개조,길리 수트 방어구,저격 라이플 레시피 해제\n라이플, 코일 저격 라이플, 활, 석궁의 제작등급 +10\n앉아있으면 얻는 동물 추적자 능력의 범위가 넓어지고 지속 시간이 길어집니다"
 perkMasterMechanicRank1Desc,"오일 펌프,엔진,차량용 납 배터리,V8 엔진,자이로콥터 부속품,자이로콥터 섀시,임팩트 드라이버,티타늄 강화 곤봉,티타늄 슬레지해머,SMG-5,박스 트럭 몸체,박스 트럭 섀시,버기 섀시,버기 부속품,험비 섀시,스탤리온 섀시,스탤리온 부속품,머라우더 섀시, 머라우더 부속품 레시피 해제\n곤봉,해머,로보틱 터렛,분해도구,SMG-5의 제작등급 +10"
 perkMasterScientistRank1Desc,"항생제,구급 키트,마약성 진통제,방사능 치료제,군사용 태블릿,로보틱 드론,플라즈마 배턴,방사능 보호 개조,빠루,티타늄 사냥용 칼,티타늄 창,로보틱 드론 갑옷 플레이트 개조,로보틱 드론 화물 개조,로보틱 드론 의료 개조,로보틱 헤드램프 개조,로보틱 드론 사기 증진 개조,로보틱 드론 무기 개조 레시피 해제\n스턴 배턴의 기절 확률 증가. 칼,창,전투도끼,로켓탄 발사기,배턴,화염 방사기,빠루의 제작등급 +10"
 perkCraftFutureTechName,미래공학 제작
 perkCraftFutureTechDesc,미래가 되었습니다! 레이저 무기와 새로운 작업대. 그리고 특별한 특성을 배웁니다
 perkLaserWeaponsRank1Desc,"미래공학 제작등급 +10. 미래공학 제작시간-5%\n레이저 작업대,퓨전 화덕,레이저 만능도구,레이저 배터리 개조,에너지 전지,농축 우라늄,융제 방어구 개조 레시피 해제"
 perkLaserWeaponsRank2Desc,"미래공학 제작등급 +20. 미래공학 제작시간-10%\n광선검,파워 해머,플라즈마 도끼 레시피 해제"
-perkLaserWeaponsRank3Desc,"미래공학 제작등급 +30. 미래공학 제작시간-15%\n나노봇,레이저 권총과 부품,레이저 라이플과 부품,펄스 수류탄,로켓 펄스 (탄약),아크 건 레시피 해제\n생명공학 / 나노공학 중 하나의 공학만 습득할 수 있는 공학 주사 제작 가능.\n생명공학: 신체단련 주사,누구보다 빠르게 주사\n나노 공학: 초인 주사,치유가속 주사"
-perkLaserWeaponsRank4Desc,"미래공학 제작등급 +40. 미래공학 제작시간-20%\n레이저 샷건,레이저 자동소총과 부품들 레시피 해제"
+perkLaserWeaponsRank3Desc,"미래공학 제작등급 +30. 미래공학 제작시간-15%\n나노봇,레이저 권총,레이저 권총 총열,레이저 권총 몸통,레이저 권총 손잡이,레이저 무기 부품,레이저 라이플,레이저 라이플 총열,레이저 라이플 몸통,레이저 라이플 개머리판,펄스 수류탄,아크 건 레시피 해제\n생명공학 / 나노공학 중 하나의 공학만 습득할 수 있는 공학 주사 제작 가능.\n생명공학: 신체단련 주사,누구보다 빠르게 주사\n나노 공학: 초인 주사,치유가속 주사"
+perkLaserWeaponsRank4Desc,"미래공학 제작등급 +40. 미래공학 제작시간-20%\n레이저 샷건,레이저 샷건 몸통,레이저 샷건 개머리판,레이저 샷건 총열,레이저 자동소총,레이저 자동소총 몸통,레이저 자동소총 개머리판,레이저 자동소총 총열 레시피 해제"
 perkLaserWeaponsRank5Desc,"미래공학 제작등급 +50. 미래공학 제작시간-25%\n미래공학 방어구 레시피 해제"
 perkPhysicalConditioningName,신체 단련
 perkPhysicalConditioningDesc,나노봇의 힘을 이용해 더 강한 신체를 얻습니다
-perkPhysicalConditioningRank1Desc,"건강 +10. 스태미너 회복량 +5%\n이질, 폐렴, 식중독, 가벼운 감염, 감염 저항 +20%\n심각한 감염 저항 +10%"
-perkPhysicalConditioningRank2Desc,"건강 +20. 스태미너 회복량 +10%\n이질, 폐렴, 식중독, 가벼운 감염, 감염 저항 +40%\n심각한 감염 저항 +20%"
-perkPhysicalConditioningRank3Desc,"건강 +30. 스태미너 회복량 +15%\n이질, 폐렴, 식중독, 가벼운 감염, 감염 저항 +60%\n심각한 감염 저항 +30%"
-perkPhysicalConditioningRank4Desc,"건강 +40. 스태미너 회복량 +20%\n이질, 폐렴, 식중독, 가벼운 감염, 감염 저항 +80%\n심각한 감염 저항 +40%"
-perkPhysicalConditioningRank5Desc,"건강 +50. 스태미너 회복량 +25%\n이질, 폐렴, 식중독, 가벼운 감염, 감염 저항 +100%\n심각한 감염 저항 +50%"
+perkPhysicalConditioningRank1Desc,"건강 +10. 스태미너 회복량 +5%.  방어 등급 +2 \n추위,더위 저항 +2.  심각한 감염 저항 +10%\n이질, 폐렴, 식중독, 가벼운 감염, 감염 저항 +20%"
+perkPhysicalConditioningRank2Desc,"건강 +20. 스태미너 회복량 +10%. 방어 등급 +4 \n추위,더위 저항 +4.  심각한 감염 저항 +20%\n이질, 폐렴, 식중독, 가벼운 감염, 감염 저항 +40%"
+perkPhysicalConditioningRank3Desc,"건강 +30. 스태미너 회복량 +15%. 방어 등급 +6 \n추위,더위 저항 +6.  심각한 감염 저항 +30%\n이질, 폐렴, 식중독, 가벼운 감염, 감염 저항 +60%"
+perkPhysicalConditioningRank4Desc,"건강 +40. 스태미너 회복량 +20%. 방어 등급 +8 \n추위,더위 저항 +8.  심각한 감염 저항 +40%\n이질, 폐렴, 식중독, 가벼운 감염, 감염 저항 +80%"
+perkPhysicalConditioningRank5Desc,"건강 +50. 스태미너 회복량 +25%. 방어 등급 +10\n추위,더위 저항 +10. 심각한 감염 저항 +50%\n이질, 폐렴, 식중독, 가벼운 감염, 감염 저항 +100%"
 perkAcceleratedHealingName,치유 가속
 perkAcceleratedHealingDesc,채내에 깃든 악마의 힘이 상처를 알아채고 빠르게 치유합니다
 perkAcceleratedHealingRank1Desc,"체력이 50%가 될때까지 치유 가속 효과 획득\n치유 가속: 60초 동안 1초마다 체력 2 회복\n10% 확률로 팔다리 접질림, 부러짐, 출혈상, 깊은 열상 등 각종 상태이상 해제\n체력이 50%가 되면 회복 효과가 사라집니다"
@@ -724,11 +723,11 @@ perkAcceleratedHealingRank4Desc,"체력이 50%가 될때까지 치유 가속 효
 perkAcceleratedHealingRank5Desc,"체력이 50%가 될때까지 치유 가속 효과 획득\n치유 가속: 60초 동안 1초마다 체력 10 회복\n50% 확률로 팔다리 접질림, 부러짐, 출혈상, 깊은 열상 등 각종 상태이상 해제\n체력이 50%가 되면 회복 효과가 사라집니다"
 perkGottaGoFastName,누구보다 빠르게
 perkGottaGoFastDesc,남들과는 다르게 빨리 움직일 수 있는지 아무도 모릅니다
-perkGottaGoFastRank1Desc,걷기 속도 +3%. 달리기 속도 +3%\n달리기 중 스태미너 회복량 +5%
-perkGottaGoFastRank2Desc,걷기 속도 +6%. 달리기 속도 +6%\n달리기 중 스태미너 회복량 +10%
-perkGottaGoFastRank3Desc,걷기 속도 +9%. 달리기 속도 +9%\n달리기 중 스태미너 회복량 +15%
-perkGottaGoFastRank4Desc,걷기 속도 +12%. 달리기 속도 +12%\n달리기 중 스태미너 회복량 +20%
-perkGottaGoFastRank5Desc,걷기 속도 +15%. 달리기 속도 +15%\n달리기 중 스태미너 회복량 +25%
+perkGottaGoFastRank1Desc,걷기 속도 +3%. 달리기 속도 +3%\n달리기 중 스태미너 회복량 +5%\n타격무기,날붙이 무기,빠루,전기톱,광선검의 공격속도 +5%
+perkGottaGoFastRank2Desc,걷기 속도 +6%. 달리기 속도 +6%\n달리기 중 스태미너 회복량 +10%\n타격무기,날붙이 무기,빠루,전기톱,광선검의 공격속도 +10%
+perkGottaGoFastRank3Desc,걷기 속도 +9%. 달리기 속도 +9%\n달리기 중 스태미너 회복량 +15%\n타격무기,날붙이 무기,빠루,전기톱,광선검의 공격속도 +15%
+perkGottaGoFastRank4Desc,걷기 속도 +12%. 달리기 속도 +12%\n달리기 중 스태미너 회복량 +20%\n타격무기,날붙이 무기,빠루,전기톱,광선검의 공격속도 +20%
+perkGottaGoFastRank5Desc,걷기 속도 +15%. 달리기 속도 +15%\n달리기 중 스태미너 회복량 +25%\n타격무기,날붙이 무기,빠루,전기톱,광선검의 공격속도 +25%
 attRecipesName,제작 특성att
 attRecipesDesc,Here you will find perks to unlock recipes for crafting.
 perkAgility,Agility
@@ -791,9 +790,9 @@ perkAdvancedEngineeringRank4Desc,발명가
 perkAdvancedEngineeringRank5Desc,고급 기술자
 perkAdvancedEngineeringRank1LongDesc,화덕에서 아이템을 5% 더 빠르게 제작합니다\n광부 안전모 레시피 해제
 perkAdvancedEngineeringRank2LongDesc,"작업대에서 아이템을 5% 더 빠르게 제작합니다\n작업대,다트 트랩 레시피 해제"
-perkAdvancedEngineeringRank3LongDesc,"전기 트랩 스킬로 XP를 20% 얻습니다\n 금속 작업대,재봉 작업대,제네레이터 뱅크,전기 와이어 계전기,스위치,기본 전구,산업용 조명,산업용 전구,스포트라이트,스피커,트리거 발판 1x1,트리거 발판 1x5,전기 타이머 계전기,모션 센서,와이어 함정 구역,전기 울타리 구역,칼날 트랩 레시피 해제"
+perkAdvancedEngineeringRank3LongDesc,"전기 트랩 스킬로 XP를 20% 얻습니다\n[DECEA3]금속 작업대[-],[DECEA3]재봉 작업대[-],제네레이터 뱅크,전기 와이어 계전기,스위치,플레이어 조명,스포트라이트,스피커,트리거 발판 1x1,트리거 발판 1x5,전기 타이머 계전기,모션 센서,와이어 함정 구역,전기 울타리 구역,칼날 트랩 레시피 해제"
 perkAdvancedEngineeringRank4LongDesc,"전기 트랩 스킬로 XP를 35% 얻습니다\n산탄총 자동 터렛,네일 건,강철 차고 문 3x2 (전원 연결됨),금속 차고 문 5x3 (전원 연결됨),강화형 도개교 (전원 연결됨),금고 해치 v3 (전원 연결됨),금고 문 03 (전원 연결됨) 레시피 해제"
-perkAdvancedEngineeringRank5LongDesc,"전기 트랩 스킬로 XP를 50% 얻습니다\n SMG 자동 터렛,나사송곳,전기톱 레시피 해제"
+perkAdvancedEngineeringRank5LongDesc,"전기 트랩 스킬로 XP를 50% 얻습니다\nSMG 자동 터렛,나사송곳,전기톱 레시피 해제"
 perkAutomaticWeaponsDesc,Become a commando using automatic weapons to slay your foes.
 perkAutomaticWeaponsName,Automatic Weapons
 perkAutomaticWeaponsRank1Desc,Increases fire rate for automatic weapons 5%. Reload 10% faster.
@@ -820,7 +819,7 @@ perkExplosiveWeaponsRank2Desc,Increase reload speed by 20% .20% Faster aiming. 1
 perkExplosiveWeaponsRank3Desc,Increase reload speed by 25%. 30% Faster aiming. 75% chance to cripple enemies.
 perkExplosiveWeaponsRank4Desc,Increase reload speed by 30%. 40% Faster aiming. 50% chance to dismember.
 perkExplosiveWeaponsRank5Desc,Increase reload speed by 35%. 50% Faster aiming. 100% chance to dismember.
-perkFlurryOfBlowsDesc,한 손 근거리 무기에 특화되어 빠른 강타를 맹렬히 퍼부어 적을 사정없이 두들깁니다\n돌 도끼,장도리,분해도구,칼,곤봉,배턴,너클에 적용됩니다
+perkFlurryOfBlowsDesc,한 손 근거리 무기에 특화되어 빠른 강타를 맹렬히 퍼부어 적을 사정없이 두들깁니다\n돌 도끼,장도리,분해도구,칼,곤봉,배턴,너클,빠루,광선검,레이저 만능도구에 적용됩니다
 perkFlurryOfBlowsName,질풍 강타
 perkFlurryOfBlowsRank1Desc,빠른 손
 perkFlurryOfBlowsRank2Desc,신속한 공격
@@ -832,7 +831,7 @@ perkFlurryOfBlowsRank2LongDesc,공격속도 +10%
 perkFlurryOfBlowsRank3LongDesc,공격속도 +15%
 perkFlurryOfBlowsRank4LongDesc,공격속도 +20%
 perkFlurryOfBlowsRank5LongDesc,공격속도 +25%
-perkGreaseMonkeyDesc,황무지의 쓰레기로 차량과 도구를 만드는 방법을 배워봅시다!\n자전거와 미니바이크는 본 특성 없이 부품으로 조립할 수 있습니다
+perkGreaseMonkeyDesc,황무지의 쓰레기로 차량과 도구를 만드는 방법을 배워봅시다!
 perkGreaseMonkeyName,기계공
 perkGreaseMonkeyRank1Desc,신입 기계공
 perkGreaseMonkeyRank2Desc,DIY 기계공
@@ -849,18 +848,18 @@ perkTurretsRank2Desc,기본 로봇 공학
 perkTurretsRank3Desc,자동화된 무기
 perkTurretsRank4Desc,고급 로봇 공학
 perkTurretsRank5Desc,로봇 공학 전문가
-perkTurretsRank1LongDesc,놀랍도록 혁신적인 아이디어가 있지만 구현시키려면 약간의 작업이 필요하겠습니다\n로봇의 제작등급 +10. 데미지 +10%. 공격속도 +30%\n로보틱 터렛의 탄창 용량 +10\n로봇 작동 범위가 5에서 10미터로 증가합니다\n여러 개의 로봇을 배치할 수 있지만 가장 가까운 하나만 작동합니다\n로보틱 슬레지 레시피 해제
+perkTurretsRank1LongDesc,놀랍도록 혁신적인 아이디어가 있지만 구현시키려면 약간의 작업이 필요하겠습니다\n로봇의 제작등급 +10. 데미지 +10%. 공격속도 +30%\n로보틱 터렛의 탄창 용량 +10\n로봇 작동 범위가 5에서 10미터로 증가합니다\n여러 개의 로봇을 배치할 수 있지만 [DECEA3]가장 가까운 하나만 작동[-]합니다\n[DECEA3]로보틱 슬레지[-] 레시피 해제
 perkTurretsRank2LongDesc,이제 프로젝트의 다음 단계로 넘어갈 차례입니다\n로봇의 제작등급 +20. 데미지 +20%. 공격속도 +70%\n로보틱 터렛의 탄창 용량 +20\n로봇 작동 범위가 12미터로 증가합니다
-perkTurretsRank3LongDesc,"자동화 무기의 기본을 마스터했습니다\n로봇의 제작등급 +30. 데미지 +30%. 공격속도 +110%\n로보틱 터렛의 탄창 용량 +30\n로봇 작동 범위가 14미터로 증가합니다\n로보틱 터렛,로보틱 터렛 철갑탄,로보틱 터렛 포탄(탄약) 레시피 해제"
-perkTurretsRank4LongDesc,미래의 기술을 사용하는 것 같습니다. 2077년에서 오신 게 틀림없군요\n로봇의 제작등급 +40. 데미지 +40%. 공격속도 +150%\n로보틱 터렛의 탄창 용량 +40. 재장전속도 +10%\n로봇 작동 범위가 16미터로 증가합니다\n한 번에 두 대의 로봇을 배치하여 사용할 수 있습니다
-perkTurretsRank5LongDesc,이제 로봇 공학의 최고 전문가가 되었습니다\n로봇의 제작등급 +50. 데미지 +50%. 공격속도 +150%\n로보틱 터렛의 탄창 용량 +50. 재장전속도 +20%\n로봇 작동 범위가 18미터로 증가합니다\n한 번에 세 대의 로봇을 배치하여 사용할 수 있습니다
+perkTurretsRank3LongDesc,"자동화 무기의 기본을 마스터했습니다\n로봇의 제작등급 +30. 데미지 +30%. 공격속도 +110%\n로보틱 터렛의 탄창 용량 +30\n로봇 작동 범위가 14미터로 증가합니다\n[DECEA3]로보틱 터렛[-],로보틱 터렛 철갑탄,로보틱 터렛 포탄(탄약) 레시피 해제"
+perkTurretsRank4LongDesc,미래의 기술을 사용하는 것 같습니다. 2077년에서 오신 게 틀림없군요\n로봇의 제작등급 +40. 데미지 +40%. 공격속도 +150%\n로보틱 터렛의 탄창 용량 +40. 재장전속도 +10%\n로봇 작동 범위가 16미터로 증가합니다\n한 번에 [DECEA3]두 대의 로봇을 배치하여 사용[-]할 수 있습니다
+perkTurretsRank5LongDesc,이제 로봇 공학의 최고 전문가가 되었습니다\n로봇의 제작등급 +50. 데미지 +50%. 공격속도 +150%\n로보틱 터렛의 탄창 용량 +50. 재장전속도 +20%\n로봇 작동 범위가 18미터로 증가합니다\n한 번에 [DECEA3]세 대의 로봇을 배치하여 사용[-]할 수 있습니다
 perkHammerForgeDesc,화덕과 작업대로 더 좋은 장비를 만듭니다
 perkHammerForgeName,망치 & 화덕
 perkHammerForgeRank1LongDesc,"고철 도구를 만들 수 있습니다\n고철 소방 도끼,고철 곡괭이,고철삽,랜턴 레시피 해제"
-perkHammerForgeRank2LongDesc,"화덕을 만들고, 단조철로 건축을 시작합니다\n화덕,철제 소방 도끼,철제 곡괭이,철삽,장도리,사냥용 칼 레시피 해제"
-perkHammerForgeRank3LongDesc,"대형 화덕을 만들 수 있습니다\n대형 화덕,철제 부츠,철제 가슴 갑옷,철제 장갑,철제 투구,철제 다리 갑옷 레시피 해제"
-perkHammerForgeRank4LongDesc,"시멘트 믹서에서 아이템을 20% 더 빠르게 제작합니다\n도가니,단조강,시멘트 믹서,시멘트,콘크리트 혼합물,강철 화살촉 레시피 해제"
-perkHammerForgeRank5LongDesc,"시멘트 믹서에서 아이템을 20% 더 빠르게 제작합니다\n고급 화덕,고급 풀무,강철 곡괭이,강철삽,강철 도끼 레시피 해제"
+perkHammerForgeRank2LongDesc,"화덕을 만들고, 단조철로 건축을 시작합니다\n[DECEA3]화덕[-],철제 소방 도끼,철제 곡괭이,철삽,장도리,사냥용 칼 레시피 해제"
+perkHammerForgeRank3LongDesc,"대형 화덕을 만들 수 있습니다\n[DECEA3]대형 화덕[-],철제 부츠,철제 가슴 갑옷,철제 장갑,철제 투구,철제 다리 갑옷 레시피 해제"
+perkHammerForgeRank4LongDesc,"시멘트 믹서에서 아이템을 20% 더 빠르게 제작합니다\n[DECEA3]도가니[-],[DECEA3]단조강[-],[DECEA3]시멘트 믹서[-],시멘트,콘크리트 혼합물,강철 화살촉 레시피 해제"
+perkHammerForgeRank5LongDesc,"시멘트 믹서에서 아이템을 20% 더 빠르게 제작합니다\n[DECEA3]고급 화덕[-],[DECEA3]고급 풀무[-],강철 곡괭이,강철삽,강철 도끼 레시피 해제"
 perkHammerForgeRank1Desc,견습생
 perkHammerForgeRank2Desc,숙련공
 perkHammerForgeRank3Desc,대장장이
@@ -883,7 +882,7 @@ perkLivingOffTheLandRank5Desc,식물학자
 perkSousChefDesc,효과도 좋고 든든한 음식을 만듭니다
 perkSousChefName,수셰프
 perkSousChefRank1LongDesc,"요리의 기초입니다\n홍차,미역취 차,사과 주스,오렌지 주스, 쌀우유, 타피오카 레시피 해제"
-perkSousChefRank2LongDesc,"왕에게 걸맞는 한끼입니다\n고기 스튜,야채 스튜,스테이크와 감자 식사,블루베리 파이,커피,야채 수프,사과 파이,오렌지 잼,블루베리 잼,식용유 레시피 해제"
+perkSousChefRank2LongDesc,"왕에게 걸맞는 한끼입니다\n고기 스튜,야채 스튜,스테이크와 감자 식사,블루베리 파이,커피,야채 수프,사과 파이,오렌지 잼,블루베리 잼,식용유,쌀 푸딩,치즈 레시피 해제"
 perkSousChefRank3LongDesc,"특별한 음료입니다!\n유카즙 스무디,토마토 주스,오렌지 차,블루베리 팬케이크,바나나 팬케이크,잼 토스트,치즈 피자 레시피 해제"
 perkSousChefRank4LongDesc,"몸이 후끈해지는 음식입니다\n샴 차우더,재활용 스튜,생선 타코,칠리 핫도그,고기 피자,고기 부리또,과일 스무디 레시피 해제"
 perkSousChefRank5LongDesc,"맥다이버의 생존비법\n맥주,호박 치즈케이크,호박빵,호박 파이,필라델피아 치즈 스테이크,커피 케이크 레시피 해제"
@@ -911,7 +910,7 @@ perkPainToleranceRank2Desc,다부진
 perkPainToleranceRank3Desc,튼튼한
 perkPainToleranceRank4Desc,마조히스트
 perkPainToleranceRank5Desc,철제 턱
-perkPainToleranceRank1LongDesc,받는 데미지 -5%. 기절 저항 +20%
+perkPainToleranceRank1LongDesc,받는 데미지 -5%.  기절 저항 +20%
 perkPainToleranceRank2LongDesc,받는 데미지 -10%. 기절 저항 +40%
 perkPainToleranceRank3LongDesc,받는 데미지 -15%. 기절 저항 +60%
 perkPainToleranceRank4LongDesc,받는 데미지 -20%. 기절 저항 +80%
@@ -924,7 +923,7 @@ perkPhysicianRank3Desc,의사
 perkPhysicianRank4Desc,외과의사
 perkPhysicianRank5Desc,기적을 일으키는 자
 perkPhysicianRank1LongDesc,"응급 치료용 붕대,깁스,알로에 크림 레시피 해제"
-perkPhysicianRank2LongDesc,"응급 치료 키트,해독제,절구통 레시피 해제"
+perkPhysicianRank2LongDesc,"응급 치료 키트,해독제,[DECEA3]절구통[-] 레시피 해제"
 perkPhysicianRank3LongDesc,스테로이드 레시피 해제\n자신에게 사용하는 치료 아이템 효과 +25%
 perkPhysicianRank4LongDesc,리코그 레시피 해제\n자신에게 사용하는 치료 아이템 효과 +50%
 perkPhysicianRank5LongDesc,포트 바이트 레시피 해제\n자신에게 사용하는 치료 아이템 효과 +100%\n타인에게 사용하는 치료 아이템 효과가 자신에게도 적용
@@ -949,7 +948,7 @@ perkSelfMedicatedRank4Desc,견습 약사
 perkSelfMedicatedRank5Desc,약사
 perkSelfMedicatedRank1LongDesc,약물 물 소비량 -50%. 금단현상 발생 확률 -20%. 약물 효과 +10%
 perkSelfMedicatedRank2LongDesc,약물 물 소비량 -60%. 금단현상 발생 확률 -40%. 약물 효과 +20%
-perkSelfMedicatedRank3LongDesc,약물 물 소비량 -70%. 금단현상 발생 확률 -60%. Dr약물 효과 +30%
+perkSelfMedicatedRank3LongDesc,약물 물 소비량 -70%. 금단현상 발생 확률 -60%. 약물 효과 +30%
 perkSelfMedicatedRank4LongDesc,약물 물 소비량 -80%. 금단현상 발생 확률 -80%. 약물 효과 +40%
 perkSelfMedicatedRank5LongDesc,약물 물 소비량 -90%. 금단현상이 발생하지 않습니다. 약물 효과 +50%
 perkShotgunMessiahDesc,Specialize with shotguns and send your enemies to meet their maker.
@@ -978,18 +977,18 @@ perkSlowMetabolismRank2Desc,강한 체질
 perkSlowMetabolismRank3Desc,좋은 신진 대사
 perkSlowMetabolismRank4Desc,고유한 면역력
 perkSlowMetabolismRank5Desc,철제 위장
-perkSlowMetabolismRank1LongDesc,스태미너 소모량 -10%\n음식과 물 소모량 -10%\n음식과 물 섭취량 +10%
-perkSlowMetabolismRank2LongDesc,스태미너 소모량 -20%\n음식과 물 소모량 -20%\n음식과 물 섭취량 +20%
-perkSlowMetabolismRank3LongDesc,스태미너 소모량 -30%\n음식과 물 소모량 -30%\n음식과 물 섭취량 +30%
-perkSlowMetabolismRank4LongDesc,스태미너 소모량 -40%\n음식과 물 소모량 -40%\n음식과 물 섭취량 +40%
-perkSlowMetabolismRank5LongDesc,스태미너 소모량 -50%\n음식과 물 소모량 -50%\n음식과 물 섭취량 +50%
+perkSlowMetabolismRank1LongDesc,스태미너 소모량 -10%\n음식과 물 소모량 -10%
+perkSlowMetabolismRank2LongDesc,스태미너 소모량 -20%\n음식과 물 소모량 -20%
+perkSlowMetabolismRank3LongDesc,스태미너 소모량 -30%\n음식과 물 소모량 -30%
+perkSlowMetabolismRank4LongDesc,스태미너 소모량 -40%\n음식과 물 소모량 -40%
+perkSlowMetabolismRank5LongDesc,스태미너 소모량 -50%\n음식과 물 소모량 -50%
 perkTheHuntsmanDesc,사냥감에서 더 많은 고기와 가죽을 수확하는 일에 특화되었습니다
 perkTheHuntsmanName,타고난 사냥꾼
 perkTheHuntsmanRank1Desc,밀렵꾼
 perkTheHuntsmanRank2Desc,사냥꾼
 perkTheHuntsmanRank3Desc,도살자
 perkTheHuntsmanRank4Desc,타고난 사냥꾼
-perkTheHuntsmanRank1LongDesc,"날붙이 도구나 무기를 이용해 동물에서 25% 더 많은 자원을 채집합니다\n가죽 방어구,고철 마체테 레시피 해제"
+perkTheHuntsmanRank1LongDesc,"날붙이 도구나 무기를 이용해 동물에서 25% 더 많은 자원을 채집합니다\n가죽 부츠,가죽 장갑,가죽 후드,가죽 가슴 갑옷,가죽 다리 갑옷,고철 마체테 레시피 해제"
 perkTheHuntsmanRank2LongDesc,"날붙이 도구나 무기를 이용해 동물에서 50% 더 많은 자원을 채집합니다\n사냥용 라이플,7.62mm 탄약,사냥용 라이플 몸통 레시피 해제"
 perkTheHuntsmanRank3LongDesc,날붙이 도구나 무기를 이용해 동물에서 75% 더 많은 자원을 채집합니다\n사냥용 칼 레시피 해제
 perkTheHuntsmanRank4LongDesc,"날붙이 도구나 무기를 이용해 동물에서 100% 더 많은 자원을 채집합니다\n레버 액션 라이플,저격 라이플 몸통 레시피 해제"
@@ -1010,11 +1009,11 @@ perkYeahScienceRank2Desc,교수
 perkYeahScienceRank3Desc,화학자
 perkYeahScienceRank4Desc,연구원
 perkYeahScienceRank5Desc,양자 물리학자
-perkYeahScienceRank1LongDesc,"화학 작업기,석유통,에틸 알코올,산성용액 병,잡동사니 배턴,9mm 탄약,44구경 매그넘 탄약,샷건 탄약 (탄약),7.62mm 탄약,휠캡 지뢰,요리 냄비 지뢰,9mm 탄약 상자 (100),44구경 매그넘 탄약 상자 (100),62mm 탄약 상자 (100) 레시피 해제"
-perkYeahScienceRank2LongDesc,"불 석궁 볼트 (탄약),불화살 (탄약),공기 필터형 지뢰,압력판 지뢰,군용 섬유 레시피 해제"
-perkYeahScienceRank3LongDesc,"고급 탄약과 전기 배턴을 제작합니다\n44구경 매그넘과 7.62mm 그리고 9mm의 AP, HP 탄약 레시피 해제\n샷건 AP 슬러그 (탄약),샷건 돌파 슬러그 (탄약) 레시피 해제\nAP 탄약: 관통 효과\nHP 탄약: 데미지 증가, 관통 불가"
-perkYeahScienceRank4LongDesc,"폭발 화살 (탄약),폭발 석궁 볼트 레시피 해제"
-perkYeahScienceRank5LongDesc,배터리 저장고 레시피 해제
+perkYeahScienceRank1LongDesc,"로보틱 드론의 제작등급 +10\n[DECEA3]화학 작업기[-],잡동사니 배턴,석유통,에틸 알코올,산성용액 병,9mm 탄약,.44 매그넘 탄약,샷건 탄약 (탄약),7.62mm 탄약,휠캡 지뢰,요리 냄비 지뢰,9mm 탄약 상자 (100),.44 매그넘 탄약 상자 (100),62mm 탄약 상자 (100) 레시피 해제"
+perkYeahScienceRank2LongDesc,"로보틱 드론의 제작등급 +20\n불 석궁 볼트 (탄약),불화살 (탄약),공기 필터형 지뢰,압력판 지뢰,군용 섬유 레시피 해제"
+perkYeahScienceRank3LongDesc,"로보틱 드론의 제작등급 +30\n고급 탄약과 전기 배턴을 제작합니다\nAP 탄약: 관통 효과. AP 탄환촉, .44 매그넘, 7.62mm, 9mm의 AP 탄약 및 탄약 상자 레시피 해제\nHP 탄약: 데미지 증가, 관통 불가. HP 탄환 촉, .44 매그넘, 7.62mm, 9mm의 HP 탄약 및 탄약 상자 레시피 해제\n.44 매그넘, 7.62mm, 9mm의 일반, AP, HP 강철 탄약 및 탄약 상자 레시피 해제\n샷건 AP 슬러그 (탄약),샷건 돌파 슬러그 (탄약) 및 탄약 상자 레시피 해제"
+perkYeahScienceRank4LongDesc,"로보틱 드론의 제작등급 +40\n폭발 화살 (탄약),폭발 석궁 볼트 레시피 해제"
+perkYeahScienceRank5LongDesc,"로보틱 드론의 제작등급 +50\n배터리 저장고 레시피 해제"
 perkStealthAssassinDesc,눈에 띄지 않고 기척을 숨기는데 특화되었습니다\n웅크린 자세에서 더 빨리 움직이고 기습  데미지가 증가합니다
 perkStealthAssassinName,암살자
 perkStealthAssassinRank1LongDesc,웅크린 자세 이동속도 +10%\n기습 데미지 +50%\n소음 -5%
@@ -1072,31 +1071,31 @@ perkWorkbenchToolsRank1Desc,"[DECEA3]요구사항:[-] 도구 제작 1\n렌치, �
 perkWorkingSinksName,얼간이를 위한 배관공사
 perkWorkingSinksDesc,배관공사가 끝났습니다\n작업용 싱크대 레시피를 해제합니다
 perkWorkingSinksRank1Title,얼간이를 위한 배관공사
-perkWorkingSinksRank1Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 25\n작업용 싱크대,작업용 다목적 싱크대 레시피 해제"
+perkWorkingSinksRank1Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 25\작업용 싱크대 레시피 해제"
 perkWorkingOvensName,얼간이를 위한 주방공사
-perkWorkingOvensDesc,주방공사가 끝났습니다\n작업용 붙박이 오븐 레시피를 해제합니다
+perkWorkingOvensDesc,주방공사가 끝났습니다\n작업용 오븐 레시피를 해제합니다
 perkWorkingOvensRank1Title,얼간이를 위한 주방공사
-perkWorkingOvensRank1Desc,[DECEA3]요구사항:[-] 플레이어 레벨 25\n작업용 붙박이 오븐 2종 레시피 해제
+perkWorkingOvensRank1Desc,[DECEA3]요구사항:[-] 플레이어 레벨 25\n작업용 오븐 레시피 해제
 perkPistolName,피스톨 제작
 perkPistolDesc,피스톨을 만들 수 있습니다
 perkPistolRank1Title,피스톨 제작
-perkPistolRank1Desc,[DECEA3]요구사항:[-] 총기 제작 1\n피스톨 레시피 해제
+perkPistolRank1Desc,"[DECEA3]요구사항:[-] 총기 제작 1\n피스톨, 권총 부품, 권총 총열, 권총 손잡이, 권총 몸통 레시피 해제"
 perkP225Name,P225 권총 제작
 perkP225Desc,P225 권총을 만들 수 있습니다
 perkP225Rank1Title,P225 권총 제작
-perkP225Rank1Desc,[DECEA3]요구사항:[-] 총기 제작 2\nP225 권총 레시피 해제
-perkMagnumName,44구경 매그넘 제작
-perkMagnumDesc,44구경 매그넘을 만들 수 있습니다
-perkMagnumRank1Title,44구경 매그넘 제작
-perkMagnumRank1Desc,[DECEA3]요구사항:[-] 총기 제작 3\n44구경 매그넘 레시피 해제
+perkP225Rank1Desc,"[DECEA3]요구사항:[-] 총기 제작 2\nP225 권총, 권총 부품, 권총 총열, 권총 손잡이, P225 몸통 레시피 해제"
+perkMagnumName,.44 매그넘 제작
+perkMagnumDesc,.44 매그넘을 만들 수 있습니다
+perkMagnumRank1Title,.44 매그넘 제작
+perkMagnumRank1Desc,"[DECEA3]요구사항:[-] 총기 제작 3\n.44 매그넘,권총 부품,권총 총열,권총 손잡이,.44 매그넘 몸통 레시피 해제"
 perkShotgunName,펌프식 샷건 제작
 perkShotgunDesc,펌프식 샷건 샷건을 만들 수 있습니다
 perkShotgunRank1Title,펌프식 샷건 제작
-perkShotgunRank1Desc,[DECEA3]요구사항:[-] 총기 제작 2\n펌프식 샷건 레시피 해제
+perkShotgunRank1Desc,"[DECEA3]요구사항:[-] 총기 제작 2\n펌프식 샷건,샷건 부품,샷건 긴 총열,샷건 개머리판,샷건 몸통 레시피 해제"
 perkDoubleShotgunName,2연발 샷건 제작
 perkDoubleShotgunDesc,2연발 샷건을 만들 수 있습니다
 perkDoubleShotgunRank1Title,2연발 샷건 제작
-perkDoubleShotgunRank1Desc,[DECEA3]요구사항:[-] 총기 제작 1\n2연발 샷건 레시피 해제
+perkDoubleShotgunRank1Desc,"[DECEA3]요구사항:[-] 총기 제작 1\n2연발 샷건,샷건 부품,샷건 긴 총열,샷건 개머리판,샷건 몸통 레시피 해제"
 perkCombatShotgunName,Combat Shotgun Crafting
 perkCombatShotgunDesc,Learn how to build your own combat shotgun.
 perkCombatShotgunRank1Title,Combat Shotgun Crafting
@@ -1104,25 +1103,25 @@ perkCombatShotgunRank1Desc,Unlocks the combat shotgun and parts recipes.  [DECEA
 perkHuntingRifleName,사냥용 라이플 제작
 perkHuntingRifleDesc,사냥용 라이플을 만들 수 있습니다
 perkHuntingRifleRank1Title,사냥용 라이플 제작
-perkHuntingRifleRank1Desc,[DECEA3]요구사항:[-] 총기 제작 1\n사냥용 라이플 레시피 해제
+perkHuntingRifleRank1Desc,"[DECEA3]요구사항:[-] 총기 제작 1\n사냥용 라이플,일반 라이플 부품,일반 라이플 총열,일반 라이플 개머리판,사냥용 라이플 몸통 레시피 해제"
 perkWinchesterName,윈체스터 라이플 제작
 perkWinchesterDesc,윈체스터 라이플을 만들 수 있습니다
 perkWinchesterRank1Title,윈체스터 라이플 제작
-perkWinchesterRank1Desc,[DECEA3]요구사항:[-] 총기 제작 2\n윈체스터 라이플 레시피 해제
+perkWinchesterRank1Desc,"[DECEA3]요구사항:[-] 총기 제작 2\n윈체스터 라이플,일반 라이플 부품,일반 라이플 총열,일반 라이플 개머리판,윈체스터 라이플 몸통 레시피 해제"
 perkMR10Name,레버 액션 라이플 제작
 perkMR10Rank1Title,레버 액션 라이플 제작
-perkMR10Rank1Desc,[DECEA3]요구사항:[-] 총기 제작 3\n레버 액션 라이플 레시피 해제
+perkMR10Rank1Desc,"[DECEA3]요구사항:[-] 총기 제작 3\n레버 액션 라이플,일반 라이플 부품,일반 라이플 총열,일반 라이플 개머리판,저격 라이플 몸통 레시피 해제"
 perkAR15Name,AR-15 돌격소총 제작
 perkAR15Rank1Title,AR-15 돌격소총 제작
-perkAR15Rank1Desc,[DECEA3]요구사항:[-] 총기 제작 2\nAR-15 돌격소총 레시피 해제
+perkAR15Rank1Desc,"[DECEA3]요구사항:[-] 총기 제작 2\nAR-15 돌격소총,자동소총 부품,자동소총 총열,자동소총 개머리판,AR-15 돌격소총 몸통 레시피 해제"
 perkAK47Name,AK-47 돌격소총 제작
 perkAK47Desc,AK-47 돌격소총을 만들 수 있습니다
 perkAK47Rank1Title,AK-47 돌격소총 제작
-perkAK47Rank1Desc,[DECEA3]요구사항:[-] 총기 제작 3\nAK-47 돌격소총 레시피 해제
+perkAK47Rank1Desc,"[DECEA3]요구사항:[-] 총기 제작 3\nAK-47 돌격소총,자동소총 부품,자동소총 총열,자동소총 개머리판,AK-47 돌격소총 몸통 레시피 해제"
 perkSMGName,SMG Crafting
 perkSMGDesc,Learn how to build your own SMG.
 perkSMGRank1Title,SMG Crafting
-perkSMGRank1Desc,SMG-5와 부품 레시피 해제  [DECEA3]요구사항:[-] 총기 제작 1
+perkSMGRank1Desc,SMG-5와 부품 레시피 해제 [DECEA3]요구사항:[-] 총기 제작 1
 perkBowWeaponsName,활 제작
 perkBowWeaponsDesc,활과 석궁을 만들 수 있습니다
 perkBowWeaponsRank1Title,활 제작 1
@@ -1134,8 +1133,8 @@ perkCoilgunsDesc,코일 총기를 만들 수 있습니다
 perkCoilgunsRank1Title,코일 총기 제작 1
 perkCoilgunsRank2Title,코일 총기 제작 2
 perkCoilgunsRank3Title,코일 총기 제작 3
-perkCoilgunsRank1Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 50\n코일 권총/샷건과 각 총기 부품, 탄약, 코일 전지 레시피 해제"
-perkCoilgunsRank2Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 75\n코일 자동소총/코일 저격 라이플과 각 총기 부품,7.62mm 코일 탄약,HP 7.62mm 코일 탄약,AP 7.62mm 코일 탄약 레시피 해제"
+perkCoilgunsRank1Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 60\n[DECEA3]코일 권총[-],코일 총기 부품,코일 총기 손잡이,코일 권총 총열,코일 권총 몸통,코일 전지,.44 매그넘 코일 탄약,AP .44 코일 탄약,HP .44 코일 탄약 레시피 해제\n[DECEA3]코일 삿건[-],코일 샷건 총열,코일 샷건 몸통,코일 샷건 탄약,코일 샷건 슬러그 탄약,코일 샷건 돌파 슬러그 탄약 레시피 해제"
+perkCoilgunsRank2Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 75\n[DECEA3]코일 자동소총[-],코일 자동소총 총열,코일 자동소총 몸통,7.62mm 코일 탄약 레시피 해제\n[DECEA3]코일 저격 라이플[-],코일 저격 라이플 총열,코일 저격라이플 몸통,HP 7.62mm 코일 탄약,AP 7.62mm 코일 탄약"
 perkCoilgunsRank3Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 100\n코일 저격 라이플과 총기 부품, HP 탄약 레시피 해제"
 perkButcheringToolsName,도축 도구 제작
 perkButcheringToolsDesc,도축을 위한 도구를 만듭니다. 무기입니다.
@@ -1152,7 +1151,7 @@ perkLeatherArmorRank2Title,경갑옷 - 가죽 방어구 제작 2
 perkLeatherArmorRank3Title,경갑옷 - 가죽 방어구 제작 3
 perkLeatherArmorRank1Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 1\n가죽 부츠, 가죽 장갑 레시피 해제"
 perkLeatherArmorRank2Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 1\n가죽 후드, 가죽 다리 갑옷 레시피 해제"
-perkLeatherArmorRank3Desc,[DECEA3]요구사항:[-] 플레이어 레벨 1\n가죽 가슴 갑옷 해제
+perkLeatherArmorRank3Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 1\n가죽 가슴 갑옷 해제"
 perkScrapArmorName,중갑옷 - 고철 방어구 제작
 perkScrapArmorDesc,맥다이버가 자랑스러워할겁니다. 고철과 접착 테이프를 활용합니다
 perkScrapArmorRank1Title,중갑옷 - 고철 방어구 제작 1
@@ -1160,7 +1159,7 @@ perkScrapArmorRank2Title,중갑옷 - 고철 방어구 제작 2
 perkScrapArmorRank3Title,중갑옷 - 고철 방어구 제작 3
 perkScrapArmorRank1Desc,"[DECEA3]요구사항:[-] 방어구 제작 1\n고철 부츠,고철 장갑 레시피 해제"
 perkScrapArmorRank2Desc,"[DECEA3]요구사항:[-] 방어구 제작 1\n고철 투구,고철 다리 갑옷 레시피 해제"
-perkScrapArmorRank3Desc,[DECEA3]요구사항:[-] 방어구 제작 1\n고철 가슴 갑옷 레시피 해제
+perkScrapArmorRank3Desc,"[DECEA3]요구사항:[-] 방어구 제작 1\n고철 가슴 갑옷 레시피 해제"
 perkIronArmorName,중갑옷 - 철제 방어구 제작
 perkIronArmorDesc,단조철로 견고하고 무거운 갑옷을 만듭니다
 perkIronArmorRank1Title,중갑옷 - 철제 방어구 제작 1
@@ -1176,7 +1175,7 @@ perkSteelArmorRank2Title,중갑옷 - 강철 방어구 제작 2
 perkSteelArmorRank3Title,중갑옷 - 강철 방어구 제작 3
 perkSteelArmorRank1Desc,"[DECEA3]요구사항:[-] 방어구 제작 3\n강철 부츠, 강철 장갑 레시피 해제"
 perkSteelArmorRank2Desc,"[DECEA3]요구사항:[-] 방어구 제작 3\n강철 투구, 강철 다리 갑옷 레시피 해제"
-perkSteelArmorRank3Desc,[DECEA3]요구사항:[-] 방어구 제작 3\n강철 가슴 갑옷 레시피 해제
+perkSteelArmorRank3Desc,"[DECEA3]요구사항:[-] 방어구 제작 3\n강철 가슴 갑옷 레시피 해제"
 perkBasicFarmingName,기초 농사 비법
 perkBasicFarmingDesc,기본적인 종자를 다루고 올가미덫으로 동물을 포획합니다
 perkBasicFarmingRank1Title,기초 농사 비법 1
@@ -1188,23 +1187,23 @@ perkBasicFarmingRank3Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 5\n블�
 perkScrapCraftingName,고철 도구 제작
 perkScrapCraftingDesc,맥다이버가 고철로 쓸만한 도구를 만들어서 보여줍니다
 perkScrapCraftingRank1Title,고철 도구 제작
-perkScrapCraftingRank1Desc,[DECEA3]요구사항:[-] 도구 제작 1\n모든 고철 도구와 무기 레시피 해제
+perkScrapCraftingRank1Desc,"[DECEA3]요구사항:[-] 도구 제작 1\n고철 소방 도끼,고철 곡괭이,고철삽,고철 마체테,고철 창,고철 너클,고철 곤봉,고철 화살촉 레시피 해제"
 perkIronCraftingName,철제 도구 제작
 perkIronCraftingDesc,단조철을 더 좋은 도구에!
 perkIronCraftingRank1Title,철제 도구 제작
-perkIronCraftingRank1Desc,"[DECEA3]요구사항:[-] 화덕 먼저 1, 도구 제작 2, 직업: 노동자 불가\n모든 철제 도구와 소방관 헬멧 레시피 해제"
+perkIronCraftingRank1Desc,"[DECEA3]요구사항:[-] 화덕 먼저 1, 도구 제작 2, 직업: 노동자 불가\n철제 소방 도끼,철제 곡괭이,철삽,소방관 헬멧 레시피 해제"
 perkSteelCraftingName,강철 제작
 perkSteelCraftingDesc,도구 제작의 정점입니다.
 perkSteelCraftingRank1Title,강철 제작
-perkSteelCraftingRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 2, 무기 제작 2, 도구 제작 3, 플레이어 레벨 50, 직업: 노동자 불가\n모든 강철 도구와 단조강, 도가니, 강철 화살촉 레시피 해제"
+perkSteelCraftingRank1Desc,"[DECEA3]요구사항:[-] 과학 제작 2, 무기 제작 2, 도구 제작 3, 플레이어 레벨 30, 직업: 노동자 불가\n강철 도끼,강철 곡괭이,강철삽,단조강,도가니,강철 화살촉,스테인리스 강철 형태 레시피 해제"
 perkTitaniumCraftingName,티타늄 제작
 perkTitaniumCraftingDesc,이보다 더 좋을순 없습니다! 단조 티타늄과 기초적인 티타늄 무기와 도구를 만듭니다
 perkTitaniumCraftingRank1Title,티타늄 제작
-perkTitaniumCraftingRank1Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 75\n단조 티타늄, 티타늄 창, 곤봉, 소방도끼, 삽, 곡괭이, 티타늄 화살촉 레시피 해제"
+perkTitaniumCraftingRank1Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 75\n단조 티타늄, 티타늄 창, 곤봉, 너클, 사냥용 칼, 마체테, 슬레지해머, 소방도끼, 삽, 곡괭이, 석궁, 티타늄 화살촉, 티타늄 석궁 볼트 (탄약), 티타늄 화살 (탄약), 티타늄 칼날 트랩, 티타늄 다트 함정, 티타늄 다트, 티타늄 전기 울타리 구역 레시피 해제"
 perkTheCompletionistName,[4aa8d8]완벽주의자[-]
 perkTheCompletionistDesc,이 특성을 얻었다면 게임을 끄고 잠시 산책을 하시는게 좋습니다.
 perkTheCompletionistRank1Title,완벽주의자
-perkTheCompletionistRank1Desc,"[DECEA3]요구사항:[-] 모든 직업과 전문화 그리고 미래공학 제작 특성 모두 완료\n획득 경험치 +25%. 사망패널티 삭제\n미래공학 무기, 도구의 제작등급 +20"
+perkTheCompletionistRank1Desc,"[DECEA3]요구사항:[-] 모든 직업과 전문화 그리고 미래공학 제작 특성 모두 완료\n획득 경험치 +25%. 사망패널티 삭제\n레이저, 플라즈마, 미래공학 무기/도구, 미래공학 방어구의 제작등급 +20"
 perkBicycleName,얼간이를 위한 자전거
 perkBicycleDesc,총제적 난국의 얼간이도 쉽게 자전거를 만들 수 있는 가이드북
 perkBicycleRank1Desc,"[DECEA3]요구사항:[-] 플레이어 레벨 5, 직업: 기계공 불가\n자전거와 부품 레시피 해제"
@@ -1225,17 +1224,17 @@ perkSledgehammersRank1Desc,[DECEA3]요구사항:[-] 무기 제작 1\n철제 슬�
 perkSledgehammersRank2Desc,[DECEA3]요구사항:[-] 무기 제작 2\n강철 슬레지해머 레시피 해제
 perkSledgehammersRank3Desc,[DECEA3]요구사항:[-] 플레이어 레벨 100\n티타늄 슬레지해머 레시피 해제
 perkDemolitionsExpertName,폭파 전문가
-perkDemolitionsExpertDesc,"폭발 무기를 이용해 적의 사지를 날려버리는 일에 특화되었습니다\n모든 폭발물, 폭발 탄약, 화염방사기에 적용됩니다"
+perkDemolitionsExpertDesc,"폭발 무기를 이용해 적의 사지를 날려버리는 일에 특화되었습니다\n모든 폭발물, 폭발 탄약, 로켓탄 발사기, 화염방사기에 적용됩니다"
 perkDemolitionsExpertRank1Desc,초보 수류탄 투척병
-perkDemolitionsExpertRank1LongDesc,"당신은 초보 수류탄 투척병입니다\n블록 데미지 +10%. 데미지 +10%. 무기 조작 +10%\n재장전속도 +15%. 적 기절 확률 50%\n적을 파괴할 확률 +5%\n파이프 폭탄 (탄약),다이너마이트 한 개 레시피 해제"
+perkDemolitionsExpertRank1LongDesc,"당신은 초보 수류탄 투척병입니다\n블록 데미지 +10%. 데미지 +10%. 무기조작 +10%\n재장전속도 +15%. 적 기절 확률 50%\n적을 파괴할 확률 +5%\n파이프 폭탄 (탄약),다이너마이트 한 개 레시피 해제"
 perkDemolitionsExpertRank2Desc,"나는 TNT, 내가 다이너마이트"
-perkDemolitionsExpertRank2LongDesc,\n블록 데미지 +20%. 데미지 +20%. 무기 조작 +20%\n재장전속도 +20%. 적 기절 확률 100%\n적을 파괴할 확률 +10%\n시한 폭탄 (탄약) 레시피 해제
+perkDemolitionsExpertRank2LongDesc,"\n블록 데미지 +20%. 데미지 +20%. 무기조작 +20%\n재장전속도 +20%. 적 기절 확률 100%\n적을 파괴할 확률 +10%\n시한 폭탄 (탄약) 레시피 해제"
 perkDemolitionsExpertRank3Desc,폭발물 취급자
-perkDemolitionsExpertRank3LongDesc,"이제 폭발물 취급자가 되었습니다\n블록 데미지 +30%. 데미지 +30%. 무기 조작 +30%\n재장전속도 +25%. 적 기절 확률 100%\n적을 파괴할 확률 +20%. 불구 확률 +33%\n수류탄 (탄약),접촉 수류탄 (탄약) 레시피 해제"
+perkDemolitionsExpertRank3LongDesc,"이제 폭발물 취급자가 되었습니다\n블록 데미지 +30%. 데미지 +30%. 무기조작 +30%\n재장전속도 +25%. 적 기절 확률 100%\n적을 파괴할 확률 +20%. 불구 확률 +33%\n수류탄 (탄약),접촉 수류탄 (탄약) 레시피 해제"
 perkDemolitionsExpertRank4Desc,로켓탄 전문가
-perkDemolitionsExpertRank4LongDesc,로켓탄 전문가입니다\n블록 데미지 +40%. 데미지 +40%. 무기 조작 +40%\n재장전속도 +25%. 적 기절 확률 100%\n적을 파괴할 확률 +30%. 불구 확률 +66%\n로켓탄 발사기,로켓 HE (탄약),로켓 파편 (탄약),로켓탄촉,로켓탄 탄피 레시피 해제,,
+perkDemolitionsExpertRank4LongDesc,"로켓탄 전문가입니다\n블록 데미지 +40%. 데미지 +40%. 무기조작 +40%\n재장전속도 +30%. 적 기절 확률 100%\n적을 파괴할 확률 +30%. 불구 확률 +66%\n로켓탄 발사기,로켓 HE (탄약),로켓 파편 (탄약),로켓탄촉,로켓탄 탄피 레시피 해제"
 perkDemolitionsExpertRank5Desc,폭파 전문가
-perkDemolitionsExpertRank5LongDesc,폭파 전문가입니다\n블록 데미지 +50%. 데미지 +50%. 무기 조작 +50%\n재장전속도 +45%. 적 기절 확률 100%\n적을 파괴할 확률 +45%. 불구 확률 +66%\n적이 더 오래 기절합니다\n화염 방사기 레시피 해제
+perkDemolitionsExpertRank5LongDesc,"폭파 전문가입니다\n블록 데미지 +50%. 데미지 +50%. 무기조작 +50%\n재장전속도 +35%. 적 기절 확률 100%\n적을 파괴할 확률 +45%. 불구 확률 +66%\n적이 더 오래 기절합니다\n화염 방사기,빙결 수류탄 레시피 해제"
 DFClassPaper,빈 직업 종이
 ClassPaperDesc,이 아이템의 레시피에서 직업을 선택해 제작하면 직업 종이를 얻을 수 있습니다
 DFClassPaperMaster,빈 직업 종이(마스터)
@@ -1388,7 +1387,7 @@ gunAR15Desc,확실하게 죽여야할 때를 위한 총알 세례. 9mm 탄약을
 DFCombatShotgun,Combat Shotgun
 gunCombatShotgunDesc,"확실하게 죽여야할 때를 위한 샷건 세례. 샷건 탄약 (탄약), 샷건 슬러그를 사용합니다"
 DFgunWinchesterRifle,윈체스터 라이플
-gunWinchesterRifleDesc,일반적인 라이플보다 저지력이 뛰어나고 탄창이 더 큽니다. 44구경 매그넘 탄약을 사용합니다
+gunWinchesterRifleDesc,일반적인 라이플보다 저지력이 뛰어나고 탄창이 더 큽니다. .44 매그넘 탄약을 사용합니다
 DFgunM4A1,M4A1 돌격소총
 gunM4A1Desc,확실하게 죽여야할 때를 위한 총알 세례. 7.62mm 탄약을 사용합니다
 DFgunTitaniumCrossbow,티타늄 석궁
@@ -1541,10 +1540,10 @@ DFpistolGrip,권총 손잡이
 DFpistolParts,권총 부품
 DFpistolFrame,권총 몸통
 DFP225Frame,P225 몸통
-DFmagnumFrame,44구경 매그넘 몸통
+DFmagnumFrame,.44 매그넘 몸통
 DFpistolFrameDesc,권총의 일부입니다. 레시피를 알고 있으면 다른 부품과 조립하여 온전한 피스톨을 제작합니다
 DFP225FrameDesc,권총의 일부입니다. 레시피를 알고 있으면 다른 부품과 조립하여 온전한 P225 권총을 제작합니다
-DFmagnumFrameDesc,44구경 매그넘의 일부입니다. 레시피를 알고 있으면 다른 부품과 조립하여 온전한 44구경 매그넘을 제작합니다
+DFmagnumFrameDesc,.44 매그넘의 일부입니다. 레시피를 알고 있으면 다른 부품과 조립하여 온전한 .44 매그넘을 제작합니다
 DFpistolComponentsDesc,권총에 사용하는 부품입니다. 레시피를 알고 있으면 다른 부품과 조립하여 온전한 권총을 제작합니다
 DFrifleBarrel,일반 라이플 총열
 DFrifleParts,일반 라이플 부품
@@ -1575,7 +1574,7 @@ DFShotgunReceiverDesc,긴 총열 샷건의 일부입니다. 레시피를 알고 
 DFautoShotgunReceiverDesc,자동 샷건의 일부입니다. 레시피를 알고 있으면 다른 부품과 조립하여 온전한 자동 샷건을 제작합니다
 DFshotgunComponentsDesc,샷건의 일부입니다. 레시피를 알고 있으면 다른 부품과 조립하여 온전한 샷건을 제작합니다
 DFgunCoilpistol,코일 권총
-gunCoilpistolDesc,전자기력으로 투사체를 발사하는 첨단 매그넘 코일 권총입니다. 44구경 코일 탄약을 사용합니다.
+gunCoilpistolDesc,전자기력으로 투사체를 발사하는 첨단 매그넘 코일 권총입니다. .44 코일 탄약을 사용합니다.
 DFgunCoilSniper,코일 저격 라이플
 gunCoilSniperDesc,전자기력으로 투사체를 발사하는 첨단 코일 저격 라이플입니다. 7.62mm 코일 탄약을 사용합니다.
 DFgunCoilrifle,코일 자동소총
@@ -1592,8 +1591,8 @@ DFcoilgunComponentsDesc,코일 총기 제작에 쓰는 일반적인 부품입니
 DFcoilrifleComponentsDesc,코일 자동소총의 일부입니다. 레시피를 알고 있으면 다른 부품과 조립하여 온전한 코일 자동소총을 제작합니다
 DFcoilsniperComponentsDesc,코일 저격 라이플의 일부입니다. 레시피를 알고 있으면 다른 부품과 조립하여 온전한 코일 저격 라이플을 제작합니다
 DFcoilpistolComponentsDesc,코일 권총의 일부입니다. 레시피를 알고 있으면 다른 부품과 조립하여 온전한 코일 권총을 제작합니다
-DF44MagCoilround,44구경 매그넘 코일 탄약
-44MagCoilroundDesc,"이 총알은 제작에 화약을 사용하지 않지만, 다른 부분은 일반 44구경 매그넘 탄약과 동일합니다"
+DF44MagCoilround,.44 매그넘 코일 탄약
+44MagCoilroundDesc,"이 총알은 제작에 화약을 사용하지 않지만, 다른 부분은 일반 .44 매그넘 탄약과 동일합니다"
 DF762mmCoilround,7.62mm 코일 탄약
 762mmCoilroundDesc,"이 총알은 제작에 화약을 사용하지 않지만, 다른 부분은 일반 7.62mm 탄약과 동일합니다"
 DFcoilBattery,코일 전지
@@ -1757,8 +1756,8 @@ perkGetOffMyLandRank4LongDesc,샷건의 유효 사거리 +50%. 사거리 +100%
 perkGetOffMyLandRank5LongDesc,샷건으로 적을 파괴할 확률 +25%
 ammo9mmBulletSteelHP,HP 9mm 강철 탄약
 ammo9mmBulletSteelAP,AP 9mm 강철 탄약
-ammo44MagnumBulletSteelHP,HP 44구경 매그넘 강철 탄약
-ammo44MagnumBulletSteelAP,AP 44구경 매그넘 강철 탄약
+ammo44MagnumBulletSteelHP,HP .44 매그넘 강철 탄약
+ammo44MagnumBulletSteelAP,AP .44 매그넘 강철 탄약
 ammo762mmBulletSteelHP,HP 7.62mm 강철 탄약
 ammo762mmBulletSteelAP,AP 7.62mm 강철 탄약
 Elevator3x3ControlFloor,엘리베이터 제어 층 (3x3x3)
@@ -2067,21 +2066,21 @@ DFresourceAPTip,AP 탄환 촉
 APTipDesc,이 탄환 촉은 관통력을 극대화하기 위해 단단한 철심을 사용합니다
 DFammo9mmHP,HP 9mm 탄약
 9mmBulletHPDesc,이 탄약은 끝에 홈을 파내 데미지를 극대화 했습니다.
-DFammo44MagnumHP,HP 44구경 매그넘 탄약
+DFammo44MagnumHP,HP .44 매그넘 탄약
 44MagBulletHPDesc,이 탄약은 끝에 홈을 파내 데미지를 극대화 했습니다.
 DFammo762HP,HP 7.62mm 탄약
 762mmBulletHPDesc,이 탄약은 끝에 홈을 파내 데미지를 극대화 했습니다.
-DF44MagCoilroundHP,HP 44구경 매그넘 코일 탄약
-44MagCoilroundHPDesc,이 탄약은 끝에 홈을 파져있습니다. 화약없이 만들 수 있는 것 외에는 HP 44구경 매그넘 탄약과 같습니다.
+DF44MagCoilroundHP,HP .44 매그넘 코일 탄약
+44MagCoilroundHPDesc,이 탄약은 끝에 홈을 파져있습니다. 화약없이 만들 수 있는 것 외에는 HP .44 매그넘 탄약과 같습니다.
 DF762mmCoilroundHP,HP 7.62mm 코일 탄약
 762mmCoilroundHPDesc,이 탄약은 끝에 홈을 파져있습니다. 만화약없이 만들 수 있는 것 외에는 HP 7.62 탄약과 같습니다.
 modGunMeleeFeelTheHeat,열기를 느끼다
 modGunMeleeFlammableOil,가연성 기름 개조
 modGunMeleeLiquidNitrogen,액체 질소 개조
 modGunMeleeNiCdBattery,니켈 카드뮴 배터리 개조
-modArmorStoragePocket,방어구 주머니 개조
-modArmorDoubleStoragePocket,방어구 2배 주머니 개조
-modArmorTripleStoragePocket,방어구 3배 주머니 개조
+modArmorStoragePocket,외투 주머니 개조
+modArmorDoubleStoragePocket,외투 2배 주머니 개조
+modArmorTripleStoragePocket,외투 3배 주머니 개조
 DFVehicleWorkstation,기계공 작업대
 DFVehicleWorkstationDesc,"고급 차량, 차량 개조 및 개조된 차량을 제작할 수 있습니다. 기계공만 제작할 수 있습니다"
 vehiclemoddedPlaceableGroupDesc,이 차량은 어떤 방식으로든 개조되었습니다. 우클릭으로 배치 할 수 있습니다
@@ -2308,7 +2307,7 @@ zombieBikerRadiated,방사능 바이커
 legendaryZombieBiker,터프한 바이커
 legendaryZombieLab,터프한 연구소 좀비
 zombieBusinessManLegendary,터프한 좀비 회사원
-legendaryZombieUtilityWorker,터프한 전기공
+zombieUtilityWorkerLegendary,터프한 전기공
 zombieCheerleaderRadiated,방사능 치어리더
 zombieFatHawaiianRadiated,방사능 불안한 관광객
 zombieMaleHazmatRadiated,방사능 유해한 노동자
@@ -2648,7 +2647,7 @@ goLandClaimCountValue,{0} 블록
 goLandClaimCountValues,{0} 블록
 BMEngineWarning,[FF0000]당신의 차량은 악마의 달빛 아래서 터져 죽을 것입니다....[-]
 ammo9mmBulletSteel,9mm 강철 탄약
-ammo44MagnumBulletSteel,44구경 매그넘 강철 탄약
+ammo44MagnumBulletSteel,.44 매그넘 강철 탄약
 ammo762mmBulletFMJSteel,7.62mm 강철 탄약
 resourceBulletCasingSteel,강철 탄피
 resourceBulletCasingSteelDesc,강철 탄피는 더 저렴하지만 총열의 마모를 유발합니다
@@ -2946,7 +2945,7 @@ buffTheAssassinName,암살자
 buffTheAssassinTooltip,한 발에... 한 명...
 perkMasterScavengerName,청소 전문가
 perkMasterScavengerDesc,황무지에서 쓰잘데기없는 것을 찾는 장인이 되었습니다
-miningTip,각 생물 군계에서는 세 가지 광석을 어느 깊이에서나 찾을 수 있습니다. 광석을 찾으려면 작은 바위를 찾아서 부수세요. 광맥은 높은 확률로 해당 바위 아래에 있기 때문에 만약 철이 나오는 바위를 찾았으면 아래로 파내려가면 철을 찾을 수 있을겁니다.\n\n식토를 얻으려면 그냥 흙을 파면 됩니다.\n\n설원 - 납/석탄/질산\n숲 - 철/석탄/질산\n사막 - 철/오일셰일/납\n황무지 - 티타늄/우라늄/플루토늄
+miningTip,"각 생물 군계에서는 세 가지 광석을 어느 깊이에서나 찾을 수 있습니다. 광석을 찾으려면 작은 바위를 찾아서 부수세요. 광맥은 높은 확률로 해당 바위 아래에 있기 때문에 만약 철이 나오는 바위를 찾았으면 아래로 파내려가면 철을 찾을 수 있을겁니다.\n\n식토를 얻으려면 그냥 흙을 파면 됩니다.\n\n설원 - 납/석탄/질산\n숲 - 철/석탄/질산\n사막 - 철/오일셰일/납\n황무지 - 티타늄/우라늄/플루토늄"
 ttAthleticsLevelUp,육상 숙련도가 상승했습니다!
 ttMToolsLevelUp,채굴 도구 숙련도가 상승했습니다!
 ttScavengingLevelUp,청소 숙련도가 상승했습니다!
@@ -3041,8 +3040,8 @@ DFLockableToolBoxDesc,도구와 기계공 아이템을 정리하기 좋은 바�
 DFLockableMinersChest,안전한 광부 보관함
 DFLockableMinersChestInsecure,안전하지 않은 광부 보관함
 DFLockableMinersChestDesc,"견고하게, 자원을 정리할 수 있는 안전한 보관함"
-DFammo44MagAPCoilround,AP 44구경 코일 탄약
-DFammo44MagHPCoilround,HP 44구경 코일 탄약
+DFammo44MagAPCoilround,AP .44 코일 탄약
+DFammo44MagHPCoilround,HP .44 코일 탄약
 DF762mmBulletAPCoilround,AP 7.62mm 코일 탄약
 DF762mmBulletHPCoilround,HP 7.62mm 코일 탄약
 invisibleRecipesForRepairCost,"약탈로 획득, 제작 불가"
@@ -3075,8 +3074,8 @@ resourceClayLumpBundle,식토 더미 (6000)
 resourceClayLumpBundleDesc,식토가 압축되어 있는 더미입니다. 이 아이템을 사용하면 낱개로 풀립니다
 modAblativeArmor,융제 방어구 개조
 modAblativeArmorDesc,항공우주 내열 기술을 적용하여 장착한 융제 방어구 개조 1개마다 화염 디버프를 무시할 확률을 10%씩 추가합니다.
-modMeleeLaserBattery,레이조 배터리 개조
-modMeleeLaserBatteryDesc,"근접 무기, 활, 석궁 전용 개조\90초 동안 악마의 재생 능력을 비활성화합니다\n개조 등급: 미래공학"
+modMeleeLaserBattery,레이저 배터리 개조
+modMeleeLaserBatteryDesc,"근접 무기, 활, 석궁 전용 개조\n90초 동안 악마의 재생 능력을 비활성화합니다\n개조 등급: 미래공학"
 quest_tier3_buried_supplies,티어 3 땅에 묻힌 보급품
 quest_tier4_buried_supplies,티어 4 땅에 묻힌 보급품
 quest_tier5_buried_supplies,티어 5 땅에 묻힌 보급품
@@ -3139,8 +3138,8 @@ response_1135977890,방어구 제작 5 (15000 듀크)
 response_1135977891,기초 농사 비법 1 (3000 듀크)
 response_1135977892,기초 농사 비법 2 (6000 듀크)
 response_1135977893,기초 농사 비법 3 (9000 듀크)
-response_1135977894,작업용 싱크대 (3000 듀크)
-response_1135977895,작업용 붙박이 오븐 (3000 듀크)
+response_1135977894,얼간이를 위한 주방공사 (3000 듀크)
+response_1135977895,얼간이를 위한 주방공사 (3000 듀크)
 response_-113720744,미역취 차 (200 듀크)
 response_-113720745,미역취 씨앗 (200 듀크)
 response_-113720746,홍차 (200 듀크)
@@ -3170,9 +3169,9 @@ response_-113720758,사냥용 라이플 (200 듀크)
 response_-113720759,SMG-5 (200 듀크)
 response_-113720760,P225 권총 (200 듀크)
 response_-113720761,샷건 (200 듀크)
-response_-113720762,사수용 라이플 (200 듀크)
+response_-113720762,레버 액션 라이플 (200 듀크)
 response_-113720763,AR-15 돌격소총 (200 듀크)
-response_-113720764,44구경 매그넘 (200 듀크)
+response_-113720764,.44 매그넘 (200 듀크)
 response_-113720765,Combat Shotgun (200 듀크)
 response_-113720766,윈체스터 라이플 (200 듀크)
 response_-113720767,AK-47 돌격소총 (200 듀크)
@@ -3253,11 +3252,11 @@ EveQuestOne,퀘스트 - 시험
 EveQuestTwo,퀘스트 - 호의
 EveQuestThree,퀘스트 - 보상
 MeetingDoctorAnna,퀘스트 - 안나 박사를 만나라
-RazorNoWorkResponseText,이봐. 일거리 있어 ?
-RazorNoWorkStatementText,없어. 넌 신뢰가 안가거든. 경비대 대장이나 보러 가.
-EveNoWorkResponseText,이봐. 일거리 있어 ?
+RazorNoWorkResponseText,혹시 제가 할 일이 있습니까 ?
+RazorNoWorkStatementText,없어. 넌 신뢰가 안가거든. 화이트 리버 정찰병이나 보러 가.
+EveNoWorkResponseText,혹시 제가 할 일이 있습니까 ?
 EveNoWorkStatementText,없어. 넌 신뢰가 안가거든. 레이조의 신뢰를 먼저 얻고 와.
-AnnaNoWorkResponseText,이봐. 일거리 있어 ?
+AnnaNoWorkResponseText,혹시 제가 할 일이 있습니까 ?
 AnnaNoWorkStatementText,없어. 넌 신뢰가 안가거든. 가서 이브부터 도와.
 questmedicalFirstAidBandage,응급 치료용 붕대
 questmedicalSplint,부목
@@ -3338,25 +3337,25 @@ buffDrugDiazepamName,디아제팜
 buffDrugDiazepamDesc,이 약은 당신의 신경과 조준점을 안정시키는데 도움을 줍니다.
 buffDrugDiazepamTooltip,손떨림이 사라진 것 같다
 perkASBlunt1Desc,타격무기의 데미지 +5%. 공격속도 +5%\n스태미너 소모량 -5%
-perkASBlunt2Desc,타격무기의 데미지 +10%. 공격속도 +10%\n스태미너 소모량 -10%. 맹렬한 공격에 다리를 맞은 좀비가 느려집니다
-perkASBlunt3Desc,타격무기의 데미지 +15%. 공격속도 +15%\n스태미너 소모량 -15%. 맹렬한 공격에 다리를 맞은 좀비가 느려집니다
-perkASBlunt4Desc,"타격무기의 데미지 +20%. 공격속도 +20%. 스태미너 소모량 -20%\n맹렬한 공격에 다리를 맞은 좀비가 느려집니다\n일정 확률로 쓰러트림(한손25%,양손50%)"
-perkASBlunt5Desc,"타격무기의 데미지 +25%. 공격속도 +25%. 스태미너 소모량 -25%n\맹렬한 공격에 다리를 맞은 좀비가 느려집니다\n일정 확률로 쓰러트림(한손25%,양손50%). 맹렬한 공격으로 죽이면 스태미너 재충전"
+perkASBlunt2Desc,타격무기의 데미지 +10%. 공격속도 +10%\n스태미너 소모량 -10%\n맹렬한 공격에 다리를 맞은 좀비가 느려집니다
+perkASBlunt3Desc,타격무기의 데미지 +15%. 공격속도 +15%\n스태미너 소모량 -15%\n맹렬한 공격에 다리를 맞은 좀비가 느려집니다
+perkASBlunt4Desc,"타격무기의 데미지 +20%. 공격속도 +20%\n스태미너 소모량 -20%\n맹렬한 공격에 다리를 맞은 좀비가 느려집니다\n일정 확률로 쓰러트림(한손25%,양손50%)"
+perkASBlunt5Desc,"타격무기의 데미지 +25%. 공격속도 +25%\n스태미너 소모량 -25%\n맹렬한 공격에 다리를 맞은 좀비가 느려집니다\n일정 확률로 쓰러트림(한손25%,양손50%)\n맹렬한 공격으로 죽이면 스태미너 재충전"
 perkASBlades1Desc,날붙이 무기의 데미지 +5%. 공격속도 +5%\n스태미너 소모량 -5%. 기본 공격 시 30% 확률로 출혈
 perkASBlades2Desc,날붙이 무기의 데미지 +10%. 공격속도 +10%\n스태미너 소모량 -10%. 기본 공격 시 40% 확률로 출혈
 perkASBlades3Desc,날붙이 무기의 데미지 +15%. 공격속도 +15%\n스태미너 소모량 -15%. 기본 공격 시 50% 확률로 출혈
 perkASBlades4Desc,날붙이 무기의 데미지 +20%. 공격속도 +20%\n스태미너 소모량 -20%. 기본 공격 시 60% 확률로 출혈
 perkASBlades5Desc,날붙이 무기의 데미지 +25%. 공격속도 +25%\n스태미너 소모량 -25%. 기본 공격 시 70% 확률로 출혈
-perkASPistols1Desc,권총의 데미지 +5%. 재장전속도 +5%\n공격속도 +5%
-perkASPistols2Desc,권총의 데미지 +10%. 재장전속도 +10%\n공격속도 +10%\n다리샷에 불구 확률 +10%
+perkASPistols1Desc,권총의 데미지 +5%.  재장전속도 +5%.  공격속도 +5%
+perkASPistols2Desc,권총의 데미지 +10%. 재장전속도 +10%. 공격속도 +10%\n다리샷에 불구 확률 +10%
 perkASPistols3Desc,권총의 데미지 +15%. 재장전속도 +15%. 공격속도 +15%\n다리샷에 불구 확률 +10%
 perkASPistols4Desc,권총의 데미지 +20%. 재장전속도 +20%. 공격속도 +20%\n다리샷에 불구 확률 +10%\n초근접한 적에게 출혈 상처를 입힙니다
 perkASPistols5Desc,권총의 데미지 +25%. 재장전속도 +25%. 공격속도 +25%\n다리샷에 불구 확률 +10%\n초근접한 적에게 출혈 상처를 입힙니다\n아주 가까운 적 방어력 20% 무시
-perkASShotguns1Desc,샷건의 데미지 +5%. 재장전속도 +5%\n공격속도 +5%
-perkASShotguns2Desc,샷건의 데미지 +10%. 재장전속도 +10%\n공격속도 +10%. 나무 대상 데미지 +300%
-perkASShotguns3Desc,샷건의 데미지 +15%. 재장전속도 +15%\n공격속도 +15%. 나무 대상 데미지 +300%
-perkASShotguns4Desc,샷건의 데미지 +20%. 재장전속도 +20%\n공격속도 +20%. 나무 대상 데미지 +300%\n추가 데미지 +20%
-perkASShotguns5Desc,샷건의 데미지 +25%. 재장전속도 +25%\n공격속도 +25%. 나무 대상 데미지 +300%\n추가 데미지 +20%\n아주 가까이 있는 적을 파괴할 확률 +30%
+perkASShotguns1Desc,샷건의 데미지 +5%. 재장전속도 +5%. 공격속도 +5%
+perkASShotguns2Desc,샷건의 데미지 +10%. 재장전속도 +10%. 공격속도 +10%\n나무 대상 데미지 +300%
+perkASShotguns3Desc,샷건의 데미지 +15%. 재장전속도 +15%. 공격속도 +15%\n나무 대상 데미지 +300%
+perkASShotguns4Desc,샷건의 데미지 +20%. 재장전속도 +20%. 공격속도 +20%\n나무 대상 데미지 +300%. 추가 데미지 +20%
+perkASShotguns5Desc,샷건의 데미지 +25%. 재장전속도 +25%. 공격속도 +25%\n나무 대상 데미지 +300%. 추가 데미지 +20%\n아주 가까이 있는 적을 파괴할 확률 +30%
 perkASRifles1Desc,라이플의 데미지 +5%. 재장전속도 +5%\n공격속도 +5%. 적 1명 관통
 perkASRifles2Desc,라이플의 데미지 +10%. 재장전속도 +10%\n공격속도 +10%. 적 2명 관통
 perkASRifles3Desc,라이플의 데미지 +15%. 재장전속도 +15%\n공격속도 +15%. 적 3명 관통\n다리샷에 불구 확률 추가
@@ -3387,7 +3386,7 @@ foodCookedShamSoup,조리된 엉터리 고기 수프
 DFcookedCannedFoodDesc,"조리된 캔 음식은 재료 낭비가 있을 수 있지만, 식중독 위험이 없어져서 먹기 안전합니다."
 statReloadSpeedMultiplier,재장전 속도
 DFgunBlackSky,[DECEA3]검은 하늘[-]
-DFgunBlackSkyDesc,전설적인 44구경 데저트 벌쳐입니다. 전설에 따르면 하늘이 검게 물드는 밤이 되면 모든 대상에게 더 많은 데미지를 준다고 합니다.\n밤에 공격 시 공격력 +25%
+DFgunBlackSkyDesc,전설적인 .44 데저트 벌쳐입니다. 전설에 따르면 하늘이 검게 물드는 밤이 되면 모든 대상에게 더 많은 데미지를 준다고 합니다.\n밤에 공격 시 공격력 +25%
 loadingTipArmor,"방어구를 착용하면 캐릭터 화면에 표시되는 방어구 등급이 올라갑니다. 방어구 등급이 90이면 자신이 입는 대미지의 90%를 감소시킨다는 뜻입니다. 방어구는 출혈이나 기절 같은 특정 효과에도 어느 정도 저항이 있습니다. 일부 방어구는 속도를 느리게 하며, 이동할 때 스태미너를 소진하기도 합니다."
 loadingTipArmor_title,방어구
 loadingTipAxes,도끼로 목재를 수확할 수 있습니다. 좀비를 사냥하기에는 그다지 좋은 무기가 아닙니다
@@ -3441,7 +3440,7 @@ loadingTipMainHUD_title,메인 화면 막대
 loadingTipProperTools_title,상황에 맞는 도구
 loadingTipStoneAxe_title,돌도끼
 loadingTipWorkstations_title,작업장
-loadingTipBladedWeapons,"나이프나 마체테 같은 날붙이 무기는 동물이나 시체에서 고기, 가죽, 뼈를 수확할 때 유용합니다.\n이들 무기는 공격 시마다 출혈 디버프를 부여하며, 날붙이 무기 수련도로 효과를 더 강화할 수도 있습니다."
+loadingTipBladedWeapons,"나이프나 마체테 같은 날붙이 무기는 동물이나 시체에서 고기, 가죽, 뼈를 수확할 때 유용합니다.\n이들 무기는 공격 시마다 출혈 디버프를 부여하며, 날붙이 무기 숙련도로 효과를 더 강화할 수도 있습니다."
 loadingTipCraftingBetterQL,게임 시작 시에는 돌도끼와 같은 품질 1의 도구와 아이템만 제작할 수 있습니다. 아이템 품질은 아이템 아이콘 아래에 표시됩니다. 높은 품질의 아이템을 제작하려면 돌도끼의 경우 도구 제작 관련 능력을 올려야 합니다. 직업도 제작 품질에 보너스를 줍니다. 최대 품질은 80입니다.
 loadingTipEncumbrance,인벤토리에 아이템이 너무 많으면 속도가 느려집니다.\n옷에 넣을 주머니 개조를 제작 또는 발견해 무게 초과 페널티를 제거하세요. 다양한 종류의 옷과 방어구에 넣을 전술 조끼 개조를 제작해 배낭 슬롯을 확장할 수 있습니다. 또는 짐 최적화 특성을 구매할 수도 있습니다.
 loadingTipMainHUD,HUD에서 체력과 스태미너는 각각 붉은색과 파란색으로 표시됩니다. 음식과 수분 레벨은 녹색 및 파란색 막대로 표시됩니다. [action:local:Inventory][action:permanent:Character](으)로 캐릭터 화면을 열어 캐릭터 이름 아래 있는 탭에서 자세한 플레이어 능력치를 확인할 수 있습니다.
@@ -3562,7 +3561,7 @@ modGunScopeLargeDesc,조준 시 표적을 시각적으로 확대합니다.\n긴 
 modGunTriggerGroupAutomaticDesc,트리거 그룹을 조작하여 완전 자동으로 발사합니다.\n발사 속도가 빨라지고 반동이 약간 높아집니다.\n개조 등급: 3
 modGunRodAndSpringDesc,자동 장전식 무기의 발사 속도가 빨라지고 반동이 증가합니다.\n개조 등급: 3
 modGunBowPolymerStringDesc,이 개조로 화살과 볼트가 더 빠르고 멀리 날아갑니다.\n개조 등급: 3
-modMeleeErgonomicGripDesc,"근접 스태미너 사용이 10%로,  활의 무기 조작이 10% 증가합니다.\n개조 등급: 3"
+modMeleeErgonomicGripDesc,"근접 스태미너 사용이 10%로, 활의 무기 조작이 10% 증가합니다.\n개조 등급: 3"
 modMeleeClubMetalSpikesDesc,연속적인 공격으로 적의 방어력을 20% 낮춥니다.\n둔기에 설치할 수 있습니다.\n개조 등급: 3
 modMeleeClubMetalChainDesc,10% 확률로 상대를 넘어뜨립니다.\n둔기에 설치할 수 있습니다.\n개조 등급: 3
 modMeleeIronBreakerDesc,철에 대한 대미지가 15% 증가합니다.\n개조 등급: 3
@@ -3595,7 +3594,7 @@ playerHouseDoorV2_iron,갈색집 문 (철제)
 playerHouseDoorV2_steel,갈색집 문 (강철)
 modArmorNightvisionGoggles,야간 투시경 개조
 modArmorNightvisionGogglesDesc,이 야간 투시경은 얼굴을 약간 보호해주지만 아마 그 이상의 효과는 없을 겁니다
-perkLivingOffTheLandRank1LongDesc,"[DECEA3]절구통[-],동물 먹이,동물 올가미덫, 닭장, 고철 괭이 레시피 해제\n쌀 (씨앗), 알로에 베라 (씨앗),블루 베리 (씨앗),국화 (씨앗),옥수수 (씨앗),목화 (씨앗),버섯 포자 (씨앗) 레시피 해제"
+perkLivingOffTheLandRank1LongDesc,"절구통,동물 먹이,동물 올가미덫, 닭장, 고철 괭이 레시피 해제\n쌀 (씨앗), 알로에 베라 (씨앗),블루 베리 (씨앗),국화 (씨앗),옥수수 (씨앗),목화 (씨앗),버섯 포자 (씨앗) 레시피 해제"
 perkLivingOffTheLandRank2LongDesc,"심은 식물에서 아이템을 1개 더 채집합니다\n농장 터 레시피 해제\n밀 (씨앗), 오렌지 (씨앗) 레시피 해제"
 perkLivingOffTheLandRank3LongDesc,"심은 식물에서 아이템을 2개 더 채집합니다\n비료, 당근 (씨앗), 바나나 (씨앗), 대마 (씨앗)  레시피 해제"
 perkLivingOffTheLandRank4LongDesc,"심은 식물에서 아이템을 3개 더 채집합니다\n슈퍼 옥수수(씨앗), 커피 (씨앗), 홉 (씨앗), 호박 (씨앗), 토마토 (씨앗), 코코넛 (씨앗) 레시피 해제"
@@ -3664,7 +3663,7 @@ DFChesseDesc,요리의 재료로 사용합니다.
 DFCheesePizza,치즈 피자
 DFCheesePizzaDesc,피자의 기본입니다. 훌륭합니다.
 DFMeatPizza,고기 피자
-DFMeatPizzaDesc,"다양한 종류의 고기를 올린 피자입니다."""
+DFMeatPizzaDesc,"다양한 종류의 고기를 올린 피자입니다."
 DFPhillyCheesesteak,필라델피아 치즈 스테이크
 DFPhillyCheesesteakDesc,빵 사이에 기름진 고기와 꾸덕한 치즈를 끼우고 버섯 토핑을 올렸습니다.
 DFCoffeeCake,커피 케이크
@@ -3676,9 +3675,9 @@ DFPearToastDesc,아보카도 토스트를 대신할정도는 아니지만 어쨋
 DFPearSmoothie,배즙 스무디
 DFPearSmoothieDesc,건강한 과일을 액체로 만들었습니다.
 DFScavengerMasteryBook,청소부 전문화 책
-DF44MagCoilroundBundle,44구경 매그넘 코일 탄약 상자 (600)
-DFammo44MagHPCoilroundBundle,HP 44구경 매그넘 코일 탄약 상자 (600)
-DFammo44MagAPCoilroundBundle,AP 44구경 매그넘 코일 탄약 상자 (600)
+DF44MagCoilroundBundle,.44 매그넘 코일 탄약 상자 (600)
+DFammo44MagHPCoilroundBundle,HP .44 매그넘 코일 탄약 상자 (600)
+DFammo44MagAPCoilroundBundle,AP .44 매그넘 코일 탄약 상자 (600)
 DFammoCrossbowBoltScrapIron,고철 석궁 볼트 (탄약)
 DFammoCrossbowBoltScrapIronDesc,고철로 되는대로 만든 석궁 볼트입니다. 철제보단 좋지 않지만 궁지에 몰렸을 땐 충분히 쓸만합니다.
 DFammoShotgunCoilshellBundle,코일 샷건 탄약 상자 (150)
@@ -3895,3 +3894,15 @@ Anna_Bunker_completion,와우! 그걸 해냈네요! 이걸로 연구를 계속 �
 DFdartTrapTitanium,티타늄 다트 함정
 DFammoDartTitanium,티타늄 다트
 statCraftingTimeWorkbench,작업대 제작 속도
+resourceGunPowderBundle,Stack of Gunpowder (6000),화약 더미 (6000)
+meleeToolFarmT1IronHoe,철제 정원 괭이
+meleeToolHoeIronDesc,철제 정원 괭이는 척박한 토양을 비옥한 토양으로 만들어 작물을 심는 데 좋은 도구입니다. 심어진 작물에 사용할 경우 수확량을 높입니다. 오른쪽 클릭으로 블록을 비옥한 토양으로 만듭니다.\n수리키트로 수리합니다.
+ammoBundle9mmBulletSteel,9mm 강철 탄약 상자 (300)
+ammoBundle9mmBulletSteelHP,HP 9mm 강철 탄약 상자 (300)
+ammoBundle9mmBulletSteelAP,AP 9mm 강철 탄약 상자 (300)
+ammoBundle44MagnumBulletSteel,.44 강철 탄약 상자 (300)
+ammoBundle44MagnumBulletSteelHP,HP .44 강철 탄약 상자 (300)
+ammoBundle44MagnumBulletSteelAP,AP .44 강철 탄약 상자 (300)
+ammoBundle762mmBulletFMJSteel,7.62mm 강철 탄약 상자 (300)
+ammoBundle762mmBulletSteelHP,HP 7.62mm 강철 탄약 상자 (300)
+ammoBundle762mmBulletSteelAP,AP 7.62mm 강철 탄약 상자 (300)
