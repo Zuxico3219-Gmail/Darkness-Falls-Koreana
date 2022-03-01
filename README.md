@@ -14,11 +14,11 @@
 5. 0-DarknessFallsCore_Koreana, 3-DF-BdubsVehicles_Koreana라는 폴더가 나오면 게임 실행. (실행 중이었으면 종료 후 재실행)  
 </details>
 
+---
+
 <details><summary>(열기) 7DTD A20.0~A20.3 / 다크니스폴 V4 설치 방법 (열기)</summary>
 
 <br/>
-
----
 
 1. GitHub 우측 Release로 가서 최신 버전의 zip 파일을 받으세요
     * 다운로드 링크: [DarknessFalls_Koreana.zip](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7d2d-darknessfalls/DarknessFalls_Koreana.zip)
