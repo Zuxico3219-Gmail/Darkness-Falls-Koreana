@@ -2,7 +2,7 @@
 
 # 다크니스폴 한글화 모드 설치 방법
 
-1. 7DTD A20.0~A20.3 / DF V4.01 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.01-koreana-4.2/DarknessFalls_Koreana.zip)을 다운로드합니다.
+1. **_7DTD A20.5 / DF V4.03A_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.03a-koreana-v4.03a-1/DF.V4.03A_KR.V4.03A_1.zip)을 다운로드합니다.
 2. 7 Days to Die 설치 폴더로 이동
    * 스팀 우클릭 - 내 게임 - 7 Days to Die 우클릭 - 관리 - 로컬 파일 보기
 4. 다운로드한 파일 압축 해제
@@ -18,6 +18,7 @@
 
 <br/>
 
+* [DF V4.03A](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.03a-koreana-v4.03a-1/DF.V4.03A_KR.V4.03A_1.zip)
 * [DF V4.01](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7d2d-darknessfalls/DarknessFalls_Koreana.zip)
 * [DF V4](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.01-koreana-4.2/DarknessFalls_Koreana.zip)
 
@@ -31,6 +32,57 @@
 
 
 # Update History
+
+<details><summary>A20.0~A20.3 / DF V4.01 / Koreana v4.2</summary>
+
+<br/>
+
+## A20.5 / DF V4.03A / Koreana V4.03A_1
+
+## DF V4.03A 공식 변경점
+
+1. 더 빠른 제작
+    * 분해도 더 빠르게 합니다.
+2. 직업: 과학자
+    * 마지막 직업퀘스트 완료 시 티타늄 마체테의 제작등급 +10 삭제
+3. 직업: 생존주의자
+    * 마지막 직업퀘스트 완료 시 티타늄 마체테의 제작등급 +10 추가
+4. 철제 위장 특성
+    * 스태미너 소모량 -10%, -20%, -30%, -40%, -50%에서 -5%, -10%, 15%, -20%, -25%로 변경
+5. 기초 농사 비법 특성
+    * 레벨3에 벌집 레시피 해제 추가
+6. 황무지 보물 특성
+    * 레벨2에 있던 깨끗한 생수 레시피 해제 삭제
+7. 생존 전문가 특성
+    * 티타늄 마체테의 제작등급 +10 추가
+    * 말린 고기 레시피 해제 삭제
+8. 생존자 특성
+    * 레벨4에 말린 고기, 깨끗한 생수 레시피 해제 추가
+9. 자급자족 특성
+    * 레벨2에 벌집 레시피 해제 추가
+10. 사냥 전문가 특성
+    * 티타늄 마체테 레시피 해제 삭제
+
+---
+
+## DF 한글 모드 V4.3 개선사항
+
+1. 전투도끼 도면 설명: 전투토끼를 -> 전투도끼의
+2. 조리된 엉터리 고기 수프 설명: 식중독 위험이 없어져서 먹기 안전합니다. -> 식중독 위험이 없어 안심하고 먹을 수 있습니다.
+3. 전술 조끼 설명: 민간인급 전술 조끼 -> 민수급 전술 조끼
+4. 땅콩 버터 샌드위치 설명: 미국의 오래된 전통적인 간식 -> 미국의 전통적인 간식
+5. 커피 케이크 설명: 커피의 좋은 점을 모두 가졌는데 케이크입니다! -> 커피의 좋은 점을 모두 지녔는데, 케이크입니다!
+6. 고기 부리또 설명: 특별히 맵지는 않고 손에 쥐고 먹기 좋습니다 -> 크게 맵지는 않고 손에 쥐고 먹기 좋습니다
+7. 배 토스트 설명: 아보카도 토스트를 대신할정도는 아니지만 어쨋든 배는 채워야지요. -> 아보카도 토스트를 대신 할 정도는 아니지만 일단 배는 채워야지요.
+8. 약기운: 가벼움 설명: 좋은 기분이 돌고있습니다. -> 좋은 기분이 감돕니다.
+9. 신호 조명탄 퀘스트 설명: 조명탄에 켜서 -> 조명탄을 켜서
+10. 신호 조명탄 아이템 설명: 가까운 곳에 공중 낙하 보금품을 호출합니다만 좀비도 끌어들입니다. -> 가까운 곳에 공중 낙하 보급품을 호출하지만, 좀비 또한 끌어들입니다.
+11. 식용유 설명: 기름에 튀긴걸 누가 싫어합니까? 요리에 사용합니다. -> 신발도 튀겨먹으면 맛있습니다. 요리에 사용합니다.
+12. 안나 퀘스트: 연구자료 구출하기 -> 연구자료 되찾기
+
+---
+
+</details>
 
 <details><summary>A20.0~A20.3 / DF V4.01 / Koreana v4.2</summary>
 
