@@ -2,7 +2,7 @@
 
 # 다크니스폴 한글화 모드 설치 방법
 
-1. **_7DTD A20.5 / DF V4.03A_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.03a-koreana-v4.03a-1/DF.V4.03A_KR.V4.03A_1.zip)을 다운로드합니다.
+1. **_7DTD A20.5 / DF V4.03A_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.03a-koreana-v4.03a-2/DF.V4.03A_KR.V4.03A_2.zip)을 다운로드합니다.
 2. 7 Days to Die 설치 폴더로 이동
    * 스팀 우클릭 - 내 게임 - 7 Days to Die 우클릭 - 관리 - 로컬 파일 보기
 4. 다운로드한 파일 압축 해제
@@ -18,7 +18,7 @@
 
 <br/>
 
-* [DF V4.03A](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.03a-koreana-v4.03a-1/DF.V4.03A_KR.V4.03A_1.zip)
+* [DF V4.03A](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.03a-koreana-v4.03a-2/DF.V4.03A_KR.V4.03A_2.zip)
 * [DF V4.01](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7d2d-darknessfalls/DarknessFalls_Koreana.zip)
 * [DF V4](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.01-koreana-4.2/DarknessFalls_Koreana.zip)
 
