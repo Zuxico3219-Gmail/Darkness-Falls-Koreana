@@ -33,7 +33,7 @@
 
 # Update History
 
-<details><summary>A20.0~A20.3 / DF V4.01 / Koreana v4.2</summary>
+<details><summary>A20.0~A20.3 / DF V4.03A / Koreana v4.2</summary>
 
 <br/>
 
