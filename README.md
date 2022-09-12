@@ -2,7 +2,7 @@
 
 # 다크니스폴 한글화 모드 설치 방법
 
-1. **_7DTD A20.5 / DF V4.03A_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.03a-koreana-v4.03a-2/DF.V4.03A_KR.V4.03A_2.zip)을 다운로드합니다.
+1. **_7DTD A20.6 / DF V4.04_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.04-koreana--v4.04-1/DF.V4.04_KR.V4.04_1.zip)을 다운로드합니다.
 2. 7 Days to Die 설치 폴더로 이동
    * 스팀 우클릭 - 내 게임 - 7 Days to Die 우클릭 - 관리 - 로컬 파일 보기
 4. 다운로드한 파일 압축 해제
@@ -18,6 +18,7 @@
 
 <br/>
 
+* [DF V4.04](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.04-koreana--v4.04-1/DF.V4.04_KR.V4.04_1.zip)
 * [DF V4.03A](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.03a-koreana-v4.03a-2/DF.V4.03A_KR.V4.03A_2.zip)
 * [DF V4.01](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7d2d-darknessfalls/DarknessFalls_Koreana.zip)
 * [DF V4](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.01-koreana-4.2/DarknessFalls_Koreana.zip)
@@ -32,6 +33,42 @@
 
 
 # Update History
+
+<details><summary>A20.0~A20.3 / DF V4.03A / Koreana v4.2</summary>
+
+<br/>
+
+## A20.6 / DF V4.04 / Koreana V4.04_1
+
+## DF 한글 모드 V4.04_1 개선사항
+
+1. 샷건 탄약 상자 다크니스폴 변경사항 추가
+    * 샷건 탄약 상자 (100) -> 샷건 탄약 상자 (150)
+1. 다크니스폴 퀘스트 접두어 수정
+    * Quest -> 퀘스트
+1. 플라즈마 배턴 설명 오류 수정 (강찌 제보)
+1. 직업: 보안요원 - 스킬 질풍강타: 적용 아이템 표기 누락 수정
+    * 돌 도끼,장도리,분해도구,칼,곤봉,배턴,너클,빠루,광선검,레이저 만능도구에 적용됩니다
+1. 직업: 생존주의자 - 스킬 생존자 3~4레벨 표기 누락 수정
+    * 말린 고기, 깨끗한 생수 레시피 해제
+1. 탄피 회수 개조 설명 오류 수정
+    * 전투 중 100% 확률로 탄피를 돌려받습니다 -> 50% 확률로
+1. Mutant Spider 번역 추가
+    * "돌연변이 거미"
+
+---
+
+## DF V4.04 공식 변경점
+
+1. 마침내 날붙이 무기 장인이 살인 본능을 제대로 일으킬 수 있습니다.
+    * 스킬 날붙이 무기 장인 3~5 레벨 설명 변경
+    * 살인 본능 적용 불가(주먹/너클만) -> 살인 본능: 날붙이 무기로 킬을 할 때마다 5%씩 대미지가 상승하여 최대 15%까지 중첩됩니다.
+1. 기후이상으로 벌집이 꿀을 덜 생산합니다.
+    * 벌집에서 생산되는 꿀단지의 양과 확률이 줄어들었습니다.
+
+---
+
+</details>
 
 <details><summary>A20.0~A20.3 / DF V4.03A / Koreana v4.2</summary>
 
