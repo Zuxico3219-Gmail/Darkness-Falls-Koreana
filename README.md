@@ -2,12 +2,12 @@
 
 # 다크니스폴 한글화 모드 설치 방법
 
-1. **_7DTD A20.6 / DF V4.04_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.04-koreana--v4.04-1/DF.V4.04_KR.V4.04_1.zip)을 다운로드합니다.
+1. **_7DTD A20.6 / DF V4.1.0_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.1.0-koreana-v4.0.1-1/DF.V4.1.0_KR.V4.1.0_1.zip)을 다운로드합니다.
 2. 7 Days to Die 설치 폴더로 이동
    * 스팀 우클릭 - 내 게임 - 7 Days to Die 우클릭 - 관리 - 로컬 파일 보기
 4. 다운로드한 파일 압축 해제
 5. Mods 폴더로 이동 
-6. 0-DarknessFallsCore_Koreana, 3-DF-BdubsVehicles_Koreana라는 폴더가 나오면 모드 설치 완료
+6. 0-DarknessFallsCore - koreana, 1-CustomGameOptions - koreana, 2-DF-BdubsVehicles - koreana라는 폴더가 나오면 모드 설치 완료
 7. 게임 실행. 실행 중이었으면 종료 후 재실행.
 
 ---
@@ -18,6 +18,7 @@
 
 <br/>
 
+* [DF V4.1.0](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.1.0-koreana-v4.0.1-1/DF.V4.1.0_KR.V4.1.0_1.zip)
 * [DF V4.04](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.04-koreana--v4.04-1/DF.V4.04_KR.V4.04_1.zip)
 * [DF V4.03A](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.03a-koreana-v4.03a-2/DF.V4.03A_KR.V4.03A_2.zip)
 * [DF V4.01](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7d2d-darknessfalls/DarknessFalls_Koreana.zip)
@@ -33,6 +34,28 @@
 
 
 # Update History
+
+<details><summary>A20.6 / DF V4.1.0 / Koreana v4.1.0_1</summary>
+
+<br/>
+
+## A20.6 / DF V4.04 / Koreana V4.04_1
+
+## DF 한글 모드 V4.04_1 개선사항
+
+1. 닥폴 4.1.0 번경사항 번역
+1. 일기( J메뉴)의 직업 설명 번역 추가
+1. 대학 재킷 능력 변경해놓고 번역 키 없어서 자체적으로 추가
+
+---
+
+## DF V4.1.0 공식 변경점
+
+1. 변경점이 V4.1.0 번역 내용보다 더 많아서 포기했습니다. 다크니스폴 디스코스에서 확인하세요.
+
+---
+
+</details>
 
 <details><summary>A20.0~A20.3 / DF V4.03A / Koreana v4.2</summary>
 
