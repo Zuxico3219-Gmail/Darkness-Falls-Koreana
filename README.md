@@ -2,7 +2,7 @@
 
 # 다크니스폴 한글화 모드 설치 방법
 
-1. **_7DTD A20.6 / DF V4.1.0_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.1.0-koreana-v4.0.1-1/DF.V4.1.0_KR.V4.1.0_1.zip)을 다운로드합니다.
+1. **_7DTD A20.6 / DF V4.1.1_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.1.1-koreana-v4.1.1-1/DF.V4.1.1_KR.V4.1.1_1.zip)을 다운로드합니다.
 2. 7 Days to Die 설치 폴더로 이동
    * 스팀 우클릭 - 내 게임 - 7 Days to Die 우클릭 - 관리 - 로컬 파일 보기
 4. 다운로드한 파일 압축 해제
@@ -18,6 +18,7 @@
 
 <br/>
 
+* [DF V4.1.1](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.1.1-koreana-v4.1.1-1/DF.V4.1.1_KR.V4.1.1_1.zip)
 * [DF V4.1.0](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.1.0-koreana-v4.0.1-1/DF.V4.1.0_KR.V4.1.0_1.zip)
 * [DF V4.04](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.04-koreana--v4.04-1/DF.V4.04_KR.V4.04_1.zip)
 * [DF V4.03A](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.03a-koreana-v4.03a-2/DF.V4.03A_KR.V4.03A_2.zip)
@@ -34,6 +35,24 @@
 
 
 # Update History
+
+<details><summary>A20.6 / DF V4.1.1 / Koreana v4.1.1_1</summary>
+
+<br/>
+
+## A20.6 / DF V4.1.1 / Koreana V4.1.1_1
+
+## DF 한글 모드 V4.1.1_1
+
+1. 'Empowered'를 '권능을 받은'으로 번역, DOOM 시리즈 번역 참고
+2. 'Broodmother'를 '거미여왕'으로 번역, 도타2 번역 참고. 스타2는 무리어미. 아크서바이벌은 브루드마더.
+
+1. 일기( J메뉴)의 직업 설명 번역 추가
+2. 대학 재킷 능력 변경해놓고 번역 키 없어서 자체적으로 추가
+
+## DF V4.1.1 공식 변경점
+
+</details>
 
 <details><summary>A20.6 / DF V4.1.0 / Koreana v4.1.0_1</summary>
 
