@@ -1,0 +1,25 @@
+<zuxico>
+
+<append xpath="/items">
+
+<item name="devDFQuestMaster">
+    <property name="Extends" value="questMaster" />
+    <property name="CreativeMode" value="None" />
+    <property name="DescriptionKey" value="devDFquestMasterDesc" />
+    <property name="NoScrapping" value="true" /></item>
+
+<item name="devDFQuestEve_Quest3">
+    <property name="Extends" value="devDFQuestMaster" />
+    <property class="Action0">
+        <property name="QuestGiven" value="Eve_Quest3" />
+    </property></item>
+
+<item name="devDFQuestAnna_Bunker">
+    <property name="Extends" value="devDFQuestMaster" />
+    <property class="Action0">
+        <property name="QuestGiven" value="Anna_Bunker" />
+    </property></item>
+
+</append>
+
+</zuxico>

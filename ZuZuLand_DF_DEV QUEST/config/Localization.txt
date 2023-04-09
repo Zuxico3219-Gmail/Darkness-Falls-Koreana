@@ -1,0 +1,4 @@
+Key,koreana,English
+devDFquestMasterDesc,특정 퀘스트를 얻는 노트입니다. 퀘스트 진행이 되지 않으면 해당 POI에서 console command: chunkreset로 건물을 초기화한 후 퀘스트 노트로 제대로 퀘스트가 진행되는지 확인하세요.,This is a quest note for obtaining a specific quest. If the quest does not progress, try resetting the building at the POI with the console command "chunkreset" and then verify if the quest progresses properly with the quest note.
+devDFQuestEve_Quest3,이브 퀘스트 노트3: 군용 벙커,Eve Quest Note: Eve Quest3
+devDFQuestAnna_Bunker,안나 퀘스트 노트: 연구소,Anna Quest Note: Anna Bunker
