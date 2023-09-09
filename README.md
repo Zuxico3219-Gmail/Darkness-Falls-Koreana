@@ -2,7 +2,7 @@
 
 # 다크니스폴 한글화 모드 설치 방법
 
-1. **_7DTD A21.1 / DF V5-DEV-B21_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/tag/7dtd-df-v5-dev-b21-koreana-v5-deb-b21.build1)을 다운로드합니다.
+1. **_7DTD A21.1 / DF V5-DEV-B21_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-darknessfalls-koreana/DF.V5-DEV-B21_KR.V5-DEV-B22.build1.zip)을 다운로드합니다.
 2. 7 Days to Die 설치 폴더로 이동
    * 스팀 우클릭 - 내 게임 - 7 Days to Die 우클릭 - 관리 - 로컬 파일 보기
 4. 다운로드한 파일 압축 해제
@@ -18,6 +18,7 @@
 
 <br/>
 
+* [DF V5-DEV-B22](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-darknessfalls-koreana/DF.V5-DEV-B21_KR.V5-DEV-B22.build1.zip)
 * [DF V5-DEV-B21](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/tag/7dtd-df-v5-dev-b21-koreana-v5-deb-b21.build1)
 * [DF V4.1.2](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.1.2-koreana-v4.1.2-1/DF.V4.1.2_KR.V4.1.2_1.zip)
 * [DF V4.1.1](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.1.1-koreana-v4.1.1-1/DF.V4.1.1_KR.V4.1.1_1.zip)
@@ -37,6 +38,91 @@
 
 
 # Update History
+
+<details><summary>A21.1 / DF V5-DEV-B22 / Koreana V5-DEB-B22.build1</summary>
+
+<br/>
+
+# DF V5-DEV-B22 / koreana V5-DEV-B22.build1
+
+## DF-V5-DEV-B22 변경사항
+
+* 황무지 보물 특성 너프: 약탈품 보너스 +20% ~ +100% -> +2% ~ +10%
+* 배터리 재활용 개조 설명 추가: 개조 등급: 3
+* 직업 퀘스트 내용 변경
+    * 직업 퀘스트 - 사냥꾼 2/5: 목재 활로 좀비 죽이기 -> 좀비 죽이기
+    * 직업 퀘스트 - 사냥꾼 6/5: 파이프 라이플로 동물과 좀비 죽이기 -> 동물과 좀비 죽이기
+* 화력 증가 도구 설명 변경: 제작 시간 -25% -> 제작 시간 -15%
+* 자물쇠 따개 뭉치(50) -> 자물쇠 따개 뭉치(100)
+* 물 -> 깨끗한 물
+* 악마의 재생 능력 관련 표기 KEY 추가
+    * 악마의 재생 능력을 비활성화?
+    * 권능을 받은 악마의 재생 능력을 비활성화?
+* 직업: 사냥꾼 2레벨 보상 추가: 군 잠행용 방어구의 제작등급 +10
+
+## DF-V5-DEV-B21 놓친 변경사항
+
+* 육상 숙련도 너프
+    * 달리기 중 스태미너 회복량 +5% ~ +25% -> +2% ~ +10%
+    * 점프 스태미너 소모량 감소 4% ~ 20% -> 
+* 타격무기 숙련도 너프
+    * 스태미너 소모량 -5% ~ -25% -> -2% ~ -10%
+* 날붙이 무기 숙련도 너프
+    * 스태미너 소모량 -5% ~ -25% -> -2% ~ -10%
+* 권총 숙련도 버프
+    * 공격속도 +5% ~ +25% -> +10% ~ +50%
+* DIY 특성 삭제: 기계 부품, 전기 부품 레시피를 전기 기초이론에서 얻으면서 사라짐
+* 암살자 특성 변경
+    * UI 표기와 실제 보너스 똑같게 변경
+    * 기습 데미지 +50% ~ +200% -> +150% ~ +300%
+* 사냥 전문가 특성
+    * 레시피 해제 추가: 군 잠행용 방어구
+    * 제작등급 보너스 아이템 추가: 군 잠행용 방어구
+* 고급 공학 기술 특성
+    * 4레벨 레시피 변경: 바닐라 변경으로 인해 삭제 및 추가
+* 망치 & 화덕 특성
+    * 1레벨에 레시피 해제되는  랜턴이 일반 랜턴에서 다양한 랜턴을 선택해서 쓸 수 있는 랜턴으로 변경
+    * 4레벨 레시피 해제 추가: 화력 증가 도구
+* 이게 과학이지! 특성
+    * 2레벨 레시피 해제 삭제: 압력판 지뢰
+* 보안 전문가 특성
+    * 제작등급 보너스 아이템 추가: 티타늄 케블라 방어구
+* 미래공학 제작 특성
+    * 4레벨 레시피 해제 추가: 레이저 자동 터렛
+    * 5레벨 레시피 해제 추가: 레이저 샷건 터렛
+* Key 없어진 번역 삭제
+    * rebarFrameArch,철근 프레임 아치
+    * rebarFrameCTRPlate,판형 철근 프레임 중앙
+    * rebarFrameCTRPole,철근 프레임 막대 (중앙)
+    * rebarFramePillar50,철근 프레임 기둥 50
+    * rebarFramePole,철근 프레임 막대
+    * rebarFrameCTREighth,철근 프레임 8형 (중앙)
+
+# 한글 번역 수정
+
+* 용어 변경
+    * 명칭: 티타늄 케블라 -> 티타늄-도금 케블라
+    * 설명: 일반적으로 방탄에 사용하는 케블라 대신 티타늄을 덧댄 군용 방어구입니다
+* 중갑 제작: 방어구 제작등급 +10 ~ +50 -> 중갑 제작등급 +10 ~ +50
+* 경갑 제작: 방어구 제작등급 +10 ~ +50 -> 경갑 제작등급 +10 ~ +50
+* 타격 무기 제작 5레벨 설명 중복 삭제
+* 샷건 제작: 플레이어 레벨, 제작등급 수치 올바르게 수정
+* 레버 액션 라이플 책 설명 누락 수정
+* 가죽,철제, 강철 갑옷 도면 설명: 방어구 제작 특성이 경갑/중갑 등으로 통합되어 특성이 아니라 해당 방어구 제작 방법을 습득한다고 설명 변경
+* 화덕 & 망치 1레벨 설명 누락 추가: 소방관 헬멧 레시피 해제
+* 화덕 & 망치 4레벨 설명 누락 추가: 콘크리트 블록,콘크리트 프레임 형태 레시피 해제
+* 화덕 & 망치 5레벨 설명 누락 추가: 스테인리스 강철 형태,강철 프레임 형태 레시피 해제
+* 군화, 군모를 군용 부츠, 군용 헬맷으로 변경해서 군용 방어구로 설명 통합
+* 중갑 제작의 제작시간 감소 삭제
+* 권총 제작: 날붙이 무기 -> 권총
+* 농업 전문가 설명 누락 추가: 대마 (씨앗),쌀 (씨앗) 레시피 해제
+* 기계 전문가 설명 누락 추가: SMG-5 레시피 해제
+* 폭파 전문가 설명 변경: 폭발물로 인한 받는 피해 -> 폭발물에 입는 피해
+* 티타늄 방어구 설명 오타 수정
+* 악마 군주 번역 누락 추가: Demon Lord -> 악마 군주
+* 사냥 전문가 표기 오류 수정
+
+</details>
 
 <details><summary>A21.1 / DF V5-DEV-B21 / Koreana V5-DEB-B21.build1</summary>
 
