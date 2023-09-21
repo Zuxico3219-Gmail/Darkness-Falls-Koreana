@@ -2,7 +2,7 @@
 
 # 다크니스폴 한글화 모드 설치 방법
 
-1. **_7DTD A21.1 / DF V5-DEV-B21_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-darknessfalls-koreana/DF.V5-DEV-B21_KR.V5-DEV-B22.build1.zip)을 다운로드합니다.
+1. **_7DTD A21.1 / DF V5-DEV-B24_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-kr-v5-dev-b24.build1/DF.KR.V5-DEV-B24.build1.zip)을 다운로드합니다.
 2. 7 Days to Die 설치 폴더로 이동
    * 스팀 우클릭 - 내 게임 - 7 Days to Die 우클릭 - 관리 - 로컬 파일 보기
 4. 다운로드한 파일 압축 해제
@@ -18,6 +18,7 @@
 
 <br/>
 
+* [DF KR V5-DEV-B24.build1](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-kr-v5-dev-b24.build1/DF.KR.V5-DEV-B24.build1.zip)
 * [DF V5-DEV-B22](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-darknessfalls-koreana/DF.V5-DEV-B21_KR.V5-DEV-B22.build1.zip)
 * [DF V5-DEV-B21](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/tag/7dtd-df-v5-dev-b21-koreana-v5-deb-b21.build1)
 * [DF V4.1.2](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-v4.1.2-koreana-v4.1.2-1/DF.V4.1.2_KR.V4.1.2_1.zip)
@@ -38,6 +39,56 @@
 
 
 # Update History
+
+<details><summary>A21.1 / DF V5-DEV-B22 / Koreana V5-DEB-B22.build1</summary>
+
+<br/>
+
+# DF V5-DEV-B24 / koreana V5-DEV-B24.build1
+
+## 누락
+
+* DFmeleeToolcombatAxe,DFmeleeTooltitaniumCombatAxe: 날붙이 제작 등급+ 목록에 있지만 어디에도 없음
+* ammoDartSteel: 전동식 트랩 1에 있지만 어디에도 없음
+* armorMilitaryStealthBoots,군 잠행용 부츠: Localization.txt 누락
+* DFseedCannabisUnderground,대마 (씨앗): Localization.txt 누락
+* DFseedRiceUnderground,쌀 (씨앗): Localization.txt 누락
+
+## DF-V5-DEV-B24 변경사항
+
+* 전문의 특성 3레벨, 3레벨 설명 수정: 자신에게 사용하는 치료 아이템 효과 +25% ~ +50% -> 자신 혹은 타인에게 사용하는 치료 아이템 효과 +25% ~ +50%
+* 야생 과일나무 등장 확률 증가
+* 모든 플레이어 과일나무가 채집 후 사과나무 씨앗으로 심기는 문제 수정
+
+## DF-V5.0.0-DEV-B24 공식 패치노트
+
+* 제작할 수 있는 원격 제작 기능과 관련된 문제를 수정하기 위해 SCore를 업데이트했습니다. 모든 재료가 없는 상태에서 제작하거나 차량에 타고 * 있고 해당 자원이 핫바에 있으면 자원을 사용하지 않고 제작할 수 있었습니다.
+* 벌집 레시피가 없던 문제 수정
+* 아이템이 유리병이나 깨진 유리만 주던 문제를 수정했습니다.
+* TFP의 공지에 따라 해결하려고 했으나 제대로 되지 않아, 지금은 50% 확률로 빈 물병을 얻을 수 있습니다.
+* 닭장과 벌집이 생산 중일 때 동물 먹이를 투입할 수 없는 문제를 수정했습니다.
+* 장도리가 작업대의 제작 시간 감소가 제대로 표시되지 않던 문제를 수정했습니다.
+* 음식과 음료의 표시와 관련된 문제를 추가로 수정했습니다.
+* 간헐적으로 음식으로 얻는 최대 스태미너 보너스가 사라지거나 제대로 적용되지 않는 문제를 수정했습니다.
+* 의료 용품의 HP와 XP 수치와 관련된 문제를 수정했습니다.
+* 의료 옹품이 찰과상/접질림/부러짐에 제대로 작동하지 않는 바닐라 문제를 수정했습니다.
+* 플레이어의 과일나무와 관련된 잘못된 유니티 태그를 수정했습니다. 왜냐면 유니티가 그지같아서 한 번에 제대로 저장되지 않았습니다.
+* 플레이어의 과일나무 채집 후 모든 나무가 사과나무로 심어지는 문제를 수정했습니다. 내가 잘못 함.
+* 대부분의 날붙이 도구나 무기의 대미지가 제대로 표시되지 않는 문제를 수정하고 대미지량도 수정 했습니다. 대미지는 약간 높아졌을 수 있습니다.
+* 왜? 몰?루. 여기에 더 많은 시간을 쓰지 않아요.
+* 상인이 일반 회로도를 판매합니다.
+* 빈혈 디버프에 특수한 조건을 추가했습니다. 특정 음식 수치를 일정 이상 충족하면 빈혈이 사라집니다.
+* 상인이 이제 대부분의 탈 것 판매하지 않습니다. 너무 쉽게 사는 것 같아서요. ( 일부 차량 부품은 그대로 남아있습니다. )
+* 야생 과일나무가 거의 사라져서 야생 과일나무의 등장 확률을 증가시켰습니다.
+* 출입증의 드랍률을 아주 조금 조절했습니다. ( 조금 더 흔하게 )
+
+* 알려진 문제.
+
+* 언제나처럼 현지화. 뭔가 이상하거나 놓친 부분이 있다면 알려주세요.
+* 전리품이 어느정도 정리되었으니 이상한게 있다면 알려주세요.
+* 일부 블록이 대미지를 받아도 내구도가 보이지 않는 문제. 바닐라 블록이 아니면 제보해주세요. 고치는 방법을 알고 있습니다.
+
+</details>
 
 <details><summary>A21.1 / DF V5-DEV-B22 / Koreana V5-DEB-B22.build1</summary>
 
