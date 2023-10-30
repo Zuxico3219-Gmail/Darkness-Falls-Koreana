@@ -40,7 +40,7 @@
 
 # Update History
 
-<details><summary>A21.1 / DF V5-DEV-B22 / Koreana V5-DEB-B22.build1</summary>
+<details><summary>A21.1 / DF V5-DEV-B24 / Koreana V5-DEB-B24.build1</summary>
 
 <br/>
 
