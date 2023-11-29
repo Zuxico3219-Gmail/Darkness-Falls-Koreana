@@ -2,12 +2,12 @@
 
 # 다크니스폴 한글화 모드 설치 방법
 
-1. **_7DTD A21.1 / DF V5-DEV-B28_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-kr-V5-DEV-B28.build1/DF.KR.V5-DEV-B28.build1.zip)을 다운로드합니다.
+1. **_7DTD A21.2 / DF V5.0.0_** 이용자는 [링크 파일](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-kr-V5.0.0.29.build1/DF.V5.0.0.29.build1.zip)을 다운로드합니다.
 2. 7 Days to Die 설치 폴더로 이동
    * 스팀 우클릭 - 내 게임 - 7 Days to Die 우클릭 - 관리 - 로컬 파일 보기
 4. 다운로드한 파일 압축 해제
 5. Mods 폴더로 이동 
-6. 0-DarknessFallsCore - koreana, 0-Quartz - koreana, 1-DF-BdubsVehicles - koreana, IDCAdvancedDewCollectorV3 - koreana라는 폴더가 나오면 모드 설치 완료
+6. 0-DarknessFallsCore - koreana, 0-Quartz - koreana, 1-CustomGameOptions - koreana, 1-DF-BdubsVehicles - koreana, IDCAdvancedDewCollectorV3 - koreana라는 폴더가 나오면 모드 설치 완료
 7. 게임 실행. 실행 중이었으면 종료 후 재실행.
 
 ---
@@ -18,6 +18,7 @@
 
 <br/>
 
+* [DF KR V5.0.0.29.build1](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-kr-V5.0.0.29.build1/DF.V5.0.0.29.build1.zip)
 * [DF KR V5-DEV-B28.build1](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-kr-V5-DEV-B28.build1/DF.KR.V5-DEV-B28.build1.zip)
 * [DF KR V5-DEV-B24.build1](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-df-kr-v5-dev-b24.build1/DF.KR.V5-DEV-B24.build1.zip)
 * [DF V5-DEV-B22](https://github.com/Zuxico3219-Gmail/Darkness-Falls-Koreana/releases/download/7dtd-darknessfalls-koreana/DF.V5-DEV-B21_KR.V5-DEV-B22.build1.zip)
@@ -40,6 +41,64 @@
 
 
 # Update History
+
+<details><summary>A21.1 / DF V5-DEV-B25 ~ B28 / Koreana V5-DEB-B28.build1</summary>
+
+<br/>
+
+# DF KR V5.0.0.build1
+
+## 변경사항
+
+* 코일 권총, 코일 저격 라이플, 코일 자동소총에 악마의 재생 능력을 비활성화 설명 추가
+* 레이저 M60, 광선검, 레이저 권총, 레이저 라이플, 미래공학 해머, 플라즈마 도끼, 레이저 샷건, 레이저 자동소총, 펄스 로켓 (탄약), 레이저 창, 미래공학 너클, 펄스 볼트 (탄약)에 권능을 받은 악마의 재생 능력을 비활성화 설명 추가
+* 첫 튜토리얼 내용 변경: Thanks to 대거 업데이트
+* 레이저 배터리 개조: 권능을 받은 악마의 재생 능력을 비활성화, 레이저 무기에 설치할 수 없습니다 설명 추가
+* 퓨전 로켓 (탄약) 추가
+* 지옥 개방 추가
+* 빗물 채집기 물 생성주기 변경: 2 -> 6
+* HP 탄약의 대상 방어력 증가 변경: + 100% -> + 50%
+    * HP 9mm 탄약, HP .44 매그넘 탄약, HP 7.62mm 탄약, HP .44 매그넘 코일 탄약, HP 7.62mm 코일 탄약, HP 9mm 강철 탄약, HP .44 매그넘 강철 탄약, HP 7.62mm 강철 탄약 
+* 티타늄 곡괭이 수리도구 변경: 단조 티타늄 -> 수리 키트
+* 고통 저항의 피로 저항 코드 개선 (혹은 버그 수정)
+* 미래공학 제작 5레벨 레시피 추가: 퓨전 로켓 (탄약)
+* 차량 BRDM-2와 사막용 BRDM-2가 사라졌습니다.
+
+## DF-V5.0.0 공식 패치노트
+
+(IDC) IDCCore 21.2 호환 업데이트
+(Laydor) Quartz 21.2 호환 업데이트
+(Khaine) DF XML 파일 21.2 호환 업데이트
+(IDC) 레이저 작업대를 분해할 수 없던 버그 수정
+(IDC) 작업대의 도구/개조 슬롯에 마우스를 올리면 툴팁이 나오는 기능 추가
+(IDC) Fixed the RWG patch that forces POI's to respect biome restrictions.
+티타늄 곡괭이의 수리도구가 이상했던 버그 수정
+티타늄 사냥용 칼이 의도와는 다른 좀비에게 드랍되어 조금 흔했던 문제 수정
+지하연구시설(벙커)가 멀티플레이에서 제대로 초기화되지 않던 문제를 수정(여전히 조금은 이상하지만, 훨씬 나아졌습니다.)
+레이저 총기를 발사할 때 총구에서 불음 뿜는 효과를 비활성했습니다.
+고철/철제/강철 방어구 레시피 조정.
+빗물 채집기가 물을 생성하는 데 걸리는 시간을 늘려서 일부 지역이 침수되고 서버 문제가 발생하는 문제를 해결했습니다.
+게임이 배낭 아이템을 제대로 제거하지 않는 문제로 인해 배낭 아이템을 사용할 때 아이템을 제거하는 보안 장치를 추가했습니다.
+레이조, 이브, 안나는 상인 거래 품목을 가질 필요는 없었지만 플레이어들이 접근하는 방법을 발견해서 상인 거래 품목을 추가했습니다.
+퓨전 로켓을 추가했습니다 (내가 지겨워서)
+PEP 사전 생성 맵을 추가했습니다.
+전설 아이템의 드랍률을 조정했습니다.
+HP 탄약에 의해 추가되는 방어력 양을 줄여서 높은 레벨 적들에게 더 유용하게 만들었습니다.
+공중 낙하 보급에서 전문화 책을 획득할 확률을 낮추었습니다.
+인큐버스가 플레이어를 공격하지 못할 수 있는 잠재적인 문제로 인큐버스의 사정거리를 변경했습니다.
+악마 군주가 플레이어를 공격하지 못할 수 있는 문제로 악마 군주가 권능을 받은 인큐버스와 같은 공격을 하도록 변경했습니다.
+
+메인 다운로드: https://dev.azure.com/KhaineUK/DarknessFallsA21/_git/DarknessFallsA21
+
+중요한 점
+
+- A21.2 전용입니다. 21.2 혹은 21.0은 안 됩니다.
+- 기존 저장을 사용하지 마십시오. 개발사에서도 21.2 에서 21.2 로 업데이트 할 때 했던 경고입니다.
+- 기존 저장이 제대로 '작동할 수도' 있지만 그건 개인이 위험을 감수하고 하는 것입니다. 기존 저장을 사용하지 마세요.
+
+https://www.nexusmods.com/7daystodie/mods/235?tab=files
+
+</details>
 
 <details><summary>A21.1 / DF V5-DEV-B25 ~ B28 / Koreana V5-DEB-B28.build1</summary>
 
